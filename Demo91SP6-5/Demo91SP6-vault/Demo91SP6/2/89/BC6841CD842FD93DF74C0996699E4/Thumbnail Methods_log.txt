@@ -1,0 +1,38 @@
+start of execution : 5/19/2009 10:21:18 AM
+Set "Root" value  for "Logon Allowed To" variable
+Updating Thumbnail Methods to inprogress release status
+       ****Import with merge option  Thumbnail Methods****
+Processing (add)   id : 2B2366FBFFF24AC2BC15578EABD32DFA    keyed_name : Link Thumbnail to generations    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 2B2366FBFFF24AC2BC15578EABD32DFA    keyed_name : Link Thumbnail to generations    type : Method  
+Adding item in packdefinition  id  2B2366FBFFF24AC2BC15578EABD32DFA type Method
+Getting config_id  of versionable item  id  2B2366FBFFF24AC2BC15578EABD32DFA type Method
+Item successfully added in packdefinition  id  2B2366FBFFF24AC2BC15578EABD32DFA type Method
+Processing (add)   id : 441A8EE7571F41D79CAAB4C852F40338    keyed_name : Suppress Thumbnail Item    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 441A8EE7571F41D79CAAB4C852F40338    keyed_name : Suppress Thumbnail Item    type : Method  
+Adding item in packdefinition  id  441A8EE7571F41D79CAAB4C852F40338 type Method
+Getting config_id  of versionable item  id  441A8EE7571F41D79CAAB4C852F40338 type Method
+Item successfully added in packdefinition  id  441A8EE7571F41D79CAAB4C852F40338 type Method
+Processing (add)   id : 1B66D6736EDE4755BEF6F356265904F3    keyed_name : Thumbnail Handler    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 1B66D6736EDE4755BEF6F356265904F3    keyed_name : Thumbnail Handler    type : Method  
+Adding item in packdefinition  id  1B66D6736EDE4755BEF6F356265904F3 type Method
+Getting config_id  of versionable item  id  1B66D6736EDE4755BEF6F356265904F3 type Method
+Item successfully added in packdefinition  id  1B66D6736EDE4755BEF6F356265904F3 type Method
+completed
+Set "World" value  for "Logon Allowed To" variable
+Updating Thumbnail Methods to success release status
+end of execution : 5/19/2009 10:21:18 AM

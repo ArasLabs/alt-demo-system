@@ -1,0 +1,61 @@
+start of execution : 1/15/2009 9:29:06 AM
+Set "Root" value  for "Logon Allowed To" variable
+Updating CustomizationReport to inprogress release status
+       ****Import with merge option  CustomizationReport****
+Processing (add)   id : CC5934C51EF241CAADA7EEA0328847DE    keyed_name : PackageCompareDate    type : Variable  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Variable</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : CC5934C51EF241CAADA7EEA0328847DE    keyed_name : PackageCompareDate    type : Variable  
+Adding item in packdefinition  id  CC5934C51EF241CAADA7EEA0328847DE type Variable
+Item successfully added in packdefinition  id  CC5934C51EF241CAADA7EEA0328847DE type Variable
+Processing (add)   id : CBE8493682FF432DA88CF61C125D116F    keyed_name : CustomizationReportMIP    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : CBE8493682FF432DA88CF61C125D116F    keyed_name : CustomizationReportMIP    type : Method  
+Adding item in packdefinition  id  CBE8493682FF432DA88CF61C125D116F type Method
+Getting config_id  of versionable item  id  CBE8493682FF432DA88CF61C125D116F type Method
+Item successfully added in packdefinition  id  CBE8493682FF432DA88CF61C125D116F type Method
+Processing (add)   id : 7741B2BD4B544244A60D5736F69D8460    keyed_name : CustomizationReportNIP    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 7741B2BD4B544244A60D5736F69D8460    keyed_name : CustomizationReportNIP    type : Method  
+Adding item in packdefinition  id  7741B2BD4B544244A60D5736F69D8460 type Method
+Getting config_id  of versionable item  id  7741B2BD4B544244A60D5736F69D8460 type Method
+Item successfully added in packdefinition  id  7741B2BD4B544244A60D5736F69D8460 type Method
+Processing (add)   id : B0F37238364F4A9893027503FBA6973C    keyed_name : Customization ReportMIP    type : Report  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Method" action="get" select="id"><name>CustomizationReportMIP</name></Item></AML>
+   was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Report</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : B0F37238364F4A9893027503FBA6973C    keyed_name : Customization ReportMIP    type : Report  
+Adding item in packdefinition  id  B0F37238364F4A9893027503FBA6973C type Report
+Item successfully added in packdefinition  id  B0F37238364F4A9893027503FBA6973C type Report
+Processing (add)   id : AA2F32797D6D40379576BE8F60382FF7    keyed_name : Customization ReportNIP    type : Report  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Method" action="get" select="id"><name>CustomizationReportNIP</name></Item></AML>
+   was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Report</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : AA2F32797D6D40379576BE8F60382FF7    keyed_name : Customization ReportNIP    type : Report  
+Adding item in packdefinition  id  AA2F32797D6D40379576BE8F60382FF7 type Report
+Item successfully added in packdefinition  id  AA2F32797D6D40379576BE8F60382FF7 type Report
+completed
+Set "World" value  for "Logon Allowed To" variable
+Updating CustomizationReport to success release status
+end of execution : 1/15/2009 9:29:10 AM

@@ -1,0 +1,56 @@
+start of execution : 11/17/2008 4:35:19 PM
+Set "Root" value  for "Logon Allowed To" variable
+Updating com.aras.innovator.solution.Project to inprogress release status
+       ****Import with merge option  com.aras.innovator.solution.Project****
+Processing (add)   id : DA5BB2D0F31443F3A547F404974797BC    keyed_name : export_MSProject    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : DA5BB2D0F31443F3A547F404974797BC    keyed_name : export_MSProject    type : Method  
+Adding item in packdefinition  id  DA5BB2D0F31443F3A547F404974797BC type Method
+Getting config_id  of versionable item  id  DA5BB2D0F31443F3A547F404974797BC type Method
+Item already exist in packdefinition  id  DA5BB2D0F31443F3A547F404974797BC type Method
+Processing (add)   id : B6C6A70FF75A46E8ADCA4E21C6C3B95F    keyed_name : ImportMSProject    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : B6C6A70FF75A46E8ADCA4E21C6C3B95F    keyed_name : ImportMSProject    type : Method  
+Adding item in packdefinition  id  B6C6A70FF75A46E8ADCA4E21C6C3B95F type Method
+Getting config_id  of versionable item  id  B6C6A70FF75A46E8ADCA4E21C6C3B95F type Method
+Item already exist in packdefinition  id  B6C6A70FF75A46E8ADCA4E21C6C3B95F type Method
+Processing (add)   id : 1A03BAB80C7A48658222D5F932C9442E    keyed_name : select_project_tree    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 1A03BAB80C7A48658222D5F932C9442E    keyed_name : select_project_tree    type : Method  
+Adding item in packdefinition  id  1A03BAB80C7A48658222D5F932C9442E type Method
+Getting config_id  of versionable item  id  1A03BAB80C7A48658222D5F932C9442E type Method
+Item successfully added in packdefinition  id  1A03BAB80C7A48658222D5F932C9442E type Method
+Processing (add)   id : CF2B5FA9FC494722B211EC5B67EE1314    keyed_name : select_project_list2    type : SQL  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>SQL</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : CF2B5FA9FC494722B211EC5B67EE1314    keyed_name : select_project_list2    type : SQL  
+Adding item in packdefinition  id  CF2B5FA9FC494722B211EC5B67EE1314 type SQL
+Item successfully added in packdefinition  id  CF2B5FA9FC494722B211EC5B67EE1314 type SQL
+Processing (add)   id : 1B5D9718B1FA4C21A4821F194AA2810B    keyed_name : select_project_tree_SQL    type : SQL  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>SQL</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 1B5D9718B1FA4C21A4821F194AA2810B    keyed_name : select_project_tree_SQL    type : SQL  
+Adding item in packdefinition  id  1B5D9718B1FA4C21A4821F194AA2810B type SQL
+Item successfully added in packdefinition  id  1B5D9718B1FA4C21A4821F194AA2810B type SQL
+completed
+Set "World" value  for "Logon Allowed To" variable
+Updating com.aras.innovator.solution.Project to success release status
+end of execution : 11/17/2008 4:35:22 PM

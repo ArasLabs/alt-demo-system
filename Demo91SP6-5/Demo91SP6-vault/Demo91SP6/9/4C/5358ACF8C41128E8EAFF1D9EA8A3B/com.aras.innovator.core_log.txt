@@ -1,0 +1,40 @@
+start of execution : 3/3/2008 9:18:17 PM
+Set "Root" value  for "Logon Allowed To" variable
+Updating com.aras.innovator.core to inprogress release status
+       ****Import with merge option  com.aras.innovator.core****
+Processing (add)   id : A498672976D94C1DBF4CDB6025016C38    keyed_name : configuration_onafterget    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : A498672976D94C1DBF4CDB6025016C38    keyed_name : configuration_onafterget    type : Method  
+Adding item in packdefinition  id  A1CF4BC1DDDB49FA9DABFCFA655BF968 type Method
+Getting config_id  of versionable item  id  A1CF4BC1DDDB49FA9DABFCFA655BF968 type Method
+Item already exist in packdefinition  id  A498672976D94C1DBF4CDB6025016C38 type Method
+Processing (add)   id : 92B9DD367A9D40ADAFDB2845A3D843F3    keyed_name : Methods Summary    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 92B9DD367A9D40ADAFDB2845A3D843F3    keyed_name : Methods Summary    type : Method  
+Adding item in packdefinition  id  92B9DD367A9D40ADAFDB2845A3D843F3 type Method
+Getting config_id  of versionable item  id  92B9DD367A9D40ADAFDB2845A3D843F3 type Method
+Item already exist in packdefinition  id  92B9DD367A9D40ADAFDB2845A3D843F3 type Method
+Processing (add)   id : AB6CF0939EE34CB283AEF2A2959AD063    keyed_name : RebuildViewAction    type : Action  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Method" action="get" select="id"><name>Rebuild View Method</name></Item></AML>
+   was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Action</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : AB6CF0939EE34CB283AEF2A2959AD063    keyed_name : RebuildViewAction    type : Action  
+Adding item in packdefinition  id  AB6CF0939EE34CB283AEF2A2959AD063 type Action
+Item successfully added in packdefinition  id  AB6CF0939EE34CB283AEF2A2959AD063 type Action
+completed
+Set "World" value  for "Logon Allowed To" variable
+Updating com.aras.innovator.core to success release status
+end of execution : 3/3/2008 9:18:34 PM

@@ -22,6 +22,7 @@ Release | Notes
 [v9.1.0.1](https://github.com/ArasLabs/alt-demo-system/releases/tag/v9.1.0.1) | Same Demo database, but upgraded with all packages for Innovator 9.1.0. This distribution includes a SqlServer database Backup, a Vault folder, a folder of images used by the Compliance solution, and a couple file updates in the Innovator Client code tree to allow click-thru dashboards and drag-and-drop from Windows explorer. The vault now has Actify SpinFire .3d files to demonstrate 3-D Viewing.
 [v9.1.0.2](https://github.com/ArasLabs/alt-demo-system/releases/tag/v9.1.0.2) | Update on the demo system: This has a Vault with .3D files present, and replacement scripts FixDB.bat and FixDb.sql the 910-1 version of the scripts was changing the password for the VADMIN internal vault-server connection.
 [v9.1.0.4](https://github.com/ArasLabs/alt-demo-system/releases/tag/v9.1.0.4) | Complete Demo environment (Database, Vault and code tree updates). Added the German language pack, and several new Packages from Rolf. This build is a complete demo environment.
+[v9.1.0.6](https://github.com/ArasLabs/alt-demo-system/releases/tag/v9.1.0.6) | Complete Demo environment (Database, Vault and code tree updates)for Innovator 9.1SP6 (supports IE8). Demo data for PE, PM, QP Soutions. Has many community packages loaded.
 
 #### Supported Aras Versions
 
@@ -32,6 +33,7 @@ Project | Aras
 [v9.1.0.1](https://github.com/ArasLabs/alt-demo-system/releases/tag/v9.1.0.1) | Aras 9.1.0
 [v9.1.0.2](https://github.com/ArasLabs/alt-demo-system/releases/tag/v9.1.0.2) | Aras 9.1.0
 [v9.1.0.4](https://github.com/ArasLabs/alt-demo-system/releases/tag/v9.1.0.4) | Aras 9.1.0
+[v9.1.0.6](https://github.com/ArasLabs/alt-demo-system/releases/tag/v9.1.0.6) | Aras 9.1 SP6
 
 > ###### *Please note: Aras Community Projects are provided on an "as-is" basis.*
 
