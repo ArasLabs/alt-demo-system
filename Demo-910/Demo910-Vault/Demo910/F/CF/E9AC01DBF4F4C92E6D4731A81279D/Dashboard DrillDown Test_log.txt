@@ -1,0 +1,114 @@
+start of execution : 4/3/2009 5:09:25 PM
+Set "Root" value  for "Logon Allowed To" variable
+Updating Dashboard DrillDown Test to inprogress release status
+       ****Import with merge option  Dashboard DrillDown Test****
+Processing (add)   id : 8A664DF5DA8B47378D71D61F99311617    keyed_name : CAPASEQ    type : Sequence  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Sequence</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 8A664DF5DA8B47378D71D61F99311617    keyed_name : CAPASEQ    type : Sequence  
+Adding item in packdefinition  id  8A664DF5DA8B47378D71D61F99311617 type Sequence
+Item already exist in packdefinition  id  8A664DF5DA8B47378D71D61F99311617 type Sequence
+Processing (add)   id : C95A8BA6A14E4A6AB1A01EE787BFF5BF    keyed_name : CAPA1    type : Permission  
+********** Start of reference checking ************
+checking item with get action:<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+-> was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Permission</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Access</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : C95A8BA6A14E4A6AB1A01EE787BFF5BF    keyed_name : CAPA1    type : Permission  
+Adding item in packdefinition  id  C95A8BA6A14E4A6AB1A01EE787BFF5BF type Permission
+Item already exist in packdefinition  id  C95A8BA6A14E4A6AB1A01EE787BFF5BF type Permission
+Processing (add)   id : 81A4C694BA584458B13FE21B29507F9C    keyed_name : CAPA Dashboard Context method    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 81A4C694BA584458B13FE21B29507F9C    keyed_name : CAPA Dashboard Context method    type : Method  
+Adding item in packdefinition  id  81A4C694BA584458B13FE21B29507F9C type Method
+Getting config_id  of versionable item  id  81A4C694BA584458B13FE21B29507F9C type Method
+Item already exist in packdefinition  id  81A4C694BA584458B13FE21B29507F9C type Method
+Processing (add)   id : A823829BCF2A4C7DA36AC1CBDE7BF05E    keyed_name : Dashboard Stub Method    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : A823829BCF2A4C7DA36AC1CBDE7BF05E    keyed_name : Dashboard Stub Method    type : Method  
+Adding item in packdefinition  id  A823829BCF2A4C7DA36AC1CBDE7BF05E type Method
+Getting config_id  of versionable item  id  A823829BCF2A4C7DA36AC1CBDE7BF05E type Method
+Item already exist in packdefinition  id  A823829BCF2A4C7DA36AC1CBDE7BF05E type Method
+Processing (add)   id : 7B02025A89524BD696F4A081BB4621B8    keyed_name : Download Dashboard Query    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 7B02025A89524BD696F4A081BB4621B8    keyed_name : Download Dashboard Query    type : Method  
+Adding item in packdefinition  id  7B02025A89524BD696F4A081BB4621B8 type Method
+Getting config_id  of versionable item  id  7B02025A89524BD696F4A081BB4621B8 type Method
+Item already exist in packdefinition  id  7B02025A89524BD696F4A081BB4621B8 type Method
+Processing (add)   id : 11853DF724394392B2CF082925FFC654    keyed_name : ExecuteDashboardQuery    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 11853DF724394392B2CF082925FFC654    keyed_name : ExecuteDashboardQuery    type : Method  
+Adding item in packdefinition  id  11853DF724394392B2CF082925FFC654 type Method
+Getting config_id  of versionable item  id  11853DF724394392B2CF082925FFC654 type Method
+Item already exist in packdefinition  id  11853DF724394392B2CF082925FFC654 type Method
+Processing (add)   id : F25DE8A664B545C19F73CF19BDC293C6    keyed_name : CAPA1    type : Form  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Form</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Body</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : F25DE8A664B545C19F73CF19BDC293C6    keyed_name : CAPA1    type : Form  
+Adding item in packdefinition  id  F25DE8A664B545C19F73CF19BDC293C6 type Form
+Item already exist in packdefinition  id  F25DE8A664B545C19F73CF19BDC293C6 type Form
+Processing (add)   id : 7386336BD94C4843A8F50B5F49869894    keyed_name : CAPA Dashboard    type : ItemType  
+********** Start of reference checking ************
+checking item with get action:<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+-> was obtained from cache
+checking item with get action:<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+-> was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+     ****Error message****
+faultstring: RecurseCheck
+faultdetail: Bad property name save_history for type ItemType
+faultcode:   -1
+     ********************** 
+Updating Dashboard DrillDown Test to failed release status
+Set "World" value  for "Logon Allowed To" variable
+end of execution : 4/3/2009 5:09:31 PM

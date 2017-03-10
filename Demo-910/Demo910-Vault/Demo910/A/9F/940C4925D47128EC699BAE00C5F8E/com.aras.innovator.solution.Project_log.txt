@@ -1,0 +1,25 @@
+start of execution : 11/17/2008 4:29:39 PM
+Set "Root" value  for "Logon Allowed To" variable
+Updating com.aras.innovator.solution.Project to inprogress release status
+       ****Import with merge option  com.aras.innovator.solution.Project****
+     ****Error message****
+faultstring:    at System.Xml.XmlTextReader.SetAttributeValues()
+   at System.Xml.XmlTextReader.ParseElement()
+   at System.Xml.XmlTextReader.Read()
+   at System.Xml.XmlValidatingReader.ReadNoCollectTextToken()
+   at System.Xml.XmlValidatingReader.Read()
+   at System.Xml.XmlLoader.LoadCurrentNode()
+   at System.Xml.XmlLoader.LoadChildren(XmlNode parent)
+   at System.Xml.XmlLoader.LoadElementNode()
+   at System.Xml.XmlLoader.LoadCurrentNode()
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at Aras.Tools.SolutionUpgrade.Import.MainForm.ImportProc(String solutionName, StreamWriter logWriter, String strPath2Log)
+faultdetail: This is an unexpected token. The expected token is 'NAME'. Line 2, position 35.  file C:\Support\Solutions\NOJ\ImportExportMSProject\Project\Import\Method\export_MSProject.xml
+faultcode:   -1
+     ********************** 
+Updating com.aras.innovator.solution.Project to failed release status
+Set "World" value  for "Logon Allowed To" variable
+end of execution : 11/17/2008 4:30:11 PM
