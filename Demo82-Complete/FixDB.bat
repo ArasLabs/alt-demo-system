@@ -1,0 +1,1 @@
+osql -Usa -Pinnovator -iFixDB.sql
