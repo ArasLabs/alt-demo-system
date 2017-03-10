@@ -17,13 +17,15 @@ Release notes/descriptions for the original project posted on the previous Aras 
 
 Release | Notes
 --------|--------
-[v8.2.0.1](https://github.com/ArasLabs/alt-demo-system/releases/tag/v1.0) | Using Innovator Version 8.2.0 as a baseline. 09/15/2008 build date.
+[v8.2.0.1](https://github.com/ArasLabs/alt-demo-system/releases/tag/v8.2.0.1) | Using Innovator Version 8.2.0 as a baseline. 09/15/2008 build date.
+[v8.2.0.2](https://github.com/ArasLabs/alt-demo-system/releases/tag/v8.2.0.2) | Removed one XML file (./server/innovator.xml) from the Code tree overlay. This was overwriting the current installation configuration.
 
 #### Supported Aras Versions
 
 Project | Aras
 --------|------
-[v8.2.0.1](https://github.com/ArasLabs/alt-demo-system/releases/tag/v1.0) | Aras 8.2.0
+[v8.2.0.1](https://github.com/ArasLabs/alt-demo-system/releases/tag/v8.2.0.1) | Aras 8.2.0
+[v8.2.0.2](https://github.com/ArasLabs/alt-demo-system/releases/tag/v8.2.0.2) | Aras 8.2.0
 
 > ###### *Please note: Aras Community Projects are provided on an "as-is" basis.*
 
