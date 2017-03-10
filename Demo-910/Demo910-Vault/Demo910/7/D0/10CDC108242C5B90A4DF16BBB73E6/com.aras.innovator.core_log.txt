@@ -1,0 +1,17 @@
+start of execution : 4/1/2009 2:36:30 PM
+Set "Root" value  for "Logon Allowed To" variable
+Updating com.aras.innovator.core to inprogress release status
+       ****Import with merge option  com.aras.innovator.core****
+Processing (add)   id : 7BEFEFCFFC5F4464908366486080470E    keyed_name : VersionServicePack    type : Variable  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Variable</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 7BEFEFCFFC5F4464908366486080470E    keyed_name : VersionServicePack    type : Variable  
+Adding item in packdefinition  id  7BEFEFCFFC5F4464908366486080470E type Variable
+Item successfully added in packdefinition  id  7BEFEFCFFC5F4464908366486080470E type Variable
+completed
+Set "World" value  for "Logon Allowed To" variable
+Updating com.aras.innovator.core to success release status
+end of execution : 4/1/2009 2:36:32 PM

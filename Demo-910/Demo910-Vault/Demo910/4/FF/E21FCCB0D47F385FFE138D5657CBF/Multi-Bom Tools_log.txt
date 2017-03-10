@@ -1,0 +1,169 @@
+start of execution : 7/10/2008 2:39:00 PM
+Set "Root" value  for "Logon Allowed To" variable
+Updating Multi-Bom Tools to inprogress release status
+       ****Import with merge option  Multi-Bom Tools****
+Processing (add)   id : 3ADBA8E5D8B34CBE870F31747C20657E    keyed_name : MultiBom Tools ECN Action    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 3ADBA8E5D8B34CBE870F31747C20657E    keyed_name : MultiBom Tools ECN Action    type : Method  
+Adding item in packdefinition  id  213C6A0B9938437294D677ED505EC614 type Method
+Getting config_id  of versionable item  id  213C6A0B9938437294D677ED505EC614 type Method
+Item already exist in packdefinition  id  3ADBA8E5D8B34CBE870F31747C20657E type Method
+Processing (add)   id : 83AA0683BA59401E8DDAB3DC3FF68C13    keyed_name : MultiBom Tools ECR Action    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 83AA0683BA59401E8DDAB3DC3FF68C13    keyed_name : MultiBom Tools ECR Action    type : Method  
+Adding item in packdefinition  id  A4E88ABF5B0B4EA391D99C0FDA627721 type Method
+Getting config_id  of versionable item  id  A4E88ABF5B0B4EA391D99C0FDA627721 type Method
+Item already exist in packdefinition  id  83AA0683BA59401E8DDAB3DC3FF68C13 type Method
+Processing (add)   id : DD5304512F364DFFA12D989471801CC3    keyed_name : MultiBom_Tools_Get    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : DD5304512F364DFFA12D989471801CC3    keyed_name : MultiBom_Tools_Get    type : Method  
+Adding item in packdefinition  id  DD5304512F364DFFA12D989471801CC3 type Method
+Getting config_id  of versionable item  id  DD5304512F364DFFA12D989471801CC3 type Method
+Item already exist in packdefinition  id  DD5304512F364DFFA12D989471801CC3 type Method
+Processing (add)   id : 898936E3B6554F639AB21601B1CE0E9F    keyed_name : Add to new ECN    type : Action  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Method" action="get" select="id"><name>MultiBom Tools ECN Action</name></Item></AML>
+   was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Action</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 898936E3B6554F639AB21601B1CE0E9F    keyed_name : Add to new ECN    type : Action  
+Adding item in packdefinition  id  898936E3B6554F639AB21601B1CE0E9F type Action
+Item already exist in packdefinition  id  898936E3B6554F639AB21601B1CE0E9F type Action
+Processing (add)   id : 391880F38D6247B9B619CDD440350467    keyed_name : Add to new ECR    type : Action  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Method" action="get" select="id"><name>MultiBom Tools ECR Action</name></Item></AML>
+   was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Action</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 391880F38D6247B9B619CDD440350467    keyed_name : Add to new ECR    type : Action  
+Adding item in packdefinition  id  391880F38D6247B9B619CDD440350467 type Action
+Item already exist in packdefinition  id  391880F38D6247B9B619CDD440350467 type Action
+Processing (add)   id : A368BFCCDC0D40BEA27D1AB0701F61F2    keyed_name : Multi-Bom Tools Form    type : Form  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Form</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Body</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : A368BFCCDC0D40BEA27D1AB0701F61F2    keyed_name : Multi-Bom Tools Form    type : Form  
+Adding item in packdefinition  id  A368BFCCDC0D40BEA27D1AB0701F61F2 type Form
+Item already exist in packdefinition  id  A368BFCCDC0D40BEA27D1AB0701F61F2 type Form
+Processing (add)   id : 8FF6E874034E4507A8A3A6EE1EADAE9D    keyed_name : Multi Bom Tools Relationship    type : RelationshipType  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>RelationshipType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Relationship View</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking RelationshipType's source_id,related_id
+<AML><Item levels='0' action='get' type='ItemType' ><id>4F1AC04A2B484F3ABA4E20DB63808A88</id></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 8FF6E874034E4507A8A3A6EE1EADAE9D    keyed_name : Multi Bom Tools Relationship    type : RelationshipType  
+Adding item in packdefinition  id  8FF6E874034E4507A8A3A6EE1EADAE9D type RelationshipType
+Item already exist in packdefinition  id  8FF6E874034E4507A8A3A6EE1EADAE9D type RelationshipType
+Processing (delete)     type : View  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : View  
+Processing (add)   id : 5FDBA9D3BF3F4DEABA9EA5E2FE9AEAB8    keyed_name : MultiBom_GetCompleteBom1    type : SQL  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>SQL</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 5FDBA9D3BF3F4DEABA9EA5E2FE9AEAB8    keyed_name : MultiBom_GetCompleteBom1    type : SQL  
+Adding item in packdefinition  id  5FDBA9D3BF3F4DEABA9EA5E2FE9AEAB8 type SQL
+Item already exist in packdefinition  id  5FDBA9D3BF3F4DEABA9EA5E2FE9AEAB8 type SQL
+Processing (add)   id : 17E39BB34826464FA4F7CD70E425E84A    keyed_name : MultiBom_GetCompleteBom2    type : SQL  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>SQL</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 17E39BB34826464FA4F7CD70E425E84A    keyed_name : MultiBom_GetCompleteBom2    type : SQL  
+Adding item in packdefinition  id  17E39BB34826464FA4F7CD70E425E84A type SQL
+Item already exist in packdefinition  id  17E39BB34826464FA4F7CD70E425E84A type SQL
+Processing (delete)     type : Form  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : Form  
+Processing (add)   id : 275A3E73FB424351BCD38FA43C96CED9    keyed_name : 275A3E73FB424351BCD38FA43C96CED9    type : Item Action  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Method" action="get" select="id"><name>MultiBom Tools ECR Action</name></Item></AML>
+   was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Item Action</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 275A3E73FB424351BCD38FA43C96CED9    keyed_name : 275A3E73FB424351BCD38FA43C96CED9    type : Item Action  
+Adding item in packdefinition  id  275A3E73FB424351BCD38FA43C96CED9 type Item Action
+Item already exist in packdefinition  id  275A3E73FB424351BCD38FA43C96CED9 type Item Action
+Processing (add)   id : 9AD96F2A992A4B908D8CC1493F711EE9    keyed_name : 9AD96F2A992A4B908D8CC1493F711EE9    type : Item Action  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Method" action="get" select="id"><name>MultiBom Tools ECN Action</name></Item></AML>
+   was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Item Action</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 9AD96F2A992A4B908D8CC1493F711EE9    keyed_name : 9AD96F2A992A4B908D8CC1493F711EE9    type : Item Action  
+Adding item in packdefinition  id  9AD96F2A992A4B908D8CC1493F711EE9 type Item Action
+Item already exist in packdefinition  id  9AD96F2A992A4B908D8CC1493F711EE9 type Item Action
+Processing (add)   id : A4E73A4ABFF64A17AF3CB3CB44302F79    keyed_name : A4E73A4ABFF64A17AF3CB3CB44302F79    type : Item Action  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Method" action="get" select="id"><name>MultiBom Tools ECN Action</name></Item></AML>
+   was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Item Action</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : A4E73A4ABFF64A17AF3CB3CB44302F79    keyed_name : A4E73A4ABFF64A17AF3CB3CB44302F79    type : Item Action  
+Adding item in packdefinition  id  A4E73A4ABFF64A17AF3CB3CB44302F79 type Item Action
+Item already exist in packdefinition  id  A4E73A4ABFF64A17AF3CB3CB44302F79 type Item Action
+Processing (add)   id : FE1B2D62B0DB438195ACE9BADF9C069E    keyed_name : FE1B2D62B0DB438195ACE9BADF9C069E    type : Item Action  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Method" action="get" select="id"><name>MultiBom Tools ECR Action</name></Item></AML>
+   was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Item Action</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : FE1B2D62B0DB438195ACE9BADF9C069E    keyed_name : FE1B2D62B0DB438195ACE9BADF9C069E    type : Item Action  
+Adding item in packdefinition  id  FE1B2D62B0DB438195ACE9BADF9C069E type Item Action
+Item already exist in packdefinition  id  FE1B2D62B0DB438195ACE9BADF9C069E type Item Action
+completed
+Set "World" value  for "Logon Allowed To" variable
+Updating Multi-Bom Tools to success release status
+end of execution : 7/10/2008 2:39:19 PM

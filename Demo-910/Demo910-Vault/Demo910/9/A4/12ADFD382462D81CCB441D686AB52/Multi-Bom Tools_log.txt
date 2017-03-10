@@ -1,0 +1,8 @@
+start of execution : 3/16/2008 5:18:14 PM
+Set "Root" value  for "Logon Allowed To" variable
+Updating Multi-Bom Tools to inprogress release status
+       ****Import with merge option  Multi-Bom Tools****
+completed
+Set "World" value  for "Logon Allowed To" variable
+Updating Multi-Bom Tools to success release status
+end of execution : 3/16/2008 5:18:16 PM
