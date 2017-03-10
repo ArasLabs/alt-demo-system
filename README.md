@@ -5,6 +5,9 @@
 
 # Demo System (Alternative)
 
+> This project is not related to the Aras Partner Demo Environment or the Aras Sample Database.
+> For more information on the Aras Partner Demo Environment, contact Aras Labs. For the Aras Sample Database, visit the [download page on the Aras website](http://www.aras.com/support/sample-data/)).
+
 This is a snapshot of the Demo development system used by Peter and Marc. Nearly all of the community solutions are loaded, and the data examples cover a wide range of business applications.
 
 The weekly (monday) webinars use the this database and vault. If you want a tour or some training on how to use this demo system, sit in on the webinar before installing.
