@@ -1,0 +1,194 @@
+start of execution : 11/12/2009 7:31:14 PM
+Set "Root" value  for "Logon Allowed To" variable
+Updating com.aras.innovator.core to inprogress release status
+       ****Import with merge option  com.aras.innovator.core****
+Processing (add)   id : 87879A09B8044DE380D59DF22DE1867F    keyed_name : Method    type : ItemType  
+********** Start of reference checking ************
+checking item with get action:<Item type="Identity" action="get" select="id"><name>World</name></Item>
+-> was obtained from server
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Allowed Permission</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Can Add</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Item Action</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Item Report</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>ItemType Life Cycle</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>TOC Access</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>View</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+checking <data_source> reference to the ItemType
+<Item type='ItemType' action='get' select='id'><name>Identity</name></Item>
+  was obtained from server
+checking <data_source> reference to list/sequence
+<Item action='get' type='list' select='id'><id>7C707D42A5144B4783611CAD03495F47</id></Item>
+  was obtained from server
+checking <data_source> reference to list/sequence
+<Item action='get' type='List' select='id'><id>9369CAC90D9942D5B9260EC502593BBE</id></Item>
+  was obtained from server
+checking for related items
+<Item type='Permission' action='get' levels='0'><id>696C2AAAD70F47C79C7B232372FBB919</id></Item>
+   was obtained from server
+checking for related items
+<Item type='Identity' action='get' levels='0'><id>2618D6F5A90949BAA7E920D1B04C7EE1</id></Item>
+   was obtained from server
+checking for related items
+<Item type='Action' action='get' levels='0'><id>B06750478A1E42FFA1142D59FB485D7C</id></Item>
+   was obtained from server
+checking for related items
+<Item type='Report' action='get' levels='0'><id>6BFD740544514B21826F9E4E59431E41</id></Item>
+   was obtained from server
+checking for related items
+<Item type='Life Cycle Map' action='get' levels='0'><id>CEA87EBAC6BE4F528EED0B00314EFD3B</id></Item>
+   was obtained from server
+checking for related items
+<Item type='Identity' action='get' levels='0'><id>2618D6F5A90949BAA7E920D1B04C7EE1</id></Item>
+   was obtained from cache
+checking for related items
+<Item type='Form' action='get' levels='0'><id>D34C593361714F1E8975069EA8A9FB0F</id></Item>
+   was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 87879A09B8044DE380D59DF22DE1867F    keyed_name : Method    type : ItemType  
+Adding item in packdefinition  id  87879A09B8044DE380D59DF22DE1867F type ItemType
+Item already exist in packdefinition  id  87879A09B8044DE380D59DF22DE1867F type ItemType
+Processing (edit)   id : 87879A09B8044DE380D59DF22DE1867F     type : ItemType  
+********** Start of reference checking ************
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking <data_source> reference to the ItemType
+<Item type='ItemType' action='get' select='id'><name>Method</name></Item>
+  was obtained from server
+checking <data_source> reference to the ItemType
+<Item type='ItemType' action='get' select='id'><name>User</name></Item>
+  was obtained from server
+checking <data_source> reference to the ItemType
+<Item type='ItemType' action='get' select='id'><name>Life Cycle State</name></Item>
+  was obtained from server
+checking <data_source> reference to the ItemType
+<Item type='ItemType' action='get' select='id'><name>Method</name></Item>
+  was obtained from cache
+checking <data_source> reference to the ItemType
+<Item type='ItemType' action='get' select='id'><name>User</name></Item>
+  was obtained from cache
+checking <data_source> reference to the ItemType
+<Item type='ItemType' action='get' select='id'><name>Identity</name></Item>
+  was obtained from cache
+checking <data_source> reference to the ItemType
+<Item type='ItemType' action='get' select='id'><name>User</name></Item>
+  was obtained from cache
+checking <data_source> reference to the ItemType
+<Item type='ItemType' action='get' select='id'><name>Identity</name></Item>
+  was obtained from cache
+checking <data_source> reference to the ItemType
+<Item type='ItemType' action='get' select='id'><name>Permission</name></Item>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(edit)   id : 87879A09B8044DE380D59DF22DE1867F     type : ItemType  
+completed
+Set "World" value  for "Logon Allowed To" variable
+Updating com.aras.innovator.core to success release status
+end of execution : 11/12/2009 7:31:20 PM

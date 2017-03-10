@@ -1,0 +1,47 @@
+start of execution : 5/5/2009 9:16:23 AM
+Set "Root" value  for "Logon Allowed To" variable
+Updating WindowsSearch to inprogress release status
+       ****Import with merge option  WindowsSearch****
+Processing (add)   id : 76F051D447744FA2A6A65D5895599479    keyed_name : Windows Search OnChange    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 76F051D447744FA2A6A65D5895599479    keyed_name : Windows Search OnChange    type : Method  
+Adding item in packdefinition  id  76F051D447744FA2A6A65D5895599479 type Method
+Getting config_id  of versionable item  id  76F051D447744FA2A6A65D5895599479 type Method
+Item successfully added in packdefinition  id  76F051D447744FA2A6A65D5895599479 type Method
+Processing (add)   id : D6E675D699B14DEAA13208F3C2287983    keyed_name : Documents    type : Form  
+********** Start of reference checking ************
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>Windows Search OnChange</name></Item></AML>
+-> was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Form</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Body</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : D6E675D699B14DEAA13208F3C2287983    keyed_name : Documents    type : Form  
+Adding item in packdefinition  id  D6E675D699B14DEAA13208F3C2287983 type Form
+Item successfully added in packdefinition  id  D6E675D699B14DEAA13208F3C2287983 type Form
+completed
+Set "World" value  for "Logon Allowed To" variable
+Updating WindowsSearch to success release status
+end of execution : 5/5/2009 9:16:31 AM

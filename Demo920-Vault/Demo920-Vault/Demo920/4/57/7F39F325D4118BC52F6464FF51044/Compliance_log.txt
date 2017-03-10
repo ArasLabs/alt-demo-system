@@ -1,0 +1,8 @@
+start of execution : 1/9/2008 2:50:25 PM
+Set "Root" value  for "Logon Allowed To" variable
+Updating Compliance to inprogress release status
+       ****Import with merge option  Compliance****
+completed
+Set "World" value  for "Logon Allowed To" variable
+Updating Compliance to success release status
+end of execution : 1/9/2008 2:50:26 PM

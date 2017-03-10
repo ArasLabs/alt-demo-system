@@ -1,0 +1,26 @@
+start of execution : 5/28/2009 8:49:43 AM
+Set "Root" value  for "Logon Allowed To" variable
+Updating com.aras.innovator.core to inprogress release status
+       ****Import with merge option  com.aras.innovator.core****
+Processing (add)   id : 7BEFEFCFFC5F4464908366486080470E    keyed_name : VersionServicePack    type : Variable  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Variable</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 7BEFEFCFFC5F4464908366486080470E    keyed_name : VersionServicePack    type : Variable  
+Adding item in packdefinition  id  7BEFEFCFFC5F4464908366486080470E type Variable
+Item already exist in packdefinition  id  7BEFEFCFFC5F4464908366486080470E type Variable
+Processing (add)   id : 909DF38EE1BC4AF1822E12F90FFCC481    keyed_name : Aras.Server.Core.ActivityIsClonedAlreadyException    type : UserMessage  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>UserMessage</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 909DF38EE1BC4AF1822E12F90FFCC481    keyed_name : Aras.Server.Core.ActivityIsClonedAlreadyException    type : UserMessage  
+Adding item in packdefinition  id  909DF38EE1BC4AF1822E12F90FFCC481 type UserMessage
+Item already exist in packdefinition  id  909DF38EE1BC4AF1822E12F90FFCC481 type UserMessage
+completed
+Set "World" value  for "Logon Allowed To" variable
+Updating com.aras.innovator.core to success release status
+end of execution : 5/28/2009 8:49:50 AM

@@ -1,0 +1,411 @@
+start of execution : 1/9/2008 3:11:49 PM
+Set "Root" value  for "Logon Allowed To" variable
+Updating CorpIP to inprogress release status
+       ****Import with merge option  CorpIP****
+Processing (add)   id : 4F9F2343F2004BEBAE07FB2F9AB43C50    keyed_name : Patent Type    type : List  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>List</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Value</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Value</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Value</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Value</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Value</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 4F9F2343F2004BEBAE07FB2F9AB43C50    keyed_name : Patent Type    type : List  
+Adding item in packdefinition  id  4F9F2343F2004BEBAE07FB2F9AB43C50 type List
+Item successfully added in packdefinition  id  4F9F2343F2004BEBAE07FB2F9AB43C50 type List
+Processing (add)   id : 76F4E37962484989BB6C86DF167CCA04    keyed_name : Trademark Types    type : List  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>List</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Value</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Value</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Value</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 76F4E37962484989BB6C86DF167CCA04    keyed_name : Trademark Types    type : List  
+Adding item in packdefinition  id  76F4E37962484989BB6C86DF167CCA04 type List
+Item successfully added in packdefinition  id  76F4E37962484989BB6C86DF167CCA04 type List
+Processing (add)   id : 67130DC439C242C2BFC75C788D1CB5BD    keyed_name : Corporate IP    type : Permission  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Permission</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Access</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 67130DC439C242C2BFC75C788D1CB5BD    keyed_name : Corporate IP    type : Permission  
+Adding item in packdefinition  id  67130DC439C242C2BFC75C788D1CB5BD type Permission
+Item successfully added in packdefinition  id  67130DC439C242C2BFC75C788D1CB5BD type Permission
+Processing (add)   id : 9BAF59E65AF544689A37A42D8E947B18    keyed_name : Corporate IP - License class    type : Form  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Form</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Body</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 9BAF59E65AF544689A37A42D8E947B18    keyed_name : Corporate IP - License class    type : Form  
+Adding item in packdefinition  id  9BAF59E65AF544689A37A42D8E947B18 type Form
+Item successfully added in packdefinition  id  9BAF59E65AF544689A37A42D8E947B18 type Form
+Processing (add)   id : 46247C06AD7E4A509AEE8F12F15EA1A1    keyed_name : Corporate IP - Patent class    type : Form  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Form</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Body</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 46247C06AD7E4A509AEE8F12F15EA1A1    keyed_name : Corporate IP - Patent class    type : Form  
+Adding item in packdefinition  id  46247C06AD7E4A509AEE8F12F15EA1A1 type Form
+Item successfully added in packdefinition  id  46247C06AD7E4A509AEE8F12F15EA1A1 type Form
+Processing (add)   id : 471BF48CF7C642C8BFD25B209F66150B    keyed_name : Corporate IP - Trademark class    type : Form  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Form</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Body</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 471BF48CF7C642C8BFD25B209F66150B    keyed_name : Corporate IP - Trademark class    type : Form  
+Adding item in packdefinition  id  471BF48CF7C642C8BFD25B209F66150B type Form
+Item successfully added in packdefinition  id  471BF48CF7C642C8BFD25B209F66150B type Form
+Processing (add)   id : DE4C7F4473AA494BBAD8C9E808AD309C    keyed_name : Corporate IP    type : Form  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Form</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Body</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : DE4C7F4473AA494BBAD8C9E808AD309C    keyed_name : Corporate IP    type : Form  
+Adding item in packdefinition  id  DE4C7F4473AA494BBAD8C9E808AD309C type Form
+Item successfully added in packdefinition  id  DE4C7F4473AA494BBAD8C9E808AD309C type Form
+Processing (add)   id : 0E051B49C59E4DB7A73A6C21B0E5C7D5    keyed_name : Corporate IP    type : ItemType  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from cache
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from cache
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from cache
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from cache
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from cache
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Allowed Permission</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Can Add</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>TOC Access</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>View</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>View</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>View</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>View</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking <data_source> reference to the ItemType
+<AML><Item type='ItemType' action='get' select='id'><name>File</name></Item></AML>
+  was obtained from cache
+checking <data_source> reference to the ItemType
+<AML><Item type='ItemType' action='get' select='id'><name>Identity</name></Item></AML>
+  was obtained from cache
+checking <data_source> reference to the ItemType
+<AML><Item type='ItemType' action='get' select='id'><name>Manufacturer</name></Item></AML>
+  was obtained from cache
+checking <data_source> reference to list/sequence
+<AML><Item action='get' type='list' select='id'><id>4F9F2343F2004BEBAE07FB2F9AB43C50</id></Item></AML>
+  was obtained from server
+checking <data_source> reference to list/sequence
+<AML><Item action='get' type='list' select='id'><id>9FEC936F59F14FECAA3621F726FBAAF2</id></Item></AML>
+  was obtained from cache
+checking <data_source> reference to list/sequence
+<AML><Item action='get' type='list' select='id'><id>76F4E37962484989BB6C86DF167CCA04</id></Item></AML>
+  was obtained from server
+checking for related items
+<AML><Item type='Permission' action='get' levels='0'><id>67130DC439C242C2BFC75C788D1CB5BD</id></Item></AML>
+   was obtained from server
+checking for related items
+<AML><Item type='Form' action='get' levels='0'><id>DE4C7F4473AA494BBAD8C9E808AD309C</id></Item></AML>
+   was obtained from server
+checking for related items
+<AML><Item type='Form' action='get' levels='0'><id>9BAF59E65AF544689A37A42D8E947B18</id></Item></AML>
+   was obtained from server
+checking for related items
+<AML><Item type='Form' action='get' levels='0'><id>46247C06AD7E4A509AEE8F12F15EA1A1</id></Item></AML>
+   was obtained from server
+checking for related items
+<AML><Item type='Form' action='get' levels='0'><id>471BF48CF7C642C8BFD25B209F66150B</id></Item></AML>
+   was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 0E051B49C59E4DB7A73A6C21B0E5C7D5    keyed_name : Corporate IP    type : ItemType  
+Adding item in packdefinition  id  0E051B49C59E4DB7A73A6C21B0E5C7D5 type ItemType
+Item successfully added in packdefinition  id  0E051B49C59E4DB7A73A6C21B0E5C7D5 type ItemType
+Processing (edit)   id : 0E051B49C59E4DB7A73A6C21B0E5C7D5     type : ItemType  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(edit)   id : 0E051B49C59E4DB7A73A6C21B0E5C7D5     type : ItemType  
+Processing (add)   id : A073DE4A011745639B579CE53C8FBDB9    keyed_name : Corp IP Document    type : RelationshipType  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>RelationshipType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking RelationshipType's source_id,related_id
+<AML><Item levels='0' action='get' type='ItemType' ><id>B88C14B99EF449828C5D926E39EE8B89</id></Item></AML>
+  was obtained from server
+checking RelationshipType's source_id,related_id
+<AML><Item levels='0' action='get' type='ItemType' ><id>0E051B49C59E4DB7A73A6C21B0E5C7D5</id></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : A073DE4A011745639B579CE53C8FBDB9    keyed_name : Corp IP Document    type : RelationshipType  
+Adding item in packdefinition  id  A073DE4A011745639B579CE53C8FBDB9 type RelationshipType
+Item successfully added in packdefinition  id  A073DE4A011745639B579CE53C8FBDB9 type RelationshipType
+Processing (edit)   id : BC1A4F080E1D4C81AE666C8D40807E47     type : Field  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Property" action="get" select="id"><name>classification</name><source_id type="ItemType" keyed_name="Corporate IP">0E051B49C59E4DB7A73A6C21B0E5C7D5</source_id></Item></AML>
+   was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(edit)   id : BC1A4F080E1D4C81AE666C8D40807E47     type : Field  
+Processing (edit)   id : 169A27D458044D6793378C1790BEA8C3     type : Field  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Property" action="get" select="id"><name>classification</name><source_id type="ItemType" keyed_name="Corporate IP">0E051B49C59E4DB7A73A6C21B0E5C7D5</source_id></Item></AML>
+   was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(edit)   id : 169A27D458044D6793378C1790BEA8C3     type : Field  
+Processing (edit)   id : 324CECCF17134731B5102EE87FD90C41     type : Field  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Property" action="get" select="id"><name>classification</name><source_id type="ItemType" keyed_name="Corporate IP">0E051B49C59E4DB7A73A6C21B0E5C7D5</source_id></Item></AML>
+   was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(edit)   id : 324CECCF17134731B5102EE87FD90C41     type : Field  
+Processing (edit)   id : 8BF9BDE334B44548A474401A56FBEC28     type : Field  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Property" action="get" select="id"><name>classification</name><source_id type="ItemType" keyed_name="Corporate IP">0E051B49C59E4DB7A73A6C21B0E5C7D5</source_id></Item></AML>
+   was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(edit)   id : 8BF9BDE334B44548A474401A56FBEC28     type : Field  
+Processing (delete)     type : View  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : View  
+Processing (delete)     type : Form  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : Form  
+completed
+Set "World" value  for "Logon Allowed To" variable
+Updating CorpIP to success release status
+end of execution : 1/9/2008 3:12:00 PM

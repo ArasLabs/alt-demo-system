@@ -1,0 +1,287 @@
+start of execution : 9/20/2009 4:00:08 PM
+Set "Root" value  for "Logon Allowed To" variable
+Updating ProjectResources to inprogress release status
+       ****Import with merge option  ProjectResources****
+Processing (add)   id : F3FB36FB2854432BA63CAD804D012C7B    keyed_name : PM Skills    type : List  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>List</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Value</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Value</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Value</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Value</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Value</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Value</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Value</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Value</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Value</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : F3FB36FB2854432BA63CAD804D012C7B    keyed_name : PM Skills    type : List  
+Adding item in packdefinition  id  F3FB36FB2854432BA63CAD804D012C7B type List
+Item already exist in packdefinition  id  F3FB36FB2854432BA63CAD804D012C7B type List
+Processing (add)   id : 8E7A1E39C8C840F18762353D30AEB5CB    keyed_name : getConfigValue    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 8E7A1E39C8C840F18762353D30AEB5CB    keyed_name : getConfigValue    type : Method  
+Adding item in packdefinition  id  59F9201728DE4EFD935F14841D7BC05A type Method
+Getting config_id  of versionable item  id  59F9201728DE4EFD935F14841D7BC05A type Method
+Item already exist in packdefinition  id  8E7A1E39C8C840F18762353D30AEB5CB type Method
+Processing (add)   id : AE0D0D57F61E4243BAE0C7045699E970    keyed_name : resource_report_1    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : AE0D0D57F61E4243BAE0C7045699E970    keyed_name : resource_report_1    type : Method  
+Adding item in packdefinition  id  6D23D7D3A7EB49A98793EEC7676537D3 type Method
+Getting config_id  of versionable item  id  6D23D7D3A7EB49A98793EEC7676537D3 type Method
+Item already exist in packdefinition  id  AE0D0D57F61E4243BAE0C7045699E970 type Method
+Processing (add)   id : 3AA7DBFF2F9640F6AAA7B7D008B03EEE    keyed_name : resource_report_3    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 3AA7DBFF2F9640F6AAA7B7D008B03EEE    keyed_name : resource_report_3    type : Method  
+Adding item in packdefinition  id  11FFDE8FA9C64D51B63750B9E518506F type Method
+Getting config_id  of versionable item  id  11FFDE8FA9C64D51B63750B9E518506F type Method
+Item already exist in packdefinition  id  3AA7DBFF2F9640F6AAA7B7D008B03EEE type Method
+Processing (add)   id : EC18809943A14DED8FABE4254E00C505    keyed_name : resource_report_4    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : EC18809943A14DED8FABE4254E00C505    keyed_name : resource_report_4    type : Method  
+Adding item in packdefinition  id  EC18809943A14DED8FABE4254E00C505 type Method
+Getting config_id  of versionable item  id  EC18809943A14DED8FABE4254E00C505 type Method
+Item already exist in packdefinition  id  EC18809943A14DED8FABE4254E00C505 type Method
+Processing (add)   id : F5E3F7AADA47406BB0C11AFCFEA2C657    keyed_name : set_avail_color    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : F5E3F7AADA47406BB0C11AFCFEA2C657    keyed_name : set_avail_color    type : Method  
+Adding item in packdefinition  id  F5E3F7AADA47406BB0C11AFCFEA2C657 type Method
+Getting config_id  of versionable item  id  F5E3F7AADA47406BB0C11AFCFEA2C657 type Method
+Item already exist in packdefinition  id  F5E3F7AADA47406BB0C11AFCFEA2C657 type Method
+Processing (add)   id : 1E87439383264FF79F9F27D10280B335    keyed_name : updateResourceAvailability    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 1E87439383264FF79F9F27D10280B335    keyed_name : updateResourceAvailability    type : Method  
+Adding item in packdefinition  id  1E87439383264FF79F9F27D10280B335 type Method
+Getting config_id  of versionable item  id  1E87439383264FF79F9F27D10280B335 type Method
+Item already exist in packdefinition  id  1E87439383264FF79F9F27D10280B335 type Method
+Processing (add)   id : 1936AFBF0DB744599015139A17CF42A4    keyed_name : UpdateResourceAvailability    type : Action  
+********** Start of reference checking ************
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>updateResourceAvailability</name></Item></AML>
+-> was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Action</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 1936AFBF0DB744599015139A17CF42A4    keyed_name : UpdateResourceAvailability    type : Action  
+Adding item in packdefinition  id  1936AFBF0DB744599015139A17CF42A4 type Action
+Item already exist in packdefinition  id  1936AFBF0DB744599015139A17CF42A4 type Action
+Processing (add)   id : 86D69EB541724BE7AA886A77E7676170    keyed_name : Project Resources    type : Report  
+********** Start of reference checking ************
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>resource_report_1</name></Item></AML>
+-> was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Report</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 86D69EB541724BE7AA886A77E7676170    keyed_name : Project Resources    type : Report  
+Adding item in packdefinition  id  86D69EB541724BE7AA886A77E7676170 type Report
+Item already exist in packdefinition  id  86D69EB541724BE7AA886A77E7676170 type Report
+Processing (add)   id : 05FB226B15B94444ADE5A6E0655C76F5    keyed_name : Resource Availability    type : Report  
+********** Start of reference checking ************
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>resource_report_4</name></Item></AML>
+-> was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Report</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 05FB226B15B94444ADE5A6E0655C76F5    keyed_name : Resource Availability    type : Report  
+Adding item in packdefinition  id  05FB226B15B94444ADE5A6E0655C76F5 type Report
+Item already exist in packdefinition  id  05FB226B15B94444ADE5A6E0655C76F5 type Report
+Processing (add)   id : F01D4BB2A2B049AD9C42842131E98E4E    keyed_name : Resource Summary    type : Report  
+********** Start of reference checking ************
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>resource_report_3</name></Item></AML>
+-> was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Report</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : F01D4BB2A2B049AD9C42842131E98E4E    keyed_name : Resource Summary    type : Report  
+Adding item in packdefinition  id  F01D4BB2A2B049AD9C42842131E98E4E type Report
+Item already exist in packdefinition  id  F01D4BB2A2B049AD9C42842131E98E4E type Report
+Processing (add)   id : A540E7D47CD04EDD857A0F286C422BCC    keyed_name : FixIdentityForms    type : Field  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : A540E7D47CD04EDD857A0F286C422BCC    keyed_name : FixIdentityForms    type : Field  
+Adding item in packdefinition  id  A540E7D47CD04EDD857A0F286C422BCC type Field
+Item already exist in packdefinition  id  A540E7D47CD04EDD857A0F286C422BCC type Field
+Processing (add)   id : D70C008B85C54815856FB5A837B78002     type : Field  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : D70C008B85C54815856FB5A837B78002     type : Field  
+Adding item in packdefinition  id  D70C008B85C54815856FB5A837B78002 type Field
+Item already exist in packdefinition  id  D70C008B85C54815856FB5A837B78002 type Field
+Processing (add)   id : 07128AC8DEB14821B667E1D016D7A758    keyed_name : FixIdentityItemType    type : Property  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 07128AC8DEB14821B667E1D016D7A758    keyed_name : FixIdentityItemType    type : Property  
+Adding item in packdefinition  id  07128AC8DEB14821B667E1D016D7A758 type Property
+Item successfully added in packdefinition  id  07128AC8DEB14821B667E1D016D7A758 type Property
+Processing (add)   id : D5AFC2BD91A3457F96AA26FED03BA67C     type : Property  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : D5AFC2BD91A3457F96AA26FED03BA67C     type : Property  
+Adding item in packdefinition  id  D5AFC2BD91A3457F96AA26FED03BA67C type Property
+Item successfully added in packdefinition  id  D5AFC2BD91A3457F96AA26FED03BA67C type Property
+Processing (add)   id : 503F1E46F42B411A9DE3CF6837E9D631     type : Property  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 503F1E46F42B411A9DE3CF6837E9D631     type : Property  
+Adding item in packdefinition  id  503F1E46F42B411A9DE3CF6837E9D631 type Property
+Item successfully added in packdefinition  id  503F1E46F42B411A9DE3CF6837E9D631 type Property
+Processing (add)   id : 52F0A0AAB3804C0C9FF7A942FFAB7FD9     type : Property  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 52F0A0AAB3804C0C9FF7A942FFAB7FD9     type : Property  
+Adding item in packdefinition  id  52F0A0AAB3804C0C9FF7A942FFAB7FD9 type Property
+Item successfully added in packdefinition  id  52F0A0AAB3804C0C9FF7A942FFAB7FD9 type Property
+Processing (add)   id : 2FCE22B1722D43BD82FA58EAD6F74EDC     type : Property  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 2FCE22B1722D43BD82FA58EAD6F74EDC     type : Property  
+Adding item in packdefinition  id  2FCE22B1722D43BD82FA58EAD6F74EDC type Property
+Item successfully added in packdefinition  id  2FCE22B1722D43BD82FA58EAD6F74EDC type Property
+Processing (add)   id : 9B47547EB4054372A08BF2F580BA9248     type : Property  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 9B47547EB4054372A08BF2F580BA9248     type : Property  
+Adding item in packdefinition  id  9B47547EB4054372A08BF2F580BA9248 type Property
+Item successfully added in packdefinition  id  9B47547EB4054372A08BF2F580BA9248 type Property
+Processing (add)   id : D1C346A0EA9D4BD1AA02C3E142CD763C     type : Property  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : D1C346A0EA9D4BD1AA02C3E142CD763C     type : Property  
+Adding item in packdefinition  id  D1C346A0EA9D4BD1AA02C3E142CD763C type Property
+Item successfully added in packdefinition  id  D1C346A0EA9D4BD1AA02C3E142CD763C type Property
+Processing (add)   id : 85A13E6679184793AF563AB6EBACB50F     type : Property  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 85A13E6679184793AF563AB6EBACB50F     type : Property  
+Adding item in packdefinition  id  85A13E6679184793AF563AB6EBACB50F type Property
+Item successfully added in packdefinition  id  85A13E6679184793AF563AB6EBACB50F type Property
+Processing (add)   id : E64134BA06FE4DB4A30E054473A126F6     type : Property  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : E64134BA06FE4DB4A30E054473A126F6     type : Property  
+Adding item in packdefinition  id  E64134BA06FE4DB4A30E054473A126F6 type Property
+Item successfully added in packdefinition  id  E64134BA06FE4DB4A30E054473A126F6 type Property
+Processing (add)   id : FD84794497DD4D6195714ED8A015BB27     type : Property  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : FD84794497DD4D6195714ED8A015BB27     type : Property  
+Adding item in packdefinition  id  FD84794497DD4D6195714ED8A015BB27 type Property
+Item successfully added in packdefinition  id  FD84794497DD4D6195714ED8A015BB27 type Property
+Processing (add)   id : E801498095404EC6B99462565D545DEB     type : Property  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : E801498095404EC6B99462565D545DEB     type : Property  
+Adding item in packdefinition  id  E801498095404EC6B99462565D545DEB type Property
+Item successfully added in packdefinition  id  E801498095404EC6B99462565D545DEB type Property
+Processing (add)   id : 4FC22C01CC5B4E7C8A82B96CA41539AE     type : Property  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 4FC22C01CC5B4E7C8A82B96CA41539AE     type : Property  
+Adding item in packdefinition  id  4FC22C01CC5B4E7C8A82B96CA41539AE type Property
+Item successfully added in packdefinition  id  4FC22C01CC5B4E7C8A82B96CA41539AE type Property
+Processing (add)   id : AB9F206AFDED465DBDCFAE16D88329C7     type : Property  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking <data_source> reference to list/sequence
+<AML><Item action='get' type='mv_list' select='id'><id>F3FB36FB2854432BA63CAD804D012C7B</id></Item></AML>
+     ****Error message****
+faultstring: Failed to get the mv_list ItemType.
+faultdetail: Failed to get the mv_list ItemType.
+faultcode:   1
+faultAMLError:
+<AML><Item action='get' type='mv_list' select='id'><id>F3FB36FB2854432BA63CAD804D012C7B</id></Item></AML>
+     ********************** 
+Updating ProjectResources to failed release status
+Set "World" value  for "Logon Allowed To" variable
+end of execution : 9/20/2009 4:00:17 PM

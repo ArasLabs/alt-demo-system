@@ -1,0 +1,1550 @@
+
+
+
+<HTML>
+
+
+	<HEAD><TITLE>Registration Required</TITLE>
+	<META name="Robots" content="NOINDEX">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" ><LINK REL="stylesheet" TYPE="text/css" HREF="http://www.globalspec.com/css/stylesheet.css">
+		
+		<script type="text/javascript">
+		
+		<!-- // remove frames (ie6 cookie issue)
+		if ( self != parent)  {
+			var newUrl = window.location.href + ((window.location.href.indexOf('?') < 0) ? '?' : '&') + 'deframe=1';
+			// Use location.href and not location.replace() to preserve the
+			// user's History as much as possible. This is a good thing. MRG 2/21/03
+			top.location.href = newUrl;				
+			window.focus();
+		}
+		//-->
+		</script>
+		
+	<script type="text/javascript">
+	//<!--
+		// this string holds the javascript to execute when the page has finished loading
+		var m_OnLoadFunctions = "";
+
+		// this function will handle our onload event
+		function HandleOnLoad() {
+			eval(m_OnLoadFunctions);
+			
+		}
+			
+		// tell the page to run the code when it has finished loading
+		window.onload = HandleOnLoad;
+			
+		// register a new function to run on load by appending it to our set of functions
+		function RegisterOnLoadEvent(yourJSCode) {
+			m_OnLoadFunctions = m_OnLoadFunctions + yourJSCode + ";"
+		}
+	//-->
+	</script>
+	<script SRC="/js/WrapperFunctions_Common.js" type="text/javascript"></script>
+<script SRC="/js/GS_strings.js" type="text/javascript"></script>
+<script SRC="/js/GS_selectObj.js" type="text/javascript"></script>
+<script SRC="/js/ValidEmail.js" type="text/javascript"></script>
+
+
+	<SCRIPT LANGUAGE="JavaScript">
+	<!--  // Hide JS from old browsers
+
+	function noUnselected(fld, fieldName)
+	{ 
+	  if (fld.selectedIndex == 0) 
+	  {  alert("The '" + fieldName + "' field needs a valid selection.");
+   		 fld.focus();
+		 return false;
+	  }
+	  return true;
+	}
+
+	function checkForm(aform)
+	{
+		
+		if ( !noNull(aform.firstname, "First Name") ) return false;
+		if ( !noNull(aform.lastname, "Last Name") ) return false;
+		if ( !noNull(aform.password, "Password") ) return false;
+		if ( !noNull(aform.PWConfirm, "Retype your Password") ) return false;
+		if ( !noNull(aform.company, "Company") ) return false;	
+		if ( !noNull(aform.email, "Email Address") ) return false;
+		
+		
+		if ( !validEmail(aform.email,'Y') ) return false; 	
+		if ( !noNull(aform.address1, "Address") ) return false;
+		if ( !noNull(aform.city, "City") ) return false;
+		if ( !noNull(aform.zip, "Zip/Postal Code") ) return false;
+		if ( !noUnselected(aform.country, "Country") ) return false;
+		if (aform.country.selectedIndex <= 2)	
+		{
+			if ( !noUnselected(aform.state, "State/Province") ) return false;
+		}
+		if ( !noUnselected(aform.title, "Job Function") ) return false;
+		if ( !noUnselected(aform.industry, "Industry") ) return false;
+		return true;	
+	}
+	//-->
+	</script>
+
+</HEAD>
+
+<body style="background-color: #ffffff;" >
+
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="bannerArea">
+
+	<tr style="height:60px;">
+		
+		<td align="left" valign="middle" nowrap width="1%" style="padding-left:5px;padding-right:5px;height:60px;" class="BannerArea">
+			
+			<a href="http://www.globalspec.com/"><img src="/pix/logos/GlobalSpecSearchEngineLogo.gif" width="208" height="55" border="0" alt="Go to GlobalSpec.com Home" style="margin-top:6px;margin-bottom:5px;"></a>
+			
+		</td>
+	
+		
+		<td align="center" valign="middle" width="40%" nowrap style="height:60px;" class="BannerArea">
+			
+		</td>
+	
+		
+		<td align="right" valign="top" width="25%" style="padding-top:8px;padding-left:5px;padding-right:5px;" class="BannerArea">
+			
+				<div><a  target="_top"  class="whiteLinksNoUnderline" href="http://www.globalspec.com/MyGlobalSpec/NewProfile?PostRegURLToGoTo=%2Fmyglobalspec%2Fnewprofilesimple">Free&nbsp;Registration</a>&nbsp;</div>
+			
+				<div style="font-size:x-small;"><a class="whiteLinksNoUnderline" href="http://www.globalspec.com/Engineering-Toolbar/install?frmtrk=seo">Download&nbsp;Engineering&nbsp;Toolbar</a></div>
+			
+			<div style="font-size:x-small;"><a class="whiteLinksNoUnderline" href="http://www.globalspec.com/">GlobalSpec&nbsp;Home</a></div>			
+		</td>
+	
+	</tr>
+
+
+
+<tr>
+	<td colspan="3">
+		
+		
+
+
+<SCRIPT LANGUAGE="JavaScript" type="text/javascript">
+//<!--
+// preload images
+var goMouseOver = new Image();
+goMouseOver.src = "/pix/buttons/HeaderGo_Over.gif";
+
+var goMouseDown = new Image();
+goMouseDown.src = "/pix/buttons/HeaderGo_Down.gif";
+
+var goMouseUp = new Image();
+goMouseUp.src = "/pix/buttons/HeaderGo_Out.gif";
+
+var blueGoMouseOver = new Image();
+blueGoMouseOver.src = "/pix/buttons/HeaderGo_Over_blue.gif";
+
+var blueGoMouseDown = new Image();
+blueGoMouseDown.src = "/pix/buttons/HeaderGo_Down_blue.gif";
+
+var blueGoMouseUp = new Image();
+blueGoMouseUp.src = "/pix/buttons/HeaderGo_Out_blue.gif";
+
+
+// A version of DoSearchBoxSubmit that ascertains which petal to show based on the form.
+
+function DoSearchBoxSubmit() {			
+	var searchterm = document.FindIn.query.value;
+	
+	var gotoURL = "http://search.globalspec.com/Search?query=";		
+	
+	var show;
+	var radioButtons = document.FindIn.show;	
+
+	for(i=0; i < radioButtons.length; i++) {
+		if(radioButtons[i].checked) {
+			show = radioButtons[i].value;
+		}		
+	}
+	
+		
+	if (searchterm == "" && show != "engnews") {
+		alert("Please enter a search term");
+	} else {
+		
+		
+		// Encode any +'s and %'s since ColdFusion will ignore any of them when the URL params
+		// are read.
+		//searchterm = searchterm.replace(/\+/g, "%2B");
+		
+		var fromSearchBox = true;	
+		changeSearchLocation(show, searchterm, fromSearchBox);
+	}		
+}
+
+// This version of DoSearchBoxSubmit has the petal to show passed in.
+
+function buildExtraPatentSearchTerms() {
+	var extraStuff = "";
+	if (document.FindIn.patentauthor && (document.FindIn.patentauthor.value != "-")) {
+		extraStuff = extraStuff + " patentauthor:" + document.FindIn.patentauthor.value;
+	}
+	return extraStuff;
+}
+
+
+function searchModeKeyDown(evt) {
+	evt = (evt) ? evt : event;
+	var charCode = (evt.charCode) ? evt.charCode : ((evt.which) ? evt.which : evt.keyCode);
+	if ((charCode == 13) || (charCode == 3)) {
+		DoSearchBoxSubmit();
+		return false;
+	}
+	return true;
+}
+
+
+function showHideOptions(on) {
+		var id = "moreOptions";
+		var more=document.getElementById(id);
+		more.style.display=(on ? "inline" : "none");
+				
+		var qsLinkBox=document.getElementById("qsLinkBox");
+		var hideQsBox = document.getElementById("hideQsBox");
+		var form=document.getElementById("FindIn");		
+		var query = document.FindIn.query.value;
+				
+		if (on) {
+			//show the "hide" link
+			qsLinkBox.style.display="none";
+			hideQsBox.style.display="";
+		} else {
+			// show the options link
+			qsLinkBox.style.display="";
+			hideQsBox.style.display="none";
+			form.reset();
+			document.FindIn.query.value = query;
+		}
+		
+		var searchBoxInnerDiv = document.getElementById("searchBoxInnerDiv");
+		searchBoxInnerDiv.style.borderTop = (on ? "solid black 1px;" : "none");
+		searchBoxInnerDiv.style.borderLeft = (on ? "solid black 1px;" : "none");
+		searchBoxInnerDiv.style.borderRight = (on ? "solid black 1px;" : "none");
+		//searchBoxInnerDiv.style.backgroundColor = (on ? "#AABFE2;" : "#4C699E;");
+		//searchBoxInnerDiv.className = (on ? "lightBlueBg" : "BannerArea");
+		
+		//var searchPromptBox = document.getElementById("searchPrompt");
+		//searchPromptBox.innerHTML = (on ? "Search:&nbsp;&nbsp;" : searchPromptText);
+
+}
+
+
+var defaultSearchInfo = "";
+
+function changeSearchInfo(searchType, isDefault, div) {
+	var searchInfoDiv = document.getElementById("SearchInfo");
+	var searchInfo;
+	
+	switch (searchType) {
+		case "total":
+			searchInfo = "Search the Web for engineering pages";
+			break;
+		case "appnotes":
+			searchInfo = "Search the Web for application notes";
+			break;
+		case "patents":
+			searchInfo = "Search the Web for patent information";
+			break;
+		case "standards":
+			searchInfo = "Search the Web for engineering standards";
+			break;
+		case "materials":
+			searchInfo = "Search the Web for information on material properties";
+			break;
+		case "partnumbers":
+			searchInfo = "Search for parts by part number, manufacturer name, distributor name, or description";
+			break;
+		case "products":
+			searchInfo = "Search online vendor, manufacturer and supplier product catalogs";
+			break;
+		case "services":
+			searchInfo = "Search online service provider and consultant catalogs";
+			break;
+		case "prodannounce":
+			searchInfo = "Search supplier product announcements on GlobalSpec";
+			break;
+		case "thissite": //added for 'this site' searched - RH 3/20/2006
+			searchInfo = "Search  for engineering pages";
+			break;
+		case "engnews":
+			searchInfo = "Search Engineering news stories from hundreds of sources";
+			break;
+		default:
+			searchInfo = "";
+	}
+	
+	searchInfoDiv.innerHTML = searchInfo;
+	
+	if (isDefault) {
+		defaultSearchInfo = searchInfo;
+		
+		if (div != null) {
+			div.style.backgroundColor = "";
+		}
+	} else if (div != null) {
+		div.style.backgroundColor = "#F7F7F7";
+	}
+}
+
+function resetSearchInfo(div) {
+	var searchInfoDiv = document.getElementById("SearchInfo");
+	searchInfoDiv.innerHTML = defaultSearchInfo;
+
+	if (div != null) {
+		div.style.backgroundColor = "";
+	}
+}
+
+
+
+function changeSearchLocation(searchType, searchQuery, fromSearchBox) {
+
+	
+		var engWebURL = "http://search.globalspec.com/Search?query=";
+		var productFinderURL = "http://www.globalspec.com/ProductFinder/FindProducts?query=";
+		var productAnnouncementsURL = "http://www.globalspec.com/FeaturedProducts/SearchResults?criteria=";
+
+		if (fromSearchBox) {
+			var engnewsUrl = "http://www.globalspec.com/engnews/search?q=";
+		} else {
+			var engnewsUrl = "http://www.globalspec.com/engnews/?q=";
+		}
+	
+		var gotoURL;
+		
+		// Depending on search type, we will be going to different URLs for the results
+		switch (searchType) {
+			case "total":
+			case "companysites":
+			case "appnotes":
+			case "patents":
+			case "standards":
+			case "materials":
+			case "partnumbers":
+			case "thissite":	//added for 'this site' searches - RH 3/20/2006
+				gotoURL = engWebURL + encodeURIComponent(searchQuery) + "&show=" + searchType;
+				break;
+			case "products":
+				gotoURL = productFinderURL + encodeURIComponent(searchQuery);				
+				break;
+			case "services":				
+				gotoURL = productFinderURL + encodeURIComponent(searchQuery) + "&mode=services";				
+				break;
+			case "prodannounce":
+				gotoURL = productAnnouncementsURL + encodeURIComponent(searchQuery);
+				break;
+			case "engnews":
+				gotoURL = engnewsUrl + encodeURIComponent(searchQuery);
+				break;
+			default:
+				gotoURL = engWebURL + encodeURIComponent (searchQuery)+ "&show=total";
+				break;
+		}
+		
+		//alert(gotoURL);
+		location.href = gotoURL;
+}
+
+//-->
+</SCRIPT>
+
+
+
+<style>
+	
+		div#searchBoxMiddleDiv, div#moreOptionsOuterDiv, div#moreOptions {
+			width:560px;
+		}
+		div#searchBoxInnerDiv {
+			margin-bottom:4px;
+		}
+	
+</style>
+
+
+<table id="searchBoxOuterDiv" class="blueGrayBg" width="100%" cellpadding="0" cellspacing="0" border="0" style="padding-top:5px;"><tr><td align="center" nowrap> 
+	<form name="FindIn" id="FindIn" method="get" onsubmit="DoSearchBoxSubmit(); return false;" style="margin:0px;" action="">
+		<div id="searchBoxMiddleDiv" style="vertical-align:middle;text-align:left;" class="blueGrayBg">	
+		<div id="searchBoxInnerDiv" style="padding:5px;">	
+			<a href="#" onClick="showHideOptions(false); return false;"><img id="hideQsBox" style="display:none;float:right;" src="/pix/buttons/CloseWindowRedX_text.gif" border="0" alt="Close"></a>
+			<span id="searchPrompt" class="boldContent" style="text-align:right;vertical-align:middle;margin-top:3px;font-size:13px;">				
+				
+					Find:&nbsp;&nbsp;
+				
+			</span>
+			
+			<span style="text-align:left;vertical-align:middle;margin-right:1px;">
+				
+				<input name="query" id="query" type="text" value="" size="40">
+			</span>
+			<span style="text-align:left;vertical-align:middle;">
+				
+				<input type="button" alt="Search now!" onClick="DoSearchBoxSubmit(); return false;" value="Search">&nbsp;&nbsp;				 				
+			</span>
+			<span id="qsLinkBox" style="text-align:left;vertical-align:middle;">
+				<a href="#" onClick="showHideOptions(true); return false;" style="font-size:10px;">Advanced Search >></a>	
+			</span>
+			
+		</div>		
+	<div id="moreOptionsOuterDiv" style="position:relative;z-index:99;">
+													
+		<div id="moreOptions" style="position:absolute;display:none;margin-left:0px;margin-right:0px;margin-top:-9px;z-index:99;overflow:hidden;">
+			<div id="moreContent" style="padding-bottom:12px; padding-left:50px;padding-top:5px;text-align:left;border-left:1px solid black;border-right:1px solid black;border-bottom:1px solid black;" class="blueGrayBg">
+				<table cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<td>
+							<table cellpadding="0" cellspacing="0" border="0">
+							<tr onmouseover="changeSearchInfo('total', false, this);" onmouseout="resetSearchInfo(this);"><td><input id="totalRadio" type="radio" name="show" value="total" onClick="changeSearchInfo('total', true, this.parentNode);" ></td><td><label for="totalRadio" style="width:100%;padding-right:30px;display:block;">The Engineering Web<span class='sup'>&reg;</span></label></td></tr> <tr onmouseover="changeSearchInfo('products', false, this);" onmouseout="resetSearchInfo(this);"><td><input id="productsRadio" type="radio" name="show" value="products" onClick="changeSearchInfo('products', true, this.parentNode);" checked></td><td><label for="productsRadio" style="width:100%;padding-right:30px;display:block;">Products &amp; Services</label></td></tr> <tr onmouseover="changeSearchInfo('partnumbers', false, this);" onmouseout="resetSearchInfo(this);"><td><input id="partnumbersRadio" type="radio" name="show" value="partnumbers" onClick="changeSearchInfo('partnumbers', true, this.parentNode);" ></td><td><label for="partnumbersRadio" style="width:100%;padding-right:30px;display:block;">Part Number Search</label></td></tr> <tr onmouseover="changeSearchInfo('engnews', false, this);" onmouseout="resetSearchInfo(this);"><td><input id="engnewsRadio" type="radio" name="show" value="engnews" onClick="changeSearchInfo('engnews', true, this.parentNode);" ></td><td><label for="engnewsRadio" style="width:100%;padding-right:30px;display:block;">Engineering News</label></td></tr> <tr onmouseover="changeSearchInfo('appnotes', false, this);" onmouseout="resetSearchInfo(this);"><td><input id="appnotesRadio" type="radio" name="show" value="appnotes" onClick="changeSearchInfo('appnotes', true, this.parentNode);" ></td><td><label for="appnotesRadio" style="width:100%;padding-right:30px;display:block;">Application Notes</label></td></tr> <tr onmouseover="changeSearchInfo('materials', false, this);" onmouseout="resetSearchInfo(this);"><td><input id="materialsRadio" type="radio" name="show" value="materials" onClick="changeSearchInfo('materials', true, this.parentNode);" ></td><td><label for="materialsRadio" style="width:100%;padding-right:30px;display:block;">Material Properties</label></td></tr> <tr onmouseover="changeSearchInfo('patents', false, this);" onmouseout="resetSearchInfo(this);"><td><input id="patentsRadio" type="radio" name="show" value="patents" onClick="changeSearchInfo('patents', true, this.parentNode);" ></td><td><label for="patentsRadio" style="width:100%;padding-right:30px;display:block;">Patents</label></td></tr> <tr onmouseover="changeSearchInfo('standards', false, this);" onmouseout="resetSearchInfo(this);"><td><input id="standardsRadio" type="radio" name="show" value="standards" onClick="changeSearchInfo('standards', true, this.parentNode);" ></td><td><label for="standardsRadio" style="width:100%;padding-right:30px;display:block;">Standards</label></td></tr>
+							</table>
+						</td>
+						<td align="center" valign="top">
+							<div id="SearchInfo" style="margin-top:20px;border:solid #BEC2C2 1px;padding:5px;background-color:#F7F7F7;width:250px;height:45px;text-align:left;"> 
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>		
+		</div>
+	</div>
+	
+		</div>
+	
+	
+	
+	</form>
+	
+</td></tr></table> 
+						
+
+<script language="JavaScript" type="text/javascript">changeSearchInfo('products', true, null);</script> 
+	</td>
+</tr>
+</table> 
+	<table width="100%" cellpadding="0" cellspacing="0">
+<tr>
+<td width="50%">
+<div id="breadCrumbEntries">
+	<span class="content">You are here:</span><br>
+	
+			
+			<a href="http://www.globalspec.com/" class="breadcrumbLinks">GlobalSpec.com</a>
+		
+			<span class="breadcrumbTextNoUnderline">&gt;</span> 
+			<span class="breadcrumbEndText">Registration</span>
+			</div>
+	</td>
+	<td valign="top" align="right" nowrap width="20%">
+		
+	
+<table align="right" cellpadding="0" cellspacing="0" width="235" >
+	<tr>
+		
+				
+				<td>&nbsp;</td>
+			
+	</tr>
+</table>
+
+	</td>
+</tr>
+</table>
+
+
+
+<form name="ProfileForm" action="/MyGlobalSpec/NewProfileValidate" method="post" onSubmit="return checkForm(this)">
+
+
+
+
+<table border="0">	
+
+	<tr>
+		
+		<td colspan="5" class="content">
+			
+			Please complete this registration form:
+											
+			
+			<img src="/pix/dot.gif" height="1" width="100">
+		
+			<br>
+			<br>
+			
+		</td>
+	</tr>
+
+	
+<tr valign="middle">
+	<TD>&nbsp;</td>
+	<td><IMG SRC="/pix/RedDot.gif" BORDER="0" ALT="Required Field" vspace="0"></td>
+	<TD CLASS="content"> Required Field</td>
+</tr>
+<tr valign="middle">
+	<TD colspan="3">&nbsp;</td>
+</tr>
+
+
+<tr valign="top">
+
+	
+	
+	
+	<td NOWRAP class="boldcontent">
+		First Name:
+	</td>
+		
+	<TD>
+		<IMG SRC="/pix/RedDot.gif" BORDER="0" ALT="Required Fields">
+	</TD>
+	
+	<TD align="left">
+	
+		
+
+		<input TYPE="TEXT" NAME="firstname" SIZE="25"  MAXLENGTH="100" VALUE="">
+
+		
+	</td>
+	
+	
+
+</tr>
+
+<tr valign="top">
+
+	
+	
+	
+	<td NOWRAP class="boldcontent">
+		Last Name:
+	</td>
+		
+	<TD>
+		<IMG SRC="/pix/RedDot.gif" BORDER="0" ALT="Required Fields">
+	</TD>
+	
+	<TD align="left">
+	
+		
+
+		<input TYPE="TEXT" NAME="lastname" SIZE="25"  MAXLENGTH="100" VALUE="">
+
+		
+	</td>
+	
+	
+
+</tr>
+
+<tr valign="top">
+
+	
+	
+	
+	<td NOWRAP class="boldcontent">
+		E-mail Address:
+	</td>
+		
+	<TD>
+		<IMG SRC="/pix/RedDot.gif" BORDER="0" ALT="Required Fields">
+	</TD>
+	
+	<TD align="left">
+	
+		
+			<table border="0" cellpadding="0" cellspacing="0">
+				<tr valign="top">
+					<td NOWRAP>
+		
+
+		<input TYPE="TEXT" NAME="email" SIZE="25"  MAXLENGTH="100" VALUE="">
+
+		
+					</td>
+					<td>
+						&nbsp;
+					</td>
+					<td> 
+						<SMALL>This will be your login ID.</SMALL> 
+					</td>
+				</tr>
+			</table>
+		
+	</td>
+	
+	
+
+</tr>
+
+<tr valign="top">
+	<TD NOWRAP class="boldcontent">
+		Password:
+	</TD>
+	<TD>
+		
+			<IMG SRC="/pix/RedDot.gif" BORDER="0" ALT="Required Fields">
+		
+	</TD>
+	<TD align="left"> 
+		<input TYPE="password" NAME="password" SIZE="25"  MAXLENGTH="25" VALUE=""> 
+	 
+	</td>
+</tr>
+
+<tr valign="top">
+	<TD NOWRAP class="boldcontent">
+		Retype your Password:
+	</TD>
+	<TD>
+		
+			<IMG SRC="/pix/RedDot.gif" BORDER="0" ALT="Required Fields">
+		
+	</TD>
+	<TD align="left"> 
+		<input TYPE="password" NAME="PWConfirm" SIZE="25"  MAXLENGTH="25" VALUE="">
+	
+	</td>
+</tr>
+
+
+
+
+	
+	<tr><TD valign="top" NOWRAP class="content"  colspan="3" height="30">&nbsp;</TD></TR>
+
+	
+	
+
+<script language="javascript">
+<!-- // hide it
+function checkAdditionUserInfoFields(aform) {
+
+	if ( !noNull(aform.company, "Company") ) return false;	
+
+	if ( !noNull(aform.address1, "Address") ) return false;
+
+	if ( !noNull(aform.city, "City") ) return false;
+
+	if ( !noUnselected(aform.country, "Country") ) return false;
+
+		if (aform.country.selectedIndex <= 2)	
+		{
+			if ( !noUnselected(aform.state, "State/Province") ) return false;
+		}
+	
+	if ( !noNull(aform.zip, "Zip/Postal Code") ) return false;
+
+	return true;
+}
+
+function noUnselected(fld, fieldName)
+{ 
+  if (fld.selectedIndex == 0) 
+  {  alert("The '" + fieldName + "' field needs a valid selection.");
+  		 fld.focus();
+	 return false;
+  }
+  return true;
+}
+
+
+//-->
+</script>
+
+<INPUT TYPE="hidden" NAME="RealNameNeeded" VALUE="0">
+
+
+<INPUT TYPE="hidden" NAME="EmailNeeded" VALUE="0">
+
+
+<INPUT TYPE="hidden" NAME="CompanyNeeded" VALUE="1">
+
+<tr valign="top">
+
+	
+	
+	
+	<td NOWRAP class="boldcontent">
+		Company:
+	</td>
+		
+	<TD>
+		<IMG SRC="/pix/RedDot.gif" BORDER="0" ALT="Required Fields">
+	</TD>
+	
+	<TD align="left">
+	
+		
+
+		<input TYPE="TEXT" NAME="company" SIZE="25"  MAXLENGTH="100" VALUE="">
+
+		
+	</td>
+	
+	
+
+</tr>
+
+
+<INPUT TYPE="hidden" NAME="AddressNeeded" VALUE="1">
+
+<tr valign="top">
+
+	
+	
+	
+	<td NOWRAP class="boldcontent">
+		Address:
+	</td>
+		
+	<TD>
+		<IMG SRC="/pix/RedDot.gif" BORDER="0" ALT="Required Fields">
+	</TD>
+	
+	<TD align="left">
+	
+		
+
+		<input TYPE="TEXT" NAME="address1" SIZE="25"  MAXLENGTH="50" VALUE="">
+
+		
+	</td>
+	
+	
+
+</tr>
+
+<tr valign="top">
+
+	
+	
+	
+	<td NOWRAP class="boldcontent">
+		&nbsp;
+	</td>
+		
+	<TD>
+		&nbsp;
+	</TD>
+	
+	<TD align="left">
+	
+		
+
+		<input TYPE="TEXT" NAME="address2" SIZE="25"  MAXLENGTH="50" VALUE="">
+
+		
+	</td>
+	
+	
+
+</tr>
+
+
+<INPUT TYPE="hidden" NAME="CityNeeded" VALUE="1">
+
+<tr valign="top">
+
+	
+	
+	
+	<td NOWRAP class="boldcontent">
+		City:
+	</td>
+		
+	<TD>
+		<IMG SRC="/pix/RedDot.gif" BORDER="0" ALT="Required Fields">
+	</TD>
+	
+	<TD align="left">
+	
+		
+
+		<input TYPE="TEXT" NAME="city" SIZE="25"  MAXLENGTH="50" VALUE="">
+
+		
+	</td>
+	
+	
+
+</tr>
+
+
+<INPUT TYPE="hidden" NAME="StateNeeded" VALUE="1">
+
+<tr valign="top">
+	<TD NOWRAP class="boldcontent">
+		State/Province:
+	</TD>
+	<TD>
+		
+			<IMG SRC="/pix/RedDot.gif" BORDER="0" ALT="Required Fields">
+		
+	</TD>
+	<TD align="left"> 
+	<table border="0" cellpadding="0" cellspacing="0">
+		<tr valign="top">
+			<td NOWRAP>
+	<select name="state"> <option value="">- Select - <option value="AL">Alabama <option value="AK">Alaska <option value="AB">Alberta <option value="AZ">Arizona <option value="AR">Arkansas <option value="BC">British Columbia <option value="CA">California <option value="CO">Colorado <option value="CT">Connecticut <option value="DE">Delaware <option value="DC">District of Columbia <option value="FL">Florida <option value="GA">Georgia <option value="HI">Hawaii <option value="ID">Idaho <option value="IL">Illinois <option value="IN">Indiana <option value="IA">Iowa <option value="KS">Kansas <option value="KY">Kentucky <option value="LA">Louisiana <option value="ME">Maine <option value="MB">Manitoba <option value="MD">Maryland <option value="MA">Massachusetts <option value="MI">Michigan <option value="MN">Minnesota <option value="MS">Mississippi <option value="MO">Missouri <option value="MT">Montana <option value="NE">Nebraska <option value="NV">Nevada <option value="NB">New Brunswick <option value="NH">New Hampshire <option value="NJ">New Jersey <option value="NM">New Mexico <option value="NY">New York <option value="NL">Newfoundland and Labrador <option value="NC">North Carolina <option value="ND">North Dakota <option value="NT">Northern Territories <option value="NS">Nova Scotia <option value="OH">Ohio <option value="OK">Oklahoma <option value="ON">Ontario <option value="OR">Oregon <option value="PA">Pennsylvania <option value="PE">Prince Edward Island <option value="PR">Puerto Rico <option value="QC">Quebec <option value="RI">Rhode Island <option value="SK">Saskatchewan <option value="SC">South Carolina <option value="SD">South Dakota <option value="TN">Tennessee <option value="TX">Texas <option value="UT">Utah <option value="VT">Vermont <option value="VA">Virginia <option value="WA">Washington <option value="WV">West Virginia <option value="WI">Wisconsin <option value="WY">Wyoming <option value="YT">Yukon Territory </select> 
+			</td>
+			<td>&nbsp;</td>
+			<td> 
+				<SMALL>Only required for US and Canada.</SMALL> 
+			</td>
+		</tr>
+	</table>
+	
+	</td>
+</tr>
+
+<tr valign="top">
+
+	
+	
+	
+	<td NOWRAP class="boldcontent">
+		State (Other):
+	</td>
+		
+	<TD>
+		&nbsp;
+	</TD>
+	
+	<TD align="left">
+	
+		
+			<table border="0" cellpadding="0" cellspacing="0">
+				<tr valign="top">
+					<td NOWRAP>
+		
+
+		<input TYPE="TEXT" NAME="stateother" SIZE="16"  MAXLENGTH="20" VALUE="">
+
+		
+					</td>
+					<td>
+						&nbsp;
+					</td>
+					<td> 
+						<SMALL>For addresses outside US or Canada.</SMALL> 
+					</td>
+				</tr>
+			</table>
+		
+	</td>
+	
+	
+
+</tr>
+
+
+<INPUT TYPE="hidden" NAME="ZipNeeded" VALUE="1">
+
+<tr valign="top">
+
+	
+	
+	
+	<td NOWRAP class="boldcontent">
+		Zip/Postal:
+	</td>
+		
+	<TD>
+		<IMG SRC="/pix/RedDot.gif" BORDER="0" ALT="Required Fields">
+	</TD>
+	
+	<TD align="left">
+	
+		
+
+		<input TYPE="TEXT" NAME="zip" SIZE="16"  MAXLENGTH="20" VALUE="">
+
+		
+	</td>
+	
+	
+
+</tr>
+
+
+<INPUT TYPE="hidden" NAME="CountryNeeded" VALUE="1">
+
+<tr valign="top">
+	<TD NOWRAP class="boldcontent">
+		Country:
+	</TD>
+	<TD>
+		
+			<IMG SRC="/pix/RedDot.gif" BORDER="0" ALT="Required Fields">
+		
+	</TD>
+	<TD align="left"> <select name="country"><option value="">- Select - 
+<option value="United States">United States</option>
+<option value="Canada">Canada</option>
+
+	<option value="Afghanistan">Afghanistan</option>
+
+	<option value="Albania">Albania</option>
+
+	<option value="Algeria">Algeria</option>
+
+	<option value="American Samoa">American Samoa</option>
+
+	<option value="Andorra">Andorra</option>
+
+	<option value="Angola">Angola</option>
+
+	<option value="Anguilla">Anguilla</option>
+
+	<option value="Antarctica">Antarctica</option>
+
+	<option value="Antigua & Barbuda">Antigua & Barbuda</option>
+
+	<option value="Argentina">Argentina</option>
+
+	<option value="Armenia">Armenia</option>
+
+	<option value="Aruba">Aruba</option>
+
+	<option value="Australia">Australia</option>
+
+	<option value="Austria">Austria</option>
+
+	<option value="Azerbaijan">Azerbaijan</option>
+
+	<option value="Bahamas">Bahamas</option>
+
+	<option value="Bahrain">Bahrain</option>
+
+	<option value="Bangladesh">Bangladesh</option>
+
+	<option value="Barbados">Barbados</option>
+
+	<option value="Belarus">Belarus</option>
+
+	<option value="Belgium">Belgium</option>
+
+	<option value="Belize">Belize</option>
+
+	<option value="Benin">Benin</option>
+
+	<option value="Bermuda">Bermuda</option>
+
+	<option value="Bhutan">Bhutan</option>
+
+	<option value="Bolivia">Bolivia</option>
+
+	<option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+
+	<option value="Botswana">Botswana</option>
+
+	<option value="Bouvet Island">Bouvet Island</option>
+
+	<option value="Brazil">Brazil</option>
+
+	<option value="British Indian Ocean Terr.">British Indian Ocean Terr.</option>
+
+	<option value="Brunei Darussalam">Brunei Darussalam</option>
+
+	<option value="Bulgaria">Bulgaria</option>
+
+	<option value="Burkina Faso">Burkina Faso</option>
+
+	<option value="Burma">Burma</option>
+
+	<option value="Burundi">Burundi</option>
+
+	<option value="Cambodia">Cambodia</option>
+
+	<option value="Cameroon">Cameroon</option>
+
+	<option value="Canada">Canada</option>
+
+	<option value="Cape Verde">Cape Verde</option>
+
+	<option value="Cayman Islands">Cayman Islands</option>
+
+	<option value="Central African Repub">Central African Repub</option>
+
+	<option value="Chad">Chad</option>
+
+	<option value="Channel Islands">Channel Islands</option>
+
+	<option value="Chile">Chile</option>
+
+	<option value="China">China</option>
+
+	<option value="Christmas Island">Christmas Island</option>
+
+	<option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
+
+	<option value="Colombia">Colombia</option>
+
+	<option value="Comoros">Comoros</option>
+
+	<option value="Congo">Congo</option>
+
+	<option value="Cook Islands">Cook Islands</option>
+
+	<option value="Costa Rica">Costa Rica</option>
+
+	<option value="Cote d`Ivoire">Cote d`Ivoire</option>
+
+	<option value="Croatia">Croatia</option>
+
+	<option value="Cuba">Cuba</option>
+
+	<option value="Cyprus">Cyprus</option>
+
+	<option value="Czech Republic">Czech Republic</option>
+
+	<option value="Denmark">Denmark</option>
+
+	<option value="Djibouti">Djibouti</option>
+
+	<option value="Dominica">Dominica</option>
+
+	<option value="Dominican Republic">Dominican Republic</option>
+
+	<option value="East Timor">East Timor</option>
+
+	<option value="Ecuador">Ecuador</option>
+
+	<option value="Egypt">Egypt</option>
+
+	<option value="El Salvador">El Salvador</option>
+
+	<option value="England">England</option>
+
+	<option value="Equatorial Guinea">Equatorial Guinea</option>
+
+	<option value="Eritrea">Eritrea</option>
+
+	<option value="Estonia">Estonia</option>
+
+	<option value="Ethiopia">Ethiopia</option>
+
+	<option value="Falkland Islands">Falkland Islands</option>
+
+	<option value="Fiji">Fiji</option>
+
+	<option value="Finland">Finland</option>
+
+	<option value="France">France</option>
+
+	<option value="French Guiana">French Guiana</option>
+
+	<option value="French Polynesia">French Polynesia</option>
+
+	<option value="Gabon">Gabon</option>
+
+	<option value="Gambia">Gambia</option>
+
+	<option value="Georgia">Georgia</option>
+
+	<option value="Germany">Germany</option>
+
+	<option value="Ghana">Ghana</option>
+
+	<option value="Gibraltar">Gibraltar</option>
+
+	<option value="Great Britain">Great Britain</option>
+
+	<option value="Greece">Greece</option>
+
+	<option value="Greenland">Greenland</option>
+
+	<option value="Grenada">Grenada</option>
+
+	<option value="Grenadines">Grenadines</option>
+
+	<option value="Guadeloupe">Guadeloupe</option>
+
+	<option value="Guam">Guam</option>
+
+	<option value="Guatemala">Guatemala</option>
+
+	<option value="Guinea">Guinea</option>
+
+	<option value="Guinea-Bissau">Guinea-Bissau</option>
+
+	<option value="Guyana">Guyana</option>
+
+	<option value="Haiti">Haiti</option>
+
+	<option value="Holy See">Holy See</option>
+
+	<option value="Honduras">Honduras</option>
+
+	<option value="Hong Kong">Hong Kong</option>
+
+	<option value="Hungary">Hungary</option>
+
+	<option value="Iceland">Iceland</option>
+
+	<option value="India">India</option>
+
+	<option value="Indonesia">Indonesia</option>
+
+	<option value="Iran">Iran</option>
+
+	<option value="Iraq">Iraq</option>
+
+	<option value="Ireland">Ireland</option>
+
+	<option value="Israel">Israel</option>
+
+	<option value="Italy">Italy</option>
+
+	<option value="Jamaica">Jamaica</option>
+
+	<option value="Japan">Japan</option>
+
+	<option value="Jordan">Jordan</option>
+
+	<option value="Kazakhstan">Kazakhstan</option>
+
+	<option value="Kenya">Kenya</option>
+
+	<option value="Kiribati">Kiribati</option>
+
+	<option value="Korea (North)">Korea (North)</option>
+
+	<option value="Korea (South)">Korea (South)</option>
+
+	<option value="Kuwait">Kuwait</option>
+
+	<option value="Kyrgyzstan">Kyrgyzstan</option>
+
+	<option value="Laos">Laos</option>
+
+	<option value="Latvia">Latvia</option>
+
+	<option value="Lebanon">Lebanon</option>
+
+	<option value="Lesotho">Lesotho</option>
+
+	<option value="Liberia">Liberia</option>
+
+	<option value="Libya">Libya</option>
+
+	<option value="Liechtenstein">Liechtenstein</option>
+
+	<option value="Lithuania">Lithuania</option>
+
+	<option value="Luxembourg">Luxembourg</option>
+
+	<option value="Macau">Macau</option>
+
+	<option value="Macedonia">Macedonia</option>
+
+	<option value="Madagascar">Madagascar</option>
+
+	<option value="Malawi">Malawi</option>
+
+	<option value="Malaysia">Malaysia</option>
+
+	<option value="Maldives">Maldives</option>
+
+	<option value="Mali">Mali</option>
+
+	<option value="Malta">Malta</option>
+
+	<option value="Marshall Islands">Marshall Islands</option>
+
+	<option value="Mauritania">Mauritania</option>
+
+	<option value="Mauritius">Mauritius</option>
+
+	<option value="Mayotte">Mayotte</option>
+
+	<option value="Mexico">Mexico</option>
+
+	<option value="Micronesia">Micronesia</option>
+
+	<option value="Moldova">Moldova</option>
+
+	<option value="Monaco">Monaco</option>
+
+	<option value="Mongolia">Mongolia</option>
+
+	<option value="Montserrat">Montserrat</option>
+
+	<option value="Morocco">Morocco</option>
+
+	<option value="Mozambique">Mozambique</option>
+
+	<option value="Myanmar">Myanmar</option>
+
+	<option value="Namibia">Namibia</option>
+
+	<option value="Nauru">Nauru</option>
+
+	<option value="Nepal">Nepal</option>
+
+	<option value="Netherlands">Netherlands</option>
+
+	<option value="Netherlands Antilles">Netherlands Antilles</option>
+
+	<option value="New Caledonia">New Caledonia</option>
+
+	<option value="New Zealand">New Zealand</option>
+
+	<option value="Nicaragua">Nicaragua</option>
+
+	<option value="Niger">Niger</option>
+
+	<option value="Nigeria">Nigeria</option>
+
+	<option value="Niue">Niue</option>
+
+	<option value="Norfolk Island">Norfolk Island</option>
+
+	<option value="Northern Ireland">Northern Ireland</option>
+
+	<option value="Northern Mariana Islands">Northern Mariana Islands</option>
+
+	<option value="Norway">Norway</option>
+
+	<option value="Oman">Oman</option>
+
+	<option value="Pakistan">Pakistan</option>
+
+	<option value="Palau">Palau</option>
+
+	<option value="Panama">Panama</option>
+
+	<option value="Papua New Guinea">Papua New Guinea</option>
+
+	<option value="Paraguay">Paraguay</option>
+
+	<option value="Peru">Peru</option>
+
+	<option value="Philippines">Philippines</option>
+
+	<option value="Poland">Poland</option>
+
+	<option value="Portugal">Portugal</option>
+
+	<option value="Puerto Rico">Puerto Rico</option>
+
+	<option value="Qatar">Qatar</option>
+
+	<option value="Reunion">Reunion</option>
+
+	<option value="Romania">Romania</option>
+
+	<option value="Russia">Russia</option>
+
+	<option value="Russian Federation">Russian Federation</option>
+
+	<option value="Rwanda">Rwanda</option>
+
+	<option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+
+	<option value="Saint Lucia">Saint Lucia</option>
+
+	<option value="Samoa">Samoa</option>
+
+	<option value="San Marino">San Marino</option>
+
+	<option value="Sao Tome and Principe">Sao Tome and Principe</option>
+
+	<option value="Saudi Arabia">Saudi Arabia</option>
+
+	<option value="Scotland">Scotland</option>
+
+	<option value="Senegal">Senegal</option>
+
+	<option value="Serbia-Montenegro">Serbia-Montenegro</option>
+
+	<option value="Seychelles">Seychelles</option>
+
+	<option value="Sierra Leone">Sierra Leone</option>
+
+	<option value="Singapore">Singapore</option>
+
+	<option value="Slovak Republic">Slovak Republic</option>
+
+	<option value="Slovakia">Slovakia</option>
+
+	<option value="Slovenia">Slovenia</option>
+
+	<option value="Solomon Islands">Solomon Islands</option>
+
+	<option value="Somalia">Somalia</option>
+
+	<option value="South Africa">South Africa</option>
+
+	<option value="Spain">Spain</option>
+
+	<option value="Sri Lanka">Sri Lanka</option>
+
+	<option value="St. Helena">St. Helena</option>
+
+	<option value="St. Pierre and Miquelon">St. Pierre and Miquelon</option>
+
+	<option value="St. Vincent">St. Vincent</option>
+
+	<option value="Sudan">Sudan</option>
+
+	<option value="Suriname">Suriname</option>
+
+	<option value="Swaziland">Swaziland</option>
+
+	<option value="Sweden">Sweden</option>
+
+	<option value="Switzerland">Switzerland</option>
+
+	<option value="Syria">Syria</option>
+
+	<option value="Taiwan">Taiwan</option>
+
+	<option value="Tajikistan">Tajikistan</option>
+
+	<option value="Tanzania">Tanzania</option>
+
+	<option value="Thailand">Thailand</option>
+
+	<option value="Togo">Togo</option>
+
+	<option value="Tokelau">Tokelau</option>
+
+	<option value="Tonga">Tonga</option>
+
+	<option value="Trinidad">Trinidad</option>
+
+	<option value="Trinidad and Tobago">Trinidad and Tobago</option>
+
+	<option value="Tunisia">Tunisia</option>
+
+	<option value="Turkey">Turkey</option>
+
+	<option value="Turkmenistan">Turkmenistan</option>
+
+	<option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
+
+	<option value="Tuvalu">Tuvalu</option>
+
+	<option value="U.S. Outlying Islands">U.S. Outlying Islands</option>
+
+	<option value="Uganda">Uganda</option>
+
+	<option value="Ukraine">Ukraine</option>
+
+	<option value="United Arab Emirates">United Arab Emirates</option>
+
+	<option value="United Kingdom">United Kingdom</option>
+
+	<option value="United States">United States</option>
+
+	<option value="Uruguay">Uruguay</option>
+
+	<option value="Uzbekistan">Uzbekistan</option>
+
+	<option value="Vanuatu">Vanuatu</option>
+
+	<option value="Vatican City State">Vatican City State</option>
+
+	<option value="Venezuela">Venezuela</option>
+
+	<option value="Viet Nam">Viet Nam</option>
+
+	<option value="Virgin Islands">Virgin Islands</option>
+
+	<option value="Wales">Wales</option>
+
+	<option value="Western Sahara">Western Sahara</option>
+
+	<option value="Western Samoa">Western Samoa</option>
+
+	<option value="Yemen">Yemen</option>
+
+	<option value="Yugoslavia">Yugoslavia</option>
+
+	<option value="Zaire">Zaire</option>
+
+	<option value="Zambia">Zambia</option>
+
+	<option value="Zimbabwe">Zimbabwe</option>
+</select> 
+	</td>
+</tr>
+
+
+<INPUT TYPE="hidden" NAME="PhoneNeeded" VALUE="0">
+
+<tr valign="top">
+
+	
+	
+	
+	<td NOWRAP class="boldcontent">
+		Your Phone:
+	</td>
+		
+	<TD>
+		&nbsp;
+	</TD>
+	
+	<TD align="left">
+	
+		
+
+		<input TYPE="TEXT" NAME="phone" SIZE="16"  MAXLENGTH="50" VALUE="">
+
+		
+	</td>
+	
+	
+
+</tr>
+
+
+<INPUT TYPE="hidden" NAME="FaxNeeded" VALUE="0">
+
+<tr valign="top">
+
+	
+	
+	
+	<td NOWRAP class="boldcontent">
+		Your Fax:
+	</td>
+		
+	<TD>
+		&nbsp;
+	</TD>
+	
+	<TD align="left">
+	
+		
+
+		<input TYPE="TEXT" NAME="fax" SIZE="16"  MAXLENGTH="50" VALUE="">
+
+		
+	</td>
+	
+	
+
+</tr>
+
+
+	
+	<tr><TD valign="top" NOWRAP class="content"  colspan="3" height="30">&nbsp;</TD></TR>
+	
+<tr valign="top">
+	<TD NOWRAP class="boldcontent">
+		Job Function:
+	</TD>
+	<TD>
+		
+			<IMG SRC="/pix/RedDot.gif" BORDER="0" ALT="Required Fields">
+		
+	</TD>
+	<TD align="left"> <select name="title"><option value="">- Select - <option VALUE="Engineering, Consulting">Engineering, Consulting <option VALUE="Engineering, Design">Engineering, Design <option VALUE="Engineering, Faculty/Staff/Student">Engineering, Faculty/Staff/Student <option VALUE="Engineering, Process/Production">Engineering, Process/Production <option VALUE="Engineering, Other">Engineering, Other <option VALUE="General Corporate Mgmt">General Corporate Mgmt <option VALUE="Manufacturing">Manufacturing <option VALUE="Marketing/Sales">Marketing/Sales <option VALUE="Purchasing">Purchasing <option VALUE="Quality Control/Assurance">Quality Control/Assurance <option VALUE="Research & Development">Research & Development <option VALUE="Technical Support/Services">Technical Support/Services <option VALUE="Other">Other </select> 
+	</td>
+</tr>
+
+<tr valign="top">
+	<TD NOWRAP class="boldcontent">
+		Industry:
+	</TD>
+	<TD>
+		
+			<IMG SRC="/pix/RedDot.gif" BORDER="0" ALT="Required Fields">
+		
+	</TD>
+	<TD align="left"> <select name="industry"><option value="">- Select - <option VALUE="Aerospace & Defense">Aerospace & Defense <option VALUE="Automotive">Automotive <option VALUE="Biotechnology/Pharmaceuticals">Biotechnology/Pharmaceuticals <option VALUE="Chemicals, Plastics & Rubber">Chemicals, Plastics & Rubber <option VALUE="Communications - Datacom/Telecom/Wireless/Network">Communications - Datacom/Telecom/Wireless/Network <option VALUE="Computers, Systems & Peripherals">Computers, Systems & Peripherals <option VALUE="Consumer Products/Electronics">Consumer Products/Electronics <option VALUE="Education">Education <option VALUE="Engineering/Tech Design Services">Engineering/Tech Design Services <option VALUE="Fabricated Metals">Fabricated Metals <option VALUE="Government">Government <option VALUE="HVAC, Fire Control, Safety">HVAC, Fire Control, Safety <option VALUE="Industrial Machinery/Tools & Equipment">Industrial Machinery/Tools & Equipment <option VALUE="Instrumentation & Controls">Instrumentation & Controls <option VALUE="Manufacturing, Other">Manufacturing, Other <option VALUE="Medical Equipment/Instrumentation">Medical Equipment/Instrumentation <option VALUE="Oil & Gas">Oil & Gas <option VALUE="Packaging Machinery">Packaging Machinery <option VALUE="Paper, Printing & Textiles">Paper, Printing & Textiles <option VALUE="Semiconductor & Electronic Components">Semiconductor & Electronic Components <option VALUE="Transportation">Transportation <option VALUE="Utilities/Energy">Utilities/Energy <option VALUE="Other">Other </select> 
+	</td>
+</tr>
+
+		<tr><td colspan="3">&nbsp;</td></tr>
+		<tr>
+			<td colspan="3" align="center">
+				<input type="image" name="send" src="/pix/buttons/submit2_button.gif" alt="submit" vspace="0" border="0" />
+			</td>
+		</tr>
+		<TR>
+			<td colspan="3" class="content">
+				
+				<br>
+				
+				
+					When you register you agree to our <A HREF="/Help/TermsOfUse" onClick="openWindow('/Help/TermsOfUse','popWinLink','height=500,WIDTH=600,left=300,right=300,scrollbars=yes,resizable=yes',1); return false;" class="linksWithUnderline">Terms of Use</a>.
+				
+			
+			</td>
+		</TR>
+	
+
+	<tr>	
+		<td class="smallContent" colspan="5">
+			Note: Privacy is a big deal.
+			Read our <a HREF="/Help/Privacy" onClick="openWindow('/Help/Privacy','popWinPrivicy','height=400,WIDTH=450,left=100,right=100,scrollbars=yes,resizable=yes',1); return false;" class="linksWithUnderline">Privacy Policy</a>.
+		</td>
+	</tr>
+					
+</TABLE>
+
+</form>
+
+
+
+<DIV CLASS="footerText" style="margin-top: 12px; text-align: center; clear: both;"> 
+
+	
+	<br>
+	<hr style="width: 90%;">
+	<hr style="width: 90%;">
+	
+	 
+			<table style="margin:0 auto;">
+				<tr>
+					<td align="left" colspan="2">
+						<A HREF="http://www.globalspec.com/" class="footerlinks">Home</A> 
+			            &nbsp; <span class="boldRedContent">|</span> &nbsp; <a HREF="http://www.globalspec.com/AboutUs" onclick="this.target = '_blank';" class="footerlinks">About&nbsp;GlobalSpec</a>
+					    &nbsp; <span class="boldRedContent">|</span> &nbsp; <a HREF="http://www.globalspec.com/Advertising" class="footerlinks">Advertise&nbsp;With&nbsp;Us</a>
+					    &nbsp; <span class="boldRedContent">|</span> &nbsp; <a HREF="http://www.globalspec.com/SiteMap" class="footerlinks">Site&nbsp;Map</a>
+					    &nbsp; <span class="boldRedContent">|</span> &nbsp; <a href="http://www.globalspec.com/SiteMap/Directory/" class="footerlinks">Top Categories</a>
+						&nbsp; <span class="boldRedContent">|</span> &nbsp; <A HREF="http://www.globalspec.com/Help/TermsOfUse" onclick="this.target = '_blank';" class="footerlinks">Terms&nbsp;of&nbsp;Use</A>		        
+						<br>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">
+						<a HREF="http://www.globalspec.com/Help/Privacy" class="footerlinks">Privacy&nbsp;Policy</a>
+						&nbsp; <span class="boldRedContent">|</span> &nbsp; <A HREF="http://www.globalspec.com/Information/LinkToOurSite" onclick="this.target = '_blank';" class="footerlinks">Link&nbsp;To&nbsp;Our&nbsp;Site</A>				    	
+						&nbsp; <span class="boldRedContent">|</span> &nbsp; <A HREF="http://www.globalspec.com/Submit-Site" class="footerlinks">Submit a Site</A>
+						&nbsp; <span class="boldRedContent">|</span> &nbsp; <A HREF="http://www.globalspec.com/Email/RecommendEmail" onclick="this.target = '_blank';" class="footerlinks">Recommend&nbsp;This&nbsp;Site</A>
+					  	<br>
+					</td>
+		  	 	</tr>
+			</table>			
+		
+
+	&copy;1999-2008 GlobalSpec.&nbsp; All rights reserved.&nbsp; GlobalSpec, the GlobalSpec logo, SpecSearch, The Engineering Search Engine and The Engineering<br> Web are registered trademarks of GlobalSpec, Inc. 
+	The Engineering Toolbar and DesignInfo are service marks of GlobalSpec, Inc.
+	<br>
+	No portion of this site may be copied, retransmitted, reposted, duplicated or otherwise used 
+	<br>
+	without the express written permission of GlobalSpec Inc.
+	
+	
+		&nbsp; 350 Jordan Rd, Troy, NY, 12180
+	 
+
+</DIV>
+
+	</body>
+	
+
+</HTML>

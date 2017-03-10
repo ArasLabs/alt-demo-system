@@ -1,0 +1,16 @@
+start of execution : 1/20/2009 3:59:51 PM
+Set "Root" value  for "Logon Allowed To" variable
+Updating com.aras.innovator.i18n to inprogress release status
+       ****Import with merge option  com.aras.innovator.i18n****
+     ****Error message****
+faultstring:    at System.IO.__Error.WinIOError(Int32 errorCode, String str)
+   at System.IO.Directory.InternalGetFileDirectoryNames(String fullPath, String userPath, Boolean file)
+   at System.IO.Directory.InternalGetDirectories(String path, String userPath, String searchPattern)
+   at System.IO.Directory.GetDirectories(String path, String searchPattern)
+   at Aras.Tools.SolutionUpgrade.Import.MainForm.ImportProc(String solutionName, StreamWriter logWriter, String strPath2Log)
+faultdetail: Could not find a part of the path "C:\Support\Solutions\Demo\InnovatorL10nClr\.\\com\aras\innovator\i18n". Unable to get solutions files by path in .mf file C:\Support\Solutions\Demo\InnovatorL10nClr\.\\com\aras\innovator\i18n
+faultcode:   -1
+     ********************** 
+Updating com.aras.innovator.i18n to failed release status
+Set "World" value  for "Logon Allowed To" variable
+end of execution : 1/20/2009 4:00:06 PM
