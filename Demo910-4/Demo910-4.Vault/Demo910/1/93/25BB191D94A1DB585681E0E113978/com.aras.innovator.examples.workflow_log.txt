@@ -1,0 +1,699 @@
+start of execution : 1/29/2008 3:55:45 PM
+Set "Root" value  for "Logon Allowed To" variable
+Updating com.aras.innovator.examples.workflow to inprogress release status
+       ****Import with merge option  com.aras.innovator.examples.workflow****
+Processing (add)   id : D2284CA89CB74D778EFF093D09B5FEAE    keyed_name : Workflow Branching Example    type : List  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>List</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Value</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Value</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Value</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : D2284CA89CB74D778EFF093D09B5FEAE    keyed_name : Workflow Branching Example    type : List  
+Adding item in packdefinition  id  D2284CA89CB74D778EFF093D09B5FEAE type List
+Item successfully added in packdefinition  id  D2284CA89CB74D778EFF093D09B5FEAE type List
+Processing (add)   id : ACAA37EE7C824F92A939CB208695B66D    keyed_name : Workflow Assignment Example    type : Sequence  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Sequence</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : ACAA37EE7C824F92A939CB208695B66D    keyed_name : Workflow Assignment Example    type : Sequence  
+Adding item in packdefinition  id  ACAA37EE7C824F92A939CB208695B66D type Sequence
+Item successfully added in packdefinition  id  ACAA37EE7C824F92A939CB208695B66D type Sequence
+Processing (add)   id : D503F96E44F94A7DB085BD9EBBC592C0    keyed_name : Workflow Branching Example    type : Sequence  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Sequence</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : D503F96E44F94A7DB085BD9EBBC592C0    keyed_name : Workflow Branching Example    type : Sequence  
+Adding item in packdefinition  id  D503F96E44F94A7DB085BD9EBBC592C0 type Sequence
+Item successfully added in packdefinition  id  D503F96E44F94A7DB085BD9EBBC592C0 type Sequence
+Processing (add)   id : 1C61638A0E8F416699C87BA369293EF7    keyed_name : Workflow EMail Example    type : Sequence  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Sequence</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 1C61638A0E8F416699C87BA369293EF7    keyed_name : Workflow EMail Example    type : Sequence  
+Adding item in packdefinition  id  1C61638A0E8F416699C87BA369293EF7 type Sequence
+Item successfully added in packdefinition  id  1C61638A0E8F416699C87BA369293EF7 type Sequence
+Processing (add)   id : 218398EFE4D04BB2A54D35E1C2FE65A7    keyed_name : Workflow Launch Example    type : Sequence  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Sequence</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 218398EFE4D04BB2A54D35E1C2FE65A7    keyed_name : Workflow Launch Example    type : Sequence  
+Adding item in packdefinition  id  218398EFE4D04BB2A54D35E1C2FE65A7 type Sequence
+Item successfully added in packdefinition  id  218398EFE4D04BB2A54D35E1C2FE65A7 type Sequence
+Processing (add)   id : A35B6EF9512448B29B7EF5BCAFD1EFB5    keyed_name : Workflow Assignment Example    type : Permission  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Permission</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Access</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : A35B6EF9512448B29B7EF5BCAFD1EFB5    keyed_name : Workflow Assignment Example    type : Permission  
+Adding item in packdefinition  id  A35B6EF9512448B29B7EF5BCAFD1EFB5 type Permission
+Item successfully added in packdefinition  id  A35B6EF9512448B29B7EF5BCAFD1EFB5 type Permission
+Processing (add)   id : 635A78E21AAD4ACD8BDF59CC6A24F3C3    keyed_name : Workflow Branching Example    type : Permission  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Permission</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Access</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 635A78E21AAD4ACD8BDF59CC6A24F3C3    keyed_name : Workflow Branching Example    type : Permission  
+Adding item in packdefinition  id  635A78E21AAD4ACD8BDF59CC6A24F3C3 type Permission
+Item successfully added in packdefinition  id  635A78E21AAD4ACD8BDF59CC6A24F3C3 type Permission
+Processing (add)   id : 6A179EB5ADD34531BCEC07C80BA95979    keyed_name : Workflow EMail Example    type : Permission  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Permission</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Access</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 6A179EB5ADD34531BCEC07C80BA95979    keyed_name : Workflow EMail Example    type : Permission  
+Adding item in packdefinition  id  6A179EB5ADD34531BCEC07C80BA95979 type Permission
+Item successfully added in packdefinition  id  6A179EB5ADD34531BCEC07C80BA95979 type Permission
+Processing (add)   id : 6468FD6092D34925AA5BC033AEBAF3CE    keyed_name : Workflow Launch Example    type : Permission  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Permission</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Access</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 6468FD6092D34925AA5BC033AEBAF3CE    keyed_name : Workflow Launch Example    type : Permission  
+Adding item in packdefinition  id  6468FD6092D34925AA5BC033AEBAF3CE type Permission
+Item successfully added in packdefinition  id  6468FD6092D34925AA5BC033AEBAF3CE type Permission
+Processing (add)   id : 38582806AB8F4CAEBE0B5F591626A08A    keyed_name : Get Controlled Item    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 38582806AB8F4CAEBE0B5F591626A08A    keyed_name : Get Controlled Item    type : Method  
+Adding item in packdefinition  id  38582806AB8F4CAEBE0B5F591626A08A type Method
+Getting config_id  of versionable item  id  38582806AB8F4CAEBE0B5F591626A08A type Method
+Item successfully added in packdefinition  id  38582806AB8F4CAEBE0B5F591626A08A type Method
+Processing (add)   id : 08724A1BD4D6464CA272F32096A8D167    keyed_name : Workflow Assignment Example    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 08724A1BD4D6464CA272F32096A8D167    keyed_name : Workflow Assignment Example    type : Method  
+Adding item in packdefinition  id  08724A1BD4D6464CA272F32096A8D167 type Method
+Getting config_id  of versionable item  id  08724A1BD4D6464CA272F32096A8D167 type Method
+Item successfully added in packdefinition  id  08724A1BD4D6464CA272F32096A8D167 type Method
+Processing (add)   id : 28A2B125A316440BABEA6048B567F158    keyed_name : Workflow Branching Example    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 28A2B125A316440BABEA6048B567F158    keyed_name : Workflow Branching Example    type : Method  
+Adding item in packdefinition  id  28A2B125A316440BABEA6048B567F158 type Method
+Getting config_id  of versionable item  id  28A2B125A316440BABEA6048B567F158 type Method
+Item successfully added in packdefinition  id  28A2B125A316440BABEA6048B567F158 type Method
+Processing (add)   id : BF3547F6702F4E50B0D34DE852305DE9    keyed_name : Workflow Launch Example    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : BF3547F6702F4E50B0D34DE852305DE9    keyed_name : Workflow Launch Example    type : Method  
+Adding item in packdefinition  id  BF3547F6702F4E50B0D34DE852305DE9 type Method
+Getting config_id  of versionable item  id  BF3547F6702F4E50B0D34DE852305DE9 type Method
+Item successfully added in packdefinition  id  BF3547F6702F4E50B0D34DE852305DE9 type Method
+Processing (add)   id : 142FC001DE3E4B389482694C203A9E35    keyed_name : Activity Notification EMail    type : EMail Message  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>EMail Message</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 142FC001DE3E4B389482694C203A9E35    keyed_name : Activity Notification EMail    type : EMail Message  
+Processing (add)   id : 967274D7B47241B9A54988275D4DBB68    keyed_name : Simple Activity Notification EMail    type : EMail Message  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>EMail Message</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 967274D7B47241B9A54988275D4DBB68    keyed_name : Simple Activity Notification EMail    type : EMail Message  
+Processing (add)   id : FCF34AD7044F4F78BECFE1831A27F680    keyed_name : Get Controlled Item    type : Action  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Method" action="get" select="id"><name>Get Controlled Item</name></Item></AML>
+   was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Action</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : FCF34AD7044F4F78BECFE1831A27F680    keyed_name : Get Controlled Item    type : Action  
+Adding item in packdefinition  id  FCF34AD7044F4F78BECFE1831A27F680 type Action
+Item successfully added in packdefinition  id  FCF34AD7044F4F78BECFE1831A27F680 type Action
+Processing (add)   id : 5829FA615FEB49DAA3D1623064C6AC35    keyed_name : Workflow Launch Example    type : Action  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Method" action="get" select="id"><name>Workflow Launch Example</name></Item></AML>
+   was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Action</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 5829FA615FEB49DAA3D1623064C6AC35    keyed_name : Workflow Launch Example    type : Action  
+Adding item in packdefinition  id  5829FA615FEB49DAA3D1623064C6AC35 type Action
+Item successfully added in packdefinition  id  5829FA615FEB49DAA3D1623064C6AC35 type Action
+Processing (add)   id : 75A8B6783DEC4664BBF5239516458AC2    keyed_name : Workflow Assignment Example    type : Form  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Form</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Body</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 75A8B6783DEC4664BBF5239516458AC2    keyed_name : Workflow Assignment Example    type : Form  
+Adding item in packdefinition  id  75A8B6783DEC4664BBF5239516458AC2 type Form
+Item successfully added in packdefinition  id  75A8B6783DEC4664BBF5239516458AC2 type Form
+Processing (add)   id : EA8F30CFB7604F0CBEAB476807AF8D1E    keyed_name : Workflow Branching Example    type : Form  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Form</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Body</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : EA8F30CFB7604F0CBEAB476807AF8D1E    keyed_name : Workflow Branching Example    type : Form  
+Adding item in packdefinition  id  EA8F30CFB7604F0CBEAB476807AF8D1E type Form
+Item successfully added in packdefinition  id  EA8F30CFB7604F0CBEAB476807AF8D1E type Form
+Processing (add)   id : 07EB6D09100740E1BB0D6492E4286FB6    keyed_name : Workflow EMail Example    type : Form  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Form</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Body</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 07EB6D09100740E1BB0D6492E4286FB6    keyed_name : Workflow EMail Example    type : Form  
+Adding item in packdefinition  id  07EB6D09100740E1BB0D6492E4286FB6 type Form
+Item successfully added in packdefinition  id  07EB6D09100740E1BB0D6492E4286FB6 type Form
+Processing (add)   id : 8A318EA92BA64B7B8D13A6D0B4C09893    keyed_name : Workflow Launch Example    type : Form  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Form</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Body</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 8A318EA92BA64B7B8D13A6D0B4C09893    keyed_name : Workflow Launch Example    type : Form  
+Adding item in packdefinition  id  8A318EA92BA64B7B8D13A6D0B4C09893 type Form
+Item successfully added in packdefinition  id  8A318EA92BA64B7B8D13A6D0B4C09893 type Form
+Processing (add)   id : 203FF3F8047E40AEB6C1476155A0F636    keyed_name : Workflow Launch Example    type : Life Cycle Map  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Method" action="get" select="id"><name>Workflow Launch Example</name></Item></AML>
+   was obtained from cache
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Life Cycle Map</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Life Cycle State</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Life Cycle State</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Life Cycle Transition</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 203FF3F8047E40AEB6C1476155A0F636    keyed_name : Workflow Launch Example    type : Life Cycle Map  
+Adding item in packdefinition  id  203FF3F8047E40AEB6C1476155A0F636 type Life Cycle Map
+Item successfully added in packdefinition  id  203FF3F8047E40AEB6C1476155A0F636 type Life Cycle Map
+Processing (add)   id : 45EAF70528D041E084E2A331E973CD29    keyed_name : Workflow Assignment Example    type : Workflow Map  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>Innovator Admin</name></Item></AML>
+   was obtained from server
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>Innovator Admin</name></Item></AML>
+   was obtained from cache
+checking item with get actions
+<AML><Item type="Method" action="get" select="id"><name>Workflow Assignment Example</name></Item></AML>
+   was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Workflow Map</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Workflow Map Activity</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Workflow Map Activity</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Workflow Map Activity</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 45EAF70528D041E084E2A331E973CD29    keyed_name : Workflow Assignment Example    type : Workflow Map  
+Adding item in packdefinition  id  45EAF70528D041E084E2A331E973CD29 type Workflow Map
+Getting config_id  of versionable item  id  45EAF70528D041E084E2A331E973CD29 type Workflow Map
+Item successfully added in packdefinition  id  45EAF70528D041E084E2A331E973CD29 type Workflow Map
+Processing (add)   id : 2DA30BB10B7F4B7E85DE485ED6D9C164    keyed_name : Workflow Branching Example    type : Workflow Map  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>Innovator Admin</name></Item></AML>
+   was obtained from cache
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>Innovator Admin</name></Item></AML>
+   was obtained from cache
+checking item with get actions
+<AML><Item type="Method" action="get" select="id"><name>Workflow Branching Example</name></Item></AML>
+   was obtained from server
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>Innovator Admin</name></Item></AML>
+   was obtained from cache
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>Innovator Admin</name></Item></AML>
+   was obtained from cache
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>Innovator Admin</name></Item></AML>
+   was obtained from cache
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>Innovator Admin</name></Item></AML>
+   was obtained from cache
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>Innovator Admin</name></Item></AML>
+   was obtained from cache
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>Innovator Admin</name></Item></AML>
+   was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Workflow Map</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Workflow Map Activity</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Workflow Map Activity</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Workflow Map Activity</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Workflow Map Activity</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Workflow Map Activity</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Workflow Map Activity</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 2DA30BB10B7F4B7E85DE485ED6D9C164    keyed_name : Workflow Branching Example    type : Workflow Map  
+Adding item in packdefinition  id  2DA30BB10B7F4B7E85DE485ED6D9C164 type Workflow Map
+Getting config_id  of versionable item  id  2DA30BB10B7F4B7E85DE485ED6D9C164 type Workflow Map
+Item successfully added in packdefinition  id  2DA30BB10B7F4B7E85DE485ED6D9C164 type Workflow Map
+Processing (add)   id : B2432BCDB63848A2AD3F3C97457F0E20    keyed_name : Workflow EMail Example    type : Workflow Map  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>Innovator Admin</name></Item></AML>
+   was obtained from cache
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>Innovator Admin</name></Item></AML>
+   was obtained from cache
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>Innovator Admin</name></Item></AML>
+   was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Workflow Map</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Workflow Map Activity</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Workflow Map Activity</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Workflow Map Activity</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for related items
+<AML><Item type='EMail Message' action='get' levels='0'><id>142FC001DE3E4B389482694C203A9E35</id></Item></AML>
+   was obtained from server
+checking for related items
+<AML><Item type='EMail Message' action='get' levels='0'><id>967274D7B47241B9A54988275D4DBB68</id></Item></AML>
+   was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : B2432BCDB63848A2AD3F3C97457F0E20    keyed_name : Workflow EMail Example    type : Workflow Map  
+Adding item in packdefinition  id  B2432BCDB63848A2AD3F3C97457F0E20 type Workflow Map
+Getting config_id  of versionable item  id  B2432BCDB63848A2AD3F3C97457F0E20 type Workflow Map
+Item successfully added in packdefinition  id  B2432BCDB63848A2AD3F3C97457F0E20 type Workflow Map
+Processing (add)   id : 645D30ECD71D405AB3A7524CEA7A9CD1    keyed_name : Workflow Launch Example    type : Workflow Map  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>Innovator Admin</name></Item></AML>
+   was obtained from cache
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>Innovator Admin</name></Item></AML>
+   was obtained from cache
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>Innovator Admin</name></Item></AML>
+   was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Workflow Map</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Workflow Map Activity</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Workflow Map Activity</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Workflow Map Activity</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 645D30ECD71D405AB3A7524CEA7A9CD1    keyed_name : Workflow Launch Example    type : Workflow Map  
+Adding item in packdefinition  id  645D30ECD71D405AB3A7524CEA7A9CD1 type Workflow Map
+Getting config_id  of versionable item  id  645D30ECD71D405AB3A7524CEA7A9CD1 type Workflow Map
+Item successfully added in packdefinition  id  645D30ECD71D405AB3A7524CEA7A9CD1 type Workflow Map
+Processing (add)   id : B4719B8F3D0B450AAF86B3C23AD4FDB8    keyed_name : Workflow Assignment Example    type : ItemType  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from cache
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Allowed Permission</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Allowed Workflow</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Can Add</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>TOC Access</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>View</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking <data_source> reference to list/sequence
+<AML><Item action='get' type='sequence' select='id'><id>ACAA37EE7C824F92A939CB208695B66D</id></Item></AML>
+  was obtained from server
+checking <data_source> reference to the ItemType
+<AML><Item type='ItemType' action='get' select='id'><name>Identity</name></Item></AML>
+  was obtained from server
+checking <data_source> reference to the ItemType
+<AML><Item type='ItemType' action='get' select='id'><name>Identity</name></Item></AML>
+  was obtained from cache
+checking <data_source> reference to the ItemType
+<AML><Item type='ItemType' action='get' select='id'><name>Identity</name></Item></AML>
+  was obtained from cache
+checking for related items
+<AML><Item type='Permission' action='get' levels='0'><id>A35B6EF9512448B29B7EF5BCAFD1EFB5</id></Item></AML>
+   was obtained from server
+checking for related items
+<AML><Item type='Workflow Map' action='get' levels='0'><id>45EAF70528D041E084E2A331E973CD29</id></Item></AML>
+   was obtained from server
+checking for related items
+<AML><Item type='Identity' action='get' levels='0'><id>2618D6F5A90949BAA7E920D1B04C7EE1</id></Item></AML>
+   was obtained from server
+checking for related items
+<AML><Item type='Form' action='get' levels='0'><id>75A8B6783DEC4664BBF5239516458AC2</id></Item></AML>
+   was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : B4719B8F3D0B450AAF86B3C23AD4FDB8    keyed_name : Workflow Assignment Example    type : ItemType  
+Adding item in packdefinition  id  B4719B8F3D0B450AAF86B3C23AD4FDB8 type ItemType
+Item successfully added in packdefinition  id  B4719B8F3D0B450AAF86B3C23AD4FDB8 type ItemType
+Processing (add)   id : B0642BD431254FCFB471ADE941B3BE44    keyed_name : Workflow Branching Example    type : ItemType  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from cache
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Allowed Permission</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Allowed Workflow</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Can Add</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>TOC Access</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>View</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking <data_source> reference to list/sequence
+<AML><Item action='get' type='sequence' select='id'><id>D503F96E44F94A7DB085BD9EBBC592C0</id></Item></AML>
+  was obtained from server
+checking <data_source> reference to list/sequence
+<AML><Item action='get' type='list' select='id'><id>D2284CA89CB74D778EFF093D09B5FEAE</id></Item></AML>
+  was obtained from server
+checking for related items
+<AML><Item type='Permission' action='get' levels='0'><id>635A78E21AAD4ACD8BDF59CC6A24F3C3</id></Item></AML>
+   was obtained from server
+checking for related items
+<AML><Item type='Workflow Map' action='get' levels='0'><id>2DA30BB10B7F4B7E85DE485ED6D9C164</id></Item></AML>
+   was obtained from server
+checking for related items
+<AML><Item type='Identity' action='get' levels='0'><id>2618D6F5A90949BAA7E920D1B04C7EE1</id></Item></AML>
+   was obtained from cache
+checking for related items
+<AML><Item type='Form' action='get' levels='0'><id>EA8F30CFB7604F0CBEAB476807AF8D1E</id></Item></AML>
+   was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : B0642BD431254FCFB471ADE941B3BE44    keyed_name : Workflow Branching Example    type : ItemType  
+Adding item in packdefinition  id  B0642BD431254FCFB471ADE941B3BE44 type ItemType
+Item successfully added in packdefinition  id  B0642BD431254FCFB471ADE941B3BE44 type ItemType
+Processing (add)   id : 1AB937489DFE4D6CAF99EDE92F997EDE    keyed_name : Workflow EMail Example    type : ItemType  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from cache
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Allowed Permission</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Allowed Workflow</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Can Add</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>TOC Access</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>View</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking <data_source> reference to list/sequence
+<AML><Item action='get' type='sequence' select='id'><id>1C61638A0E8F416699C87BA369293EF7</id></Item></AML>
+  was obtained from server
+checking for related items
+<AML><Item type='Permission' action='get' levels='0'><id>6A179EB5ADD34531BCEC07C80BA95979</id></Item></AML>
+   was obtained from server
+checking for related items
+<AML><Item type='Workflow Map' action='get' levels='0'><id>B2432BCDB63848A2AD3F3C97457F0E20</id></Item></AML>
+   was obtained from server
+checking for related items
+<AML><Item type='Identity' action='get' levels='0'><id>2618D6F5A90949BAA7E920D1B04C7EE1</id></Item></AML>
+   was obtained from cache
+checking for related items
+<AML><Item type='Form' action='get' levels='0'><id>07EB6D09100740E1BB0D6492E4286FB6</id></Item></AML>
+   was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 1AB937489DFE4D6CAF99EDE92F997EDE    keyed_name : Workflow EMail Example    type : ItemType  
+Adding item in packdefinition  id  1AB937489DFE4D6CAF99EDE92F997EDE type ItemType
+Item successfully added in packdefinition  id  1AB937489DFE4D6CAF99EDE92F997EDE type ItemType
+Processing (add)   id : E5E968B4AEFD4A2A950A892EBE419280    keyed_name : Workflow Launch Example    type : ItemType  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from cache
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Allowed Permission</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Allowed Workflow</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Can Add</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Item Action</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>TOC Access</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>View</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking <data_source> reference to list/sequence
+<AML><Item action='get' type='sequence' select='id'><id>218398EFE4D04BB2A54D35E1C2FE65A7</id></Item></AML>
+  was obtained from server
+checking for related items
+<AML><Item type='Permission' action='get' levels='0'><id>6468FD6092D34925AA5BC033AEBAF3CE</id></Item></AML>
+   was obtained from server
+checking for related items
+<AML><Item type='Workflow Map' action='get' levels='0'><id>645D30ECD71D405AB3A7524CEA7A9CD1</id></Item></AML>
+   was obtained from server
+checking for related items
+<AML><Item type='Action' action='get' levels='0'><id>5829FA615FEB49DAA3D1623064C6AC35</id></Item></AML>
+   was obtained from server
+checking for related items
+<AML><Item type='Identity' action='get' levels='0'><id>2618D6F5A90949BAA7E920D1B04C7EE1</id></Item></AML>
+   was obtained from cache
+checking for related items
+<AML><Item type='Form' action='get' levels='0'><id>8A318EA92BA64B7B8D13A6D0B4C09893</id></Item></AML>
+   was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : E5E968B4AEFD4A2A950A892EBE419280    keyed_name : Workflow Launch Example    type : ItemType  
+Adding item in packdefinition  id  E5E968B4AEFD4A2A950A892EBE419280 type ItemType
+Item successfully added in packdefinition  id  E5E968B4AEFD4A2A950A892EBE419280 type ItemType
+completed
+Set "World" value  for "Logon Allowed To" variable
+Updating com.aras.innovator.examples.workflow to success release status
+end of execution : 1/29/2008 3:56:18 PM

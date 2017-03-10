@@ -1,0 +1,247 @@
+start of execution : 8/7/2008 11:50:02 AM
+Set "Root" value  for "Logon Allowed To" variable
+Updating RISK to inprogress release status
+       ****Import with merge option  RISK****
+Processing (add)   id : 2CF0DF2BA2EC4C27A2D48A57BC9C0047    keyed_name : RISK_editor_update RPN4Action    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 2CF0DF2BA2EC4C27A2D48A57BC9C0047    keyed_name : RISK_editor_update RPN4Action    type : Method  
+Adding item in packdefinition  id  A3F188D84DBD4F5CA8BE0B4849D99293 type Method
+Getting config_id  of versionable item  id  A3F188D84DBD4F5CA8BE0B4849D99293 type Method
+Item already exist in packdefinition  id  2CF0DF2BA2EC4C27A2D48A57BC9C0047 type Method
+Processing (add)   id : B5BD0B78531445AA9B4877F7C76EA2EC    keyed_name : RISK_editor_update RPN4Controls    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : B5BD0B78531445AA9B4877F7C76EA2EC    keyed_name : RISK_editor_update RPN4Controls    type : Method  
+Adding item in packdefinition  id  CF5104FB15F5415E8DD73C11C2292A61 type Method
+Getting config_id  of versionable item  id  CF5104FB15F5415E8DD73C11C2292A61 type Method
+Item already exist in packdefinition  id  B5BD0B78531445AA9B4877F7C76EA2EC type Method
+Processing (add)   id : E7443526B1BC4E7187575EEF5D318710    keyed_name : RISK Editor    type : Grid  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Method" action="get" select="id"><name>APQP_CP_onCopy</name></Item></AML>
+   was obtained from server
+checking item with get actions
+<AML><Item type="Method" action="get" select="id"><name>RISK_editor_update RPN4Controls</name></Item></AML>
+   was obtained from server
+checking item with get actions
+<AML><Item type="Method" action="get" select="id"><name>RISK_editor_update RPN4Action</name></Item></AML>
+   was obtained from server
+checking item with get actions
+<AML><Item type="Method" action="get" select="id"><name>RISK_editor_update RPN4Controls</name></Item></AML>
+   was obtained from cache
+checking item with get actions
+<AML><Item type="Method" action="get" select="id"><name>RISK_editor_update RPN4Action</name></Item></AML>
+   was obtained from cache
+checking item with get actions
+<AML><Item type="Method" action="get" select="id"><name>RISK_editor_update RPN4Controls</name></Item></AML>
+   was obtained from cache
+checking item with get actions
+<AML><Item type="Method" action="get" select="id"><name>RISK_editor_update RPN4Action</name></Item></AML>
+   was obtained from cache
+checking item with get actions
+<AML><Item type="Method" action="get" select="id"><name>APQP_editor_update RPN4Controls</name></Item></AML>
+   was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Configurable Grid Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Column Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Column Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Column Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Column Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Column Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Column Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Column Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : E7443526B1BC4E7187575EEF5D318710    keyed_name : RISK Editor    type : Grid  
+Adding item in packdefinition  id  E7443526B1BC4E7187575EEF5D318710 type Grid
+Item already exist in packdefinition  id  E7443526B1BC4E7187575EEF5D318710 type Grid
+Processing (add)   id : 37D21E69AA454E228B7A68135DAA6C7E    keyed_name : Activity2 Characteristic    type : RelationshipType  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>RelationshipType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking RelationshipType's source_id,related_id
+<AML><Item levels='0' action='get' type='ItemType' ><id>15CD4758D6FA492399DF8086B961358D</id></Item></AML>
+  was obtained from server
+checking RelationshipType's source_id,related_id
+<AML><Item levels='0' action='get' type='ItemType' ><id>E236DB697E294C46B630C99A0D20C2B1</id></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 37D21E69AA454E228B7A68135DAA6C7E    keyed_name : Activity2 Characteristic    type : RelationshipType  
+Adding item in packdefinition  id  37D21E69AA454E228B7A68135DAA6C7E type RelationshipType
+Item already exist in packdefinition  id  37D21E69AA454E228B7A68135DAA6C7E type RelationshipType
+Processing (add)   id : 4C09F4AE3CA64447B92F13975E024936    keyed_name : Activity2 FMEA    type : RelationshipType  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>RelationshipType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Relationship View</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking RelationshipType's source_id,related_id
+<AML><Item levels='0' action='get' type='ItemType' ><id>E236DB697E294C46B630C99A0D20C2B1</id></Item></AML>
+  was obtained from cache
+checking Grids types
+<AML><Item levels='0' action='get' type='Grid' ><id>E7443526B1BC4E7187575EEF5D318710</id></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 4C09F4AE3CA64447B92F13975E024936    keyed_name : Activity2 FMEA    type : RelationshipType  
+Adding item in packdefinition  id  4C09F4AE3CA64447B92F13975E024936 type RelationshipType
+Item already exist in packdefinition  id  4C09F4AE3CA64447B92F13975E024936 type RelationshipType
+Processing (add)   id : CC61E0B122D448CDACEA010F55530DEA    keyed_name : Activity2 Char Failure Mode    type : RelationshipType  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>RelationshipType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking RelationshipType's source_id,related_id
+<AML><Item levels='0' action='get' type='ItemType' ><id>5DB64294F9064672A2BD81C6BDDC2E59</id></Item></AML>
+  was obtained from server
+checking RelationshipType's source_id,related_id
+<AML><Item levels='0' action='get' type='ItemType' ><id>A63D8392EE0E45F4A7DB224C0F2FF4EB</id></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : CC61E0B122D448CDACEA010F55530DEA    keyed_name : Activity2 Char Failure Mode    type : RelationshipType  
+Adding item in packdefinition  id  CC61E0B122D448CDACEA010F55530DEA type RelationshipType
+Item already exist in packdefinition  id  CC61E0B122D448CDACEA010F55530DEA type RelationshipType
+Processing (add)   id : B9D77B909EC448BFAC32AFD39D07C0E8    keyed_name : rpn    type : Field  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : B9D77B909EC448BFAC32AFD39D07C0E8    keyed_name : rpn    type : Field  
+Adding item in packdefinition  id  B9D77B909EC448BFAC32AFD39D07C0E8 type Field
+Item already exist in packdefinition  id  B9D77B909EC448BFAC32AFD39D07C0E8 type Field
+Processing (add)   id : F84CE3025D6643E294B53097E631A062    keyed_name : rpn    type : Property  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : F84CE3025D6643E294B53097E631A062    keyed_name : rpn    type : Property  
+Adding item in packdefinition  id  F84CE3025D6643E294B53097E631A062 type Property
+Item already exist in packdefinition  id  F84CE3025D6643E294B53097E631A062 type Property
+Processing (delete)     type : View  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : View  
+Processing (delete)     type : View  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : View  
+Processing (delete)     type : View  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : View  
+Processing (delete)     type : Form  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : Form  
+Processing (delete)     type : Form  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : Form  
+Processing (delete)     type : Form  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : Form  
+Processing (add)   id : 7AF4F868E05C4F0C9F1E929889F31EF8    keyed_name : 12    type : PM_ProjectGridLayout  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>PM_ProjectGridLayout</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 7AF4F868E05C4F0C9F1E929889F31EF8    keyed_name : 12    type : PM_ProjectGridLayout  
+Adding item in packdefinition  id  7AF4F868E05C4F0C9F1E929889F31EF8 type PM_ProjectGridLayout
+Item already exist in packdefinition  id  7AF4F868E05C4F0C9F1E929889F31EF8 type PM_ProjectGridLayout
+completed
+Set "World" value  for "Logon Allowed To" variable
+Updating RISK to success release status
+end of execution : 8/7/2008 11:50:04 AM

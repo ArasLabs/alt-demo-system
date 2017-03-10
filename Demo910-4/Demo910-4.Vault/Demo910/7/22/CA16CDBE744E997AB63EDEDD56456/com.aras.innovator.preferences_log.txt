@@ -1,0 +1,26 @@
+start of execution : 3/3/2008 9:18:46 PM
+Set "Root" value  for "Logon Allowed To" variable
+Updating com.aras.innovator.preferences to inprogress release status
+       ****Import with merge option  com.aras.innovator.preferences****
+Processing (add)   id : 3A39B8D0B6004E61B7D89A1B70BC289F    keyed_name : Core_FavoriteMetaData    type : Form  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Form</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Body</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 3A39B8D0B6004E61B7D89A1B70BC289F    keyed_name : Core_FavoriteMetaData    type : Form  
+Adding item in packdefinition  id  3A39B8D0B6004E61B7D89A1B70BC289F type Form
+Item already exist in packdefinition  id  3A39B8D0B6004E61B7D89A1B70BC289F type Form
+completed
+Set "World" value  for "Logon Allowed To" variable
+Updating com.aras.innovator.preferences to success release status
+end of execution : 3/3/2008 9:18:55 PM

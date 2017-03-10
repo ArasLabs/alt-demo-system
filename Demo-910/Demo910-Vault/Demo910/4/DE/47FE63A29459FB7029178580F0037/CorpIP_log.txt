@@ -1,8 +1,0 @@
-start of execution : 1/9/2008 3:10:57 PM
-Set "Root" value  for "Logon Allowed To" variable
-Updating CorpIP to inprogress release status
-       ****Import with merge option  CorpIP****
-completed
-Set "World" value  for "Logon Allowed To" variable
-Updating CorpIP to success release status
-end of execution : 1/9/2008 3:10:58 PM

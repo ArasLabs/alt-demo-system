@@ -1,0 +1,64 @@
+start of execution : 5/19/2009 10:18:35 AM
+Set "Root" value  for "Logon Allowed To" variable
+Updating Document Has File Flag to inprogress release status
+       ****Import with merge option  Document Has File Flag****
+Processing (add)   id : D1F163DAD5AA4066B174FA33F4290DE6    keyed_name : Detect DocFiles added or removed    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : D1F163DAD5AA4066B174FA33F4290DE6    keyed_name : Detect DocFiles added or removed    type : Method  
+Adding item in packdefinition  id  D1F163DAD5AA4066B174FA33F4290DE6 type Method
+Getting config_id  of versionable item  id  D1F163DAD5AA4066B174FA33F4290DE6 type Method
+Item successfully added in packdefinition  id  D1F163DAD5AA4066B174FA33F4290DE6 type Method
+Processing (add)   id : 3DBD5DE093024EBC9144497DA51E97BC    keyed_name : Detect Item has File    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 3DBD5DE093024EBC9144497DA51E97BC    keyed_name : Detect Item has File    type : Method  
+Adding item in packdefinition  id  3DBD5DE093024EBC9144497DA51E97BC type Method
+Getting config_id  of versionable item  id  3DBD5DE093024EBC9144497DA51E97BC type Method
+Item successfully added in packdefinition  id  3DBD5DE093024EBC9144497DA51E97BC type Method
+Processing (add)   id : 65F6A94DAEBC4C4CB90560794DE1A5B8    keyed_name : has_files    type : Field  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 65F6A94DAEBC4C4CB90560794DE1A5B8    keyed_name : has_files    type : Field  
+Adding item in packdefinition  id  65F6A94DAEBC4C4CB90560794DE1A5B8 type Field
+Item successfully added in packdefinition  id  65F6A94DAEBC4C4CB90560794DE1A5B8 type Field
+Processing (add)   id : 7928AFC1D8CB4F64B142289B58E79EE8    keyed_name : has_files    type : Property  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 7928AFC1D8CB4F64B142289B58E79EE8    keyed_name : has_files    type : Property  
+Adding item in packdefinition  id  7928AFC1D8CB4F64B142289B58E79EE8 type Property
+Item successfully added in packdefinition  id  7928AFC1D8CB4F64B142289B58E79EE8 type Property
+Processing (add)   id : 36F35A2C67E349FA84FAC0383C7F5A87    keyed_name : 36F35A2C67E349FA84FAC0383C7F5A87    type : Server Event  
+********** Start of reference checking ************
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>Detect Item has File</name></Item></AML>
+-> was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Server Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 36F35A2C67E349FA84FAC0383C7F5A87    keyed_name : 36F35A2C67E349FA84FAC0383C7F5A87    type : Server Event  
+Processing (add)   id : 6CC19357101340BD99E4220F971A350F    keyed_name : 6CC19357101340BD99E4220F971A350F    type : Server Event  
+********** Start of reference checking ************
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>Detect Item Files removed</name></Item></AML>
+-> was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Server Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 6CC19357101340BD99E4220F971A350F    keyed_name : 6CC19357101340BD99E4220F971A350F    type : Server Event  
+completed
+Set "World" value  for "Logon Allowed To" variable
+Updating Document Has File Flag to success release status
+end of execution : 5/19/2009 10:18:38 AM

@@ -1,8 +1,0 @@
-start of execution : 2/25/2009 1:06:13 PM
-Set "Root" value  for "Logon Allowed To" variable
-Updating xPLM to inprogress release status
-       ****Import with merge option  xPLM****
-completed
-Set "World" value  for "Logon Allowed To" variable
-Updating xPLM to success release status
-end of execution : 2/25/2009 1:06:14 PM

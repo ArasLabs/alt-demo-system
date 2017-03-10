@@ -1,0 +1,26 @@
+start of execution : 1/9/2008 3:50:32 PM
+Set "Root" value  for "Logon Allowed To" variable
+Updating ControlsCatalog to inprogress release status
+       ****Import with merge option  ControlsCatalog****
+Processing (add)   id : 07A3F6BF48424F63A4D108BFF22CA948    keyed_name : Design    type : APQP Controls Catalog  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>APQP Controls Catalog</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 07A3F6BF48424F63A4D108BFF22CA948    keyed_name : Design    type : APQP Controls Catalog  
+Adding item in packdefinition  id  07A3F6BF48424F63A4D108BFF22CA948 type APQP Controls Catalog
+Item successfully added in packdefinition  id  07A3F6BF48424F63A4D108BFF22CA948 type APQP Controls Catalog
+Processing (add)   id : 333A71CC743F476B9E86D52835221A7B    keyed_name : Process    type : APQP Controls Catalog  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>APQP Controls Catalog</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 333A71CC743F476B9E86D52835221A7B    keyed_name : Process    type : APQP Controls Catalog  
+Adding item in packdefinition  id  333A71CC743F476B9E86D52835221A7B type APQP Controls Catalog
+Item successfully added in packdefinition  id  333A71CC743F476B9E86D52835221A7B type APQP Controls Catalog
+completed
+Set "World" value  for "Logon Allowed To" variable
+Updating ControlsCatalog to success release status
+end of execution : 1/9/2008 3:50:33 PM

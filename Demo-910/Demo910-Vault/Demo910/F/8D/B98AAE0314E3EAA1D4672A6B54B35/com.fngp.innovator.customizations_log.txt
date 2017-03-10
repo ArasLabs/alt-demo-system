@@ -1,8 +1,0 @@
-start of execution : 1/9/2008 2:38:15 PM
-Set "Root" value  for "Logon Allowed To" variable
-Updating com.fngp.innovator.customizations to inprogress release status
-       ****Import with merge option  com.fngp.innovator.customizations****
-completed
-Set "World" value  for "Logon Allowed To" variable
-Updating com.fngp.innovator.customizations to success release status
-end of execution : 1/9/2008 2:38:16 PM
