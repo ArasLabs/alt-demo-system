@@ -26,6 +26,7 @@ Release | Notes
 [v9.1.0.7](https://github.com/ArasLabs/alt-demo-system/releases/tag/v9.1.0.7) | Updated November18th - replaced just the Database Backup in the ZIP. Because the original post was missing service packs to run correctly wth SP5 or SP6. Complete Demo environment (Database, Vault and code tree updates)for Innovator 9.1SP6 (supports IE8). Demo data for PE, PM, QP Solutions. Has many community packages loaded.
 [v9.2.0.1](https://github.com/ArasLabs/alt-demo-system/releases/tag/v9.2.0.1) | Updated April 2011 - this is a snapshot of Peters Demo database and vault running Innovator 9.2 SP4. NOTE: There are 2 database backups to download. One for SQL2005 and the other for SQL2008. Choose wisely !
 [v9.3.0.1](https://github.com/ArasLabs/alt-demo-system/releases/tag/v9.3.0.1) | Updated July 2011 - upgraded to 9.3
+[v9.3.0.2](https://github.com/ArasLabs/alt-demo-system/releases/tag/v9.3.0.2) | Updated August 2011 to resolve issues
 
 #### Supported Aras Versions
 
@@ -40,6 +41,7 @@ Project | Aras
 [v9.1.0.7](https://github.com/ArasLabs/alt-demo-system/releases/tag/v9.1.0.7) | Aras 9.1 SP6
 [v9.2.0.1](https://github.com/ArasLabs/alt-demo-system/releases/tag/v9.2.0.1) | Aras 9.2
 [v9.3.0.1](https://github.com/ArasLabs/alt-demo-system/releases/tag/v9.3.0.1) | Aras 9.3
+[v9.3.0.2](https://github.com/ArasLabs/alt-demo-system/releases/tag/v9.3.0.2) | Aras 9.3
 
 > ###### *Please note: Aras Community Projects are provided on an "as-is" basis.*
 
