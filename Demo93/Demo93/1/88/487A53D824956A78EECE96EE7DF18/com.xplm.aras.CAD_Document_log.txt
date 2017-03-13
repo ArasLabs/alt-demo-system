@@ -1,0 +1,22 @@
+start of execution : 7/11/2011 1:58:15 PM
+Set "Root" value  for "Logon Allowed To" variable
+Updating com.xplm.aras.CAD_Document to inprogress release status
+       ****Import with merge option  com.xplm.aras.CAD_Document****
+Processing (add)   id : 4621FE9FA0384FDB83115D8A835CB7A4    keyed_name : xplm_load_cad_document    type : Method  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(add)   id : 4621FE9FA0384FDB83115D8A835CB7A4    keyed_name : xplm_load_cad_document    type : Method  
+Adding item in packdefinition  id  4621FE9FA0384FDB83115D8A835CB7A4 type Method
+Getting config_id  of versionable item  id  4621FE9FA0384FDB83115D8A835CB7A4 type Method
+Item successfully added in packdefinition  id  4621FE9FA0384FDB83115D8A835CB7A4 type Method
+Processing (add)   id : 82F2895966E942208D14B0AA25D6262D    keyed_name : xplm_load_cad_document_lock    type : Method  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(add)   id : 82F2895966E942208D14B0AA25D6262D    keyed_name : xplm_load_cad_document_lock    type : Method  
+Adding item in packdefinition  id  82F2895966E942208D14B0AA25D6262D type Method
+Getting config_id  of versionable item  id  82F2895966E942208D14B0AA25D6262D type Method
+Item successfully added in packdefinition  id  82F2895966E942208D14B0AA25D6262D type Method
+completed
+Set "World" value  for "Logon Allowed To" variable
+Updating com.xplm.aras.CAD_Document to success release status
+end of execution : 7/11/2011 1:58:15 PM

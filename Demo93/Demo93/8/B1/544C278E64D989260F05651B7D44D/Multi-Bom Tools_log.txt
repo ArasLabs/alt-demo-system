@@ -1,0 +1,67 @@
+start of execution : 1/11/2008 7:42:11 PM
+Set "Root" value  for "Logon Allowed To" variable
+Updating Multi-Bom Tools to inprogress release status
+       ****Import  Multi-Bom Tools****
+Processing (add)   id : A368BFCCDC0D40BEA27D1AB0701F61F2    keyed_name : Multi-Bom Tools Form    type : Form  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Form</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Body</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : A368BFCCDC0D40BEA27D1AB0701F61F2    keyed_name : Multi-Bom Tools Form    type : Form  
+Adding item in packdefinition  id  A368BFCCDC0D40BEA27D1AB0701F61F2 type Form
+Item successfully added in packdefinition  id  A368BFCCDC0D40BEA27D1AB0701F61F2 type Form
+Processing (add)   id : 8FF6E874034E4507A8A3A6EE1EADAE9D    keyed_name : Multi Bom Tools Relationship    type : RelationshipType  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>RelationshipType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Relationship View</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking RelationshipType's source_id,related_id
+<AML><Item levels='0' action='get' type='ItemType' ><id>4F1AC04A2B484F3ABA4E20DB63808A88</id></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 8FF6E874034E4507A8A3A6EE1EADAE9D    keyed_name : Multi Bom Tools Relationship    type : RelationshipType  
+Adding item in packdefinition  id  8FF6E874034E4507A8A3A6EE1EADAE9D type RelationshipType
+Item successfully added in packdefinition  id  8FF6E874034E4507A8A3A6EE1EADAE9D type RelationshipType
+Processing (delete)     type : View  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : View  
+Processing (add)   id : 5FDBA9D3BF3F4DEABA9EA5E2FE9AEAB8    keyed_name : MultiBom_GetCompleteBom1    type : SQL  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>SQL</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 5FDBA9D3BF3F4DEABA9EA5E2FE9AEAB8    keyed_name : MultiBom_GetCompleteBom1    type : SQL  
+Adding item in packdefinition  id  5FDBA9D3BF3F4DEABA9EA5E2FE9AEAB8 type SQL
+Item successfully added in packdefinition  id  5FDBA9D3BF3F4DEABA9EA5E2FE9AEAB8 type SQL
+Processing (add)   id : 17E39BB34826464FA4F7CD70E425E84A    keyed_name : MultiBom_GetCompleteBom2    type : SQL  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>SQL</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 17E39BB34826464FA4F7CD70E425E84A    keyed_name : MultiBom_GetCompleteBom2    type : SQL  
+Adding item in packdefinition  id  17E39BB34826464FA4F7CD70E425E84A type SQL
+Item successfully added in packdefinition  id  17E39BB34826464FA4F7CD70E425E84A type SQL
+Processing (delete)     type : Form  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : Form  
+completed
+Set "World" value  for "Logon Allowed To" variable
+Updating Multi-Bom Tools to success release status
+end of execution : 1/11/2008 7:42:27 PM

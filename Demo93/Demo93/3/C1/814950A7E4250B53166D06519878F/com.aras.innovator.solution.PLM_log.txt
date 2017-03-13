@@ -1,0 +1,58 @@
+start of execution : 7/11/2011 1:55:59 PM
+Set "Root" value  for "Logon Allowed To" variable
+Updating com.aras.innovator.solution.PLM to inprogress release status
+       ****Import with merge option  com.aras.innovator.solution.PLM****
+Processing (add)   id : A981ADDAB80D41B28D5A1B6ABB8B859D    keyed_name : CAD_Document Numbers    type : Sequence  
+********** Start of reference checking ************
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Sequence</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : A981ADDAB80D41B28D5A1B6ABB8B859D    keyed_name : CAD_Document Numbers    type : Sequence  
+Adding item in packdefinition  id  A981ADDAB80D41B28D5A1B6ABB8B859D type Sequence
+Item successfully added in packdefinition  id  A981ADDAB80D41B28D5A1B6ABB8B859D type Sequence
+Processing (add)   id : CA40FF60118F4E4DAF328A33BF0575B9    keyed_name : Part numbers    type : Sequence  
+********** Start of reference checking ************
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Sequence</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : CA40FF60118F4E4DAF328A33BF0575B9    keyed_name : Part numbers    type : Sequence  
+Adding item in packdefinition  id  CA40FF60118F4E4DAF328A33BF0575B9 type Sequence
+Item successfully added in packdefinition  id  CA40FF60118F4E4DAF328A33BF0575B9 type Sequence
+Processing (add)   id : 3148CEE16256447CBAD795C8DD066A19    keyed_name : ACIM Version    type : Variable  
+********** Start of reference checking ************
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Variable</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 3148CEE16256447CBAD795C8DD066A19    keyed_name : ACIM Version    type : Variable  
+Adding item in packdefinition  id  3148CEE16256447CBAD795C8DD066A19 type Variable
+Item successfully added in packdefinition  id  3148CEE16256447CBAD795C8DD066A19 type Variable
+Processing (add)   id : 4770C5E98E85408FB6B958EDA8EDCF40    keyed_name : CAD_DocPartsGrid Handler    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 4770C5E98E85408FB6B958EDA8EDCF40    keyed_name : CAD_DocPartsGrid Handler    type : Method  
+Adding item in packdefinition  id  4770C5E98E85408FB6B958EDA8EDCF40 type Method
+Getting config_id  of versionable item  id  4770C5E98E85408FB6B958EDA8EDCF40 type Method
+Item successfully added in packdefinition  id  4770C5E98E85408FB6B958EDA8EDCF40 type Method
+Processing (add)   id : D1F163DAD5AA4066B174FA33F4290DE6    keyed_name : Detect Item Files removed    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : D1F163DAD5AA4066B174FA33F4290DE6    keyed_name : Detect Item Files removed    type : Method  
+Adding item in packdefinition  id  D1F163DAD5AA4066B174FA33F4290DE6 type Method
+Getting config_id  of versionable item  id  D1F163DAD5AA4066B174FA33F4290DE6 type Method
+     ****Error message****
+faultstring: Duplicate package element
+faultdetail: The package 'com.aras.innovator.solution.PLM' already contains the PackageElement with id='D1F163DAD5AA4066B174FA33F4290DE6' but of different type: DB - type='Method', group_id='0C70C813A940480E929BB6E10406C52E';   being imported - type='Method', group_id='4488200A07BF4618B55FD5373B826061'
+faultcode:   -2
+     ********************** 
+Updating com.aras.innovator.solution.PLM to failed release status
+Set "World" value  for "Logon Allowed To" variable
+end of execution : 7/11/2011 1:56:12 PM

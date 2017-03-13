@@ -1,0 +1,287 @@
+start of execution : 1/9/2008 3:18:12 PM
+Set "Root" value  for "Logon Allowed To" variable
+Updating AVL to inprogress release status
+       ****Import with merge option  AVL****
+Processing (add)   id : 554A015824914554BC7311364B75D379    keyed_name : Manufacturer Issues    type : Grid  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 554A015824914554BC7311364B75D379    keyed_name : Manufacturer Issues    type : Grid  
+Adding item in packdefinition  id  554A015824914554BC7311364B75D379 type Grid
+Item successfully added in packdefinition  id  554A015824914554BC7311364B75D379 type Grid
+Processing (add)   id : 1D8C80FFD8D040C2ACC3F75D071CD8D6    keyed_name : Manufacturer Parts UsedFor    type : Grid  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 1D8C80FFD8D040C2ACC3F75D071CD8D6    keyed_name : Manufacturer Parts UsedFor    type : Grid  
+Adding item in packdefinition  id  1D8C80FFD8D040C2ACC3F75D071CD8D6 type Grid
+Item successfully added in packdefinition  id  1D8C80FFD8D040C2ACC3F75D071CD8D6 type Grid
+Processing (add)   id : 8E5D4E19CBCC4D67B9BD9CE2C367B406    keyed_name : Manufacturer Parts Vendors    type : Grid  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 8E5D4E19CBCC4D67B9BD9CE2C367B406    keyed_name : Manufacturer Parts Vendors    type : Grid  
+Adding item in packdefinition  id  8E5D4E19CBCC4D67B9BD9CE2C367B406 type Grid
+Item successfully added in packdefinition  id  8E5D4E19CBCC4D67B9BD9CE2C367B406 type Grid
+Processing (add)   id : 7C4C45CCBB054DD9BE5CEE31339A2455    keyed_name : Manufacturer Parts    type : Grid  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 7C4C45CCBB054DD9BE5CEE31339A2455    keyed_name : Manufacturer Parts    type : Grid  
+Adding item in packdefinition  id  7C4C45CCBB054DD9BE5CEE31339A2455 type Grid
+Item successfully added in packdefinition  id  7C4C45CCBB054DD9BE5CEE31339A2455 type Grid
+Processing (add)   id : 863EB1CC0D864052AA4DC830F64E7955    keyed_name : Manufacturer Used For    type : Grid  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Grid Column</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 863EB1CC0D864052AA4DC830F64E7955    keyed_name : Manufacturer Used For    type : Grid  
+Adding item in packdefinition  id  863EB1CC0D864052AA4DC830F64E7955 type Grid
+Item successfully added in packdefinition  id  863EB1CC0D864052AA4DC830F64E7955 type Grid
+Processing (add)   id : 66FE63414B26409BA06727D14A18BFE0    keyed_name : Manufacturer Issues    type : RelationshipType  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>RelationshipType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Relationship View</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking RelationshipType's source_id,related_id
+<AML><Item levels='0' action='get' type='ItemType' ><id>3E71E373FC2940B288760C915120AABE</id></Item></AML>
+  was obtained from server
+checking Grids types
+<AML><Item levels='0' action='get' type='Grid' ><id>554A015824914554BC7311364B75D379</id></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 66FE63414B26409BA06727D14A18BFE0    keyed_name : Manufacturer Issues    type : RelationshipType  
+Adding item in packdefinition  id  66FE63414B26409BA06727D14A18BFE0 type RelationshipType
+Item successfully added in packdefinition  id  66FE63414B26409BA06727D14A18BFE0 type RelationshipType
+Processing (add)   id : 80392D5A4C6E44D3A2E6C86657A646BD    keyed_name : Manufacturer Part DataSheets    type : RelationshipType  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>RelationshipType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking RelationshipType's source_id,related_id
+<AML><Item levels='0' action='get' type='ItemType' ><id>8052A558B9084D41B9F11805E464F443</id></Item></AML>
+  was obtained from cache
+checking RelationshipType's source_id,related_id
+<AML><Item levels='0' action='get' type='ItemType' ><id>FDE9DA6F52C642EA807287C340EE0B72</id></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 80392D5A4C6E44D3A2E6C86657A646BD    keyed_name : Manufacturer Part DataSheets    type : RelationshipType  
+Adding item in packdefinition  id  80392D5A4C6E44D3A2E6C86657A646BD type RelationshipType
+Item successfully added in packdefinition  id  80392D5A4C6E44D3A2E6C86657A646BD type RelationshipType
+Processing (add)   id : 97DEBD59D91D474FA71473DCE5B8BA53    keyed_name : Manufacturer Part Used For    type : RelationshipType  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>RelationshipType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Relationship View</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking RelationshipType's source_id,related_id
+<AML><Item levels='0' action='get' type='ItemType' ><id>FDE9DA6F52C642EA807287C340EE0B72</id></Item></AML>
+  was obtained from cache
+checking Grids types
+<AML><Item levels='0' action='get' type='Grid' ><id>1D8C80FFD8D040C2ACC3F75D071CD8D6</id></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 97DEBD59D91D474FA71473DCE5B8BA53    keyed_name : Manufacturer Part Used For    type : RelationshipType  
+Adding item in packdefinition  id  97DEBD59D91D474FA71473DCE5B8BA53 type RelationshipType
+Item successfully added in packdefinition  id  97DEBD59D91D474FA71473DCE5B8BA53 type RelationshipType
+Processing (add)   id : 887CA0E656474CFB8FCC3EBFB253583A    keyed_name : Manufacturer Part Vendor    type : RelationshipType  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>RelationshipType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Relationship View</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking RelationshipType's source_id,related_id
+<AML><Item levels='0' action='get' type='ItemType' ><id>FDE9DA6F52C642EA807287C340EE0B72</id></Item></AML>
+  was obtained from cache
+checking Grids types
+<AML><Item levels='0' action='get' type='Grid' ><id>8E5D4E19CBCC4D67B9BD9CE2C367B406</id></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 887CA0E656474CFB8FCC3EBFB253583A    keyed_name : Manufacturer Part Vendor    type : RelationshipType  
+Adding item in packdefinition  id  887CA0E656474CFB8FCC3EBFB253583A type RelationshipType
+Item successfully added in packdefinition  id  887CA0E656474CFB8FCC3EBFB253583A type RelationshipType
+Processing (add)   id : 48D45345C66D45FD8E7521A2B429D6AC    keyed_name : Manufacturer Parts Tab    type : RelationshipType  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>RelationshipType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Relationship View</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking RelationshipType's source_id,related_id
+<AML><Item levels='0' action='get' type='ItemType' ><id>3E71E373FC2940B288760C915120AABE</id></Item></AML>
+  was obtained from cache
+checking Grids types
+<AML><Item levels='0' action='get' type='Grid' ><id>7C4C45CCBB054DD9BE5CEE31339A2455</id></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 48D45345C66D45FD8E7521A2B429D6AC    keyed_name : Manufacturer Parts Tab    type : RelationshipType  
+Adding item in packdefinition  id  48D45345C66D45FD8E7521A2B429D6AC type RelationshipType
+Item successfully added in packdefinition  id  48D45345C66D45FD8E7521A2B429D6AC type RelationshipType
+Processing (add)   id : 7EEAA7EC6F4549E9A9F7DE86015041B8    keyed_name : Manufacturer Used For    type : RelationshipType  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>RelationshipType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Relationship View</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking RelationshipType's source_id,related_id
+<AML><Item levels='0' action='get' type='ItemType' ><id>3E71E373FC2940B288760C915120AABE</id></Item></AML>
+  was obtained from cache
+checking Grids types
+<AML><Item levels='0' action='get' type='Grid' ><id>863EB1CC0D864052AA4DC830F64E7955</id></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 7EEAA7EC6F4549E9A9F7DE86015041B8    keyed_name : Manufacturer Used For    type : RelationshipType  
+Adding item in packdefinition  id  7EEAA7EC6F4549E9A9F7DE86015041B8 type RelationshipType
+Item successfully added in packdefinition  id  7EEAA7EC6F4549E9A9F7DE86015041B8 type RelationshipType
+Processing (delete)     type : View  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : View  
+Processing (delete)     type : View  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : View  
+Processing (delete)     type : View  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : View  
+Processing (delete)     type : View  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : View  
+Processing (delete)     type : View  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : View  
+Processing (delete)     type : View  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : View  
+Processing (delete)     type : Form  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : Form  
+Processing (delete)     type : Form  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : Form  
+Processing (delete)     type : Form  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : Form  
+Processing (delete)     type : Form  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : Form  
+Processing (delete)     type : Form  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : Form  
+Processing (delete)     type : Form  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : Form  
+completed
+Set "World" value  for "Logon Allowed To" variable
+Updating AVL to success release status
+end of execution : 1/9/2008 3:18:34 PM

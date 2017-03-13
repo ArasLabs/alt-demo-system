@@ -1,0 +1,114 @@
+start of execution : 6/10/2010 11:15:53 AM
+Set "Root" value  for "Logon Allowed To" variable
+Updating Prodeos_OC to inprogress release status
+       ****Import with merge option  Prodeos_OC****
+Processing (add)   id : 0790A9806A06499BB190B83BCD120885    keyed_name : AddStartEditingButton    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 0790A9806A06499BB190B83BCD120885    keyed_name : AddStartEditingButton    type : Method  
+Adding item in packdefinition  id  0790A9806A06499BB190B83BCD120885 type Method
+Getting config_id  of versionable item  id  0790A9806A06499BB190B83BCD120885 type Method
+Item successfully added in packdefinition  id  0790A9806A06499BB190B83BCD120885 type Method
+Processing (add)   id : 7AC3106D6FA94DE1BAC86B80F872EE08    keyed_name : OpenAuthoringTool    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 7AC3106D6FA94DE1BAC86B80F872EE08    keyed_name : OpenAuthoringTool    type : Method  
+Adding item in packdefinition  id  7AC3106D6FA94DE1BAC86B80F872EE08 type Method
+Getting config_id  of versionable item  id  7AC3106D6FA94DE1BAC86B80F872EE08 type Method
+Item successfully added in packdefinition  id  7AC3106D6FA94DE1BAC86B80F872EE08 type Method
+Processing (add)   id : 19505EAACBAD427585C4C4EEF84CA3E2    keyed_name : OpenLockedDoc    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 19505EAACBAD427585C4C4EEF84CA3E2    keyed_name : OpenLockedDoc    type : Method  
+Adding item in packdefinition  id  19505EAACBAD427585C4C4EEF84CA3E2 type Method
+Getting config_id  of versionable item  id  19505EAACBAD427585C4C4EEF84CA3E2 type Method
+Item successfully added in packdefinition  id  19505EAACBAD427585C4C4EEF84CA3E2 type Method
+Processing (add)   id : 2E44305927034418BB0233FD464FF17C    keyed_name : OpenUnlocked    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 2E44305927034418BB0233FD464FF17C    keyed_name : OpenUnlocked    type : Method  
+Adding item in packdefinition  id  2E44305927034418BB0233FD464FF17C type Method
+Getting config_id  of versionable item  id  2E44305927034418BB0233FD464FF17C type Method
+Item successfully added in packdefinition  id  2E44305927034418BB0233FD464FF17C type Method
+Processing (add)   id : D08D85EF49974F4F9A36B89AE865B311    keyed_name : Prodeos_OC_Templates    type : ItemType  
+********** Start of reference checking ************
+checking item with get action:<Item type="Identity" action="get" select="id"><name>World</name></Item>
+-> was obtained from server
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Allowed Permission</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Can Add</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>ItemType Life Cycle</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>TOC Access</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>View</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+checking for related items
+<Item type='Permission' action='get' levels='0'><id>F0E3A6D242FC4889A9A119EEBC8EC79E</id></Item>
+   was obtained from server
+checking for related items
+<Item type='Identity' action='get' levels='0'><id>2618D6F5A90949BAA7E920D1B04C7EE1</id></Item>
+   was obtained from server
+checking for related items
+<Item type='Life Cycle Map' action='get' levels='0'><id>3B1C099A970A4E51940CBAE76FF67A7D</id></Item>
+   was obtained from server
+checking for related items
+<Item type='Identity' action='get' levels='0'><id>2618D6F5A90949BAA7E920D1B04C7EE1</id></Item>
+   was obtained from cache
+checking for related items
+<Item type='Form' action='get' levels='0'><id>F551968FADDD44B3866EBA733A77BCAA</id></Item>
+WARNING: The following portion of the AML 
+<related_id keyed_name="DocTemplate" type="Form">F551968FADDD44B3866EBA733A77BCAA</related_id>
+contains unresolved reference that will be tried to resolve at the end of the package import
+************* End of reference checking ************
+Item successfully applied(add)   id : D08D85EF49974F4F9A36B89AE865B311    keyed_name : Prodeos_OC_Templates    type : ItemType  
+Adding item in packdefinition  id  D08D85EF49974F4F9A36B89AE865B311 type ItemType
+Item successfully added in packdefinition  id  D08D85EF49974F4F9A36B89AE865B311 type ItemType
+Processing (edit)   id : D08D85EF49974F4F9A36B89AE865B311     type : ItemType  
+********** Start of reference checking ************
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(edit)   id : D08D85EF49974F4F9A36B89AE865B311     type : ItemType  
+DELAYED RESOLUTION: applying AML <Item type='ItemType' id='D08D85EF49974F4F9A36B89AE865B311' action='edit' doGetItem='0'><Relationships><Item type="View" id="528F7FC61F7F4BE6BE223D7DD6903C05" action="add"><classification>/*</classification><client>js</client><related_id keyed_name="DocTemplate" type="Form">F551968FADDD44B3866EBA733A77BCAA</related_id><role keyed_name="World" type="Identity"><Item type="Identity" action="get" select="id"><name>World</name></Item></role><sort_order>128</sort_order><source_id keyed_name="Prodeos_OC_Templates" type="ItemType" name="Prodeos_OC_Templates">D08D85EF49974F4F9A36B89AE865B311</source_id><type>default</type></Item></Relationships></Item>
+     ****Error message****
+faultstring: The UPDATE statement conflicted with the FOREIGN KEY constraint "FK__VIEW__RELATED_ID__79C80F94". The conflict occurred in database "Demo910", table "innovator.FORM", column 'ID'.
+The statement has been terminated.
+faultdetail: The UPDATE statement conflicted with the FOREIGN KEY constraint "FK__VIEW__RELATED_ID__79C80F94". The conflict occurred in database "Demo910", table "innovator.FORM", column 'ID'.
+The statement has been terminated.
+faultcode:   -1
+     ********************** 
+Updating Prodeos_OC to failed release status
+Set "World" value  for "Logon Allowed To" variable
+end of execution : 6/10/2010 11:15:59 AM

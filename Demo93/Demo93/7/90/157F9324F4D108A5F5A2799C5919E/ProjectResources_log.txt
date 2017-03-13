@@ -1,0 +1,131 @@
+start of execution : 1/20/2009 2:09:23 PM
+Set "Root" value  for "Logon Allowed To" variable
+Updating ProjectResources to inprogress release status
+       ****Import with merge option  ProjectResources****
+Processing (add)   id : 8E7A1E39C8C840F18762353D30AEB5CB    keyed_name : getConfigValue    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 8E7A1E39C8C840F18762353D30AEB5CB    keyed_name : getConfigValue    type : Method  
+Adding item in packdefinition  id  8E7A1E39C8C840F18762353D30AEB5CB type Method
+Getting config_id  of versionable item  id  8E7A1E39C8C840F18762353D30AEB5CB type Method
+Item already exist in packdefinition  id  8E7A1E39C8C840F18762353D30AEB5CB type Method
+Processing (add)   id : AE0D0D57F61E4243BAE0C7045699E970    keyed_name : resource_report_1    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : AE0D0D57F61E4243BAE0C7045699E970    keyed_name : resource_report_1    type : Method  
+Adding item in packdefinition  id  AE0D0D57F61E4243BAE0C7045699E970 type Method
+Getting config_id  of versionable item  id  AE0D0D57F61E4243BAE0C7045699E970 type Method
+Item already exist in packdefinition  id  AE0D0D57F61E4243BAE0C7045699E970 type Method
+Processing (add)   id : 3AA7DBFF2F9640F6AAA7B7D008B03EEE    keyed_name : resource_report_3    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 3AA7DBFF2F9640F6AAA7B7D008B03EEE    keyed_name : resource_report_3    type : Method  
+Adding item in packdefinition  id  3AA7DBFF2F9640F6AAA7B7D008B03EEE type Method
+Getting config_id  of versionable item  id  3AA7DBFF2F9640F6AAA7B7D008B03EEE type Method
+Item already exist in packdefinition  id  3AA7DBFF2F9640F6AAA7B7D008B03EEE type Method
+Processing (add)   id : 86D69EB541724BE7AA886A77E7676170    keyed_name : Project Resources    type : Report  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Method" action="get" select="id"><name>resource_report_1</name></Item></AML>
+   was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Report</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 86D69EB541724BE7AA886A77E7676170    keyed_name : Project Resources    type : Report  
+Adding item in packdefinition  id  86D69EB541724BE7AA886A77E7676170 type Report
+Item already exist in packdefinition  id  86D69EB541724BE7AA886A77E7676170 type Report
+Processing (add)   id : F01D4BB2A2B049AD9C42842131E98E4E    keyed_name : Resource Summary    type : Report  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Method" action="get" select="id"><name>resource_report_3</name></Item></AML>
+   was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Report</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : F01D4BB2A2B049AD9C42842131E98E4E    keyed_name : Resource Summary    type : Report  
+Adding item in packdefinition  id  F01D4BB2A2B049AD9C42842131E98E4E type Report
+Item already exist in packdefinition  id  F01D4BB2A2B049AD9C42842131E98E4E type Report
+Processing (add)   id : F2ECAF97F3224B848EFE3F14C9D686A1    keyed_name : GetResourceData    type : SQL  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>SQL</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : F2ECAF97F3224B848EFE3F14C9D686A1    keyed_name : GetResourceData    type : SQL  
+Adding item in packdefinition  id  F2ECAF97F3224B848EFE3F14C9D686A1 type SQL
+Item already exist in packdefinition  id  F2ECAF97F3224B848EFE3F14C9D686A1 type SQL
+Processing (add)   id : 98ABC1AABDB649DE9C75BBB427B18CE8    keyed_name : GetResourceDataMonths    type : SQL  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>SQL</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+     ****Error message****
+faultstring: An insufficient number of arguments were supplied for the procedure or function innovator.business_datediff.
+An insufficient number of arguments were supplied for the procedure or function innovator.business_dateadd.
+An insufficient number of arguments were supplied for the procedure or function innovator.business_datediff.
+An insufficient number of arguments were supplied for the procedure or function innovator.business_datediff. in SQL: CREATE VIEW innovator.GetResourceDataMonths
+AS
+SELECT DISTINCT 
+                      TOP 100 PERCENT innovator.GetResourceData.proj_num, ISNULL(innovator.GetResourceData.assigned, innovator.GetResourceData.ROLE) 
+                      AS assigned, innovator.GetResourceData.act_id, innovator.GetResourceData.WORK_EST, innovator.GetResourceData.ps, 
+                      innovator.GetResourceData.pf, innovator.months.mb, innovator.months.me, innovator.months.name AS month, CASE WHEN (ps >= mb AND pf <= me) 
+                      THEN CONVERT(decimal, work_est) WHEN (ps < mb AND pf > me) THEN CONVERT(decimal, work_est) * innovator.business_datediff(mb, dateadd(day, 
+                      1, me)) / dur WHEN (ps < mb AND pf <= me) THEN CONVERT(decimal, work_est) * innovator.business_datediff(mb, innovator.business_dateadd(1, pf)) 
+                      / dur WHEN (ps >= mb AND pf > me) THEN CONVERT(decimal, work_est) * innovator.business_datediff(ps, dateadd(day, 1, me)) 
+                      / dur ELSE 0 END AS hours, innovator.GetResourceData.activity, innovator.GetResourceData.pct_compl, innovator.GetResourceData.dur, 
+                      innovator.GetResourceData.actual, DATEPART(yy, innovator.months.mb) AS year, innovator.GetResourceData.asst_state, 
+                      innovator.GetResourceData.proj_state, innovator.GetResourceData.proj_mgr
+FROM         innovator.GetResourceData INNER JOIN
+                      innovator.months ON innovator.GetResourceData.ps < innovator.months.me AND innovator.GetResourceData.pf > innovator.months.mb
+ORDER BY innovator.GetResourceData.proj_num, innovator.GetResourceData.ps
+faultdetail: An insufficient number of arguments were supplied for the procedure or function innovator.business_datediff.
+An insufficient number of arguments were supplied for the procedure or function innovator.business_dateadd.
+An insufficient number of arguments were supplied for the procedure or function innovator.business_datediff.
+An insufficient number of arguments were supplied for the procedure or function innovator.business_datediff. in SQL: CREATE VIEW innovator.GetResourceDataMonths
+AS
+SELECT DISTINCT 
+                      TOP 100 PERCENT innovator.GetResourceData.proj_num, ISNULL(innovator.GetResourceData.assigned, innovator.GetResourceData.ROLE) 
+                      AS assigned, innovator.GetResourceData.act_id, innovator.GetResourceData.WORK_EST, innovator.GetResourceData.ps, 
+                      innovator.GetResourceData.pf, innovator.months.mb, innovator.months.me, innovator.months.name AS month, CASE WHEN (ps >= mb AND pf <= me) 
+                      THEN CONVERT(decimal, work_est) WHEN (ps < mb AND pf > me) THEN CONVERT(decimal, work_est) * innovator.business_datediff(mb, dateadd(day, 
+                      1, me)) / dur WHEN (ps < mb AND pf <= me) THEN CONVERT(decimal, work_est) * innovator.business_datediff(mb, innovator.business_dateadd(1, pf)) 
+                      / dur WHEN (ps >= mb AND pf > me) THEN CONVERT(decimal, work_est) * innovator.business_datediff(ps, dateadd(day, 1, me)) 
+                      / dur ELSE 0 END AS hours, innovator.GetResourceData.activity, innovator.GetResourceData.pct_compl, innovator.GetResourceData.dur, 
+                      innovator.GetResourceData.actual, DATEPART(yy, innovator.months.mb) AS year, innovator.GetResourceData.asst_state, 
+                      innovator.GetResourceData.proj_state, innovator.GetResourceData.proj_mgr
+FROM         innovator.GetResourceData INNER JOIN
+                      innovator.months ON innovator.GetResourceData.ps < innovator.months.me AND innovator.GetResourceData.pf > innovator.months.mb
+ORDER BY innovator.GetResourceData.proj_num, innovator.GetResourceData.ps
+faultcode:   1
+faultAMLError:
+<AML><Item type="SQL" id="98ABC1AABDB649DE9C75BBB427B18CE8" action="add" doGetItem="0"><execution_count>3</execution_count><execution_flag>immediate</execution_flag><name>GetResourceDataMonths</name><old_name>GetResourceDataMonths</old_name><sqlserver_body><![CDATA[CREATE VIEW innovator.GetResourceDataMonths
+AS
+SELECT DISTINCT 
+                      TOP 100 PERCENT innovator.GetResourceData.proj_num, ISNULL(innovator.GetResourceData.assigned, innovator.GetResourceData.ROLE) 
+                      AS assigned, innovator.GetResourceData.act_id, innovator.GetResourceData.WORK_EST, innovator.GetResourceData.ps, 
+                      innovator.GetResourceData.pf, innovator.months.mb, innovator.months.me, innovator.months.name AS month, CASE WHEN (ps >= mb AND pf <= me) 
+                      THEN CONVERT(decimal, work_est) WHEN (ps < mb AND pf > me) THEN CONVERT(decimal, work_est) * innovator.business_datediff(mb, dateadd(day, 
+                      1, me)) / dur WHEN (ps < mb AND pf <= me) THEN CONVERT(decimal, work_est) * innovator.business_datediff(mb, innovator.business_dateadd(1, pf)) 
+                      / dur WHEN (ps >= mb AND pf > me) THEN CONVERT(decimal, work_est) * innovator.business_datediff(ps, dateadd(day, 1, me)) 
+                      / dur ELSE 0 END AS hours, innovator.GetResourceData.activity, innovator.GetResourceData.pct_compl, innovator.GetResourceData.dur, 
+                      innovator.GetResourceData.actual, DATEPART(yy, innovator.months.mb) AS year, innovator.GetResourceData.asst_state, 
+                      innovator.GetResourceData.proj_state, innovator.GetResourceData.proj_mgr
+FROM         innovator.GetResourceData INNER JOIN
+                      innovator.months ON innovator.GetResourceData.ps < innovator.months.me AND innovator.GetResourceData.pf > innovator.months.mb
+ORDER BY innovator.GetResourceData.proj_num, innovator.GetResourceData.ps]]></sqlserver_body><stale>0</stale><transform_first>0</transform_first><type>view</type></Item></AML>
+     ********************** 
+Updating ProjectResources to failed release status
+Set "World" value  for "Logon Allowed To" variable
+end of execution : 1/20/2009 2:09:35 PM

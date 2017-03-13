@@ -1,0 +1,517 @@
+start of execution : 5/19/2009 10:20:19 AM
+Set "Root" value  for "Logon Allowed To" variable
+Updating My Recently Visited to inprogress release status
+       ****Import with merge option  My Recently Visited****
+Processing (add)   id : A3CA8D31D285445492F816D529D16659    keyed_name : Recently Visited Admin    type : Permission  
+********** Start of reference checking ************
+checking item with get action:<AML><Item type="Identity" action="get" select="id"><name>Creator</name></Item></AML>
+-> was obtained from server
+checking item with get action:<AML><Item type="Identity" action="get" select="id"><name>Super User</name></Item></AML>
+-> was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Permission</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Access</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Access</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Access</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Access</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for related items
+<AML><Item type='Identity' action='get' levels='0'><id>2618D6F5A90949BAA7E920D1B04C7EE1</id></Item></AML>
+   was obtained from server
+checking for related items
+<AML><Item type='Identity' action='get' levels='0'><id>56A96DA9E981481688563E2D14D5D878</id></Item></AML>
+   was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : A3CA8D31D285445492F816D529D16659    keyed_name : Recently Visited Admin    type : Permission  
+Adding item in packdefinition  id  A3CA8D31D285445492F816D529D16659 type Permission
+Item successfully added in packdefinition  id  A3CA8D31D285445492F816D529D16659 type Permission
+Processing (add)   id : F76BD57D5E0949C09DC7559BB098F281    keyed_name : User Recently Visited    type : Permission  
+********** Start of reference checking ************
+checking item with get action:<AML><Item type="Identity" action="get" select="id"><name>Creator</name></Item></AML>
+-> was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Permission</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Access</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Access</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for related items
+<AML><Item type='Identity' action='get' levels='0'><id>56A96DA9E981481688563E2D14D5D878</id></Item></AML>
+   was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : F76BD57D5E0949C09DC7559BB098F281    keyed_name : User Recently Visited    type : Permission  
+Adding item in packdefinition  id  F76BD57D5E0949C09DC7559BB098F281 type Permission
+Item successfully added in packdefinition  id  F76BD57D5E0949C09DC7559BB098F281 type Permission
+Processing (add)   id : 97CC89907670424EB11F20E5CF147EB3    keyed_name : AddToRecentlyVisited    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 97CC89907670424EB11F20E5CF147EB3    keyed_name : AddToRecentlyVisited    type : Method  
+Adding item in packdefinition  id  97CC89907670424EB11F20E5CF147EB3 type Method
+Getting config_id  of versionable item  id  97CC89907670424EB11F20E5CF147EB3 type Method
+Item successfully added in packdefinition  id  97CC89907670424EB11F20E5CF147EB3 type Method
+Processing (add)   id : 81E370606EED4C9E88F31E1BBDE78A99    keyed_name : Recently Visited Link - AfterGet    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 81E370606EED4C9E88F31E1BBDE78A99    keyed_name : Recently Visited Link - AfterGet    type : Method  
+Adding item in packdefinition  id  81E370606EED4C9E88F31E1BBDE78A99 type Method
+Getting config_id  of versionable item  id  81E370606EED4C9E88F31E1BBDE78A99 type Method
+Item successfully added in packdefinition  id  81E370606EED4C9E88F31E1BBDE78A99 type Method
+Processing (add)   id : 882B4925A2A94E029841CBD30CE845E7    keyed_name : Recently Visited Link - BefAddUp    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 882B4925A2A94E029841CBD30CE845E7    keyed_name : Recently Visited Link - BefAddUp    type : Method  
+Adding item in packdefinition  id  882B4925A2A94E029841CBD30CE845E7 type Method
+Getting config_id  of versionable item  id  882B4925A2A94E029841CBD30CE845E7 type Method
+Item successfully added in packdefinition  id  882B4925A2A94E029841CBD30CE845E7 type Method
+Processing (add)   id : 8DB046D001AB4A3AA4AAB3F40EE9F5B8    keyed_name : Recently Visited Link - BefGet    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 8DB046D001AB4A3AA4AAB3F40EE9F5B8    keyed_name : Recently Visited Link - BefGet    type : Method  
+Adding item in packdefinition  id  8DB046D001AB4A3AA4AAB3F40EE9F5B8 type Method
+Getting config_id  of versionable item  id  8DB046D001AB4A3AA4AAB3F40EE9F5B8 type Method
+Item successfully added in packdefinition  id  8DB046D001AB4A3AA4AAB3F40EE9F5B8 type Method
+Processing (add)   id : 0871FF71D0E548E38DC021DB1DA6303D    keyed_name : RecentlyVisited_ClearUsersList    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 0871FF71D0E548E38DC021DB1DA6303D    keyed_name : RecentlyVisited_ClearUsersList    type : Method  
+Adding item in packdefinition  id  0871FF71D0E548E38DC021DB1DA6303D type Method
+Getting config_id  of versionable item  id  0871FF71D0E548E38DC021DB1DA6303D type Method
+Item successfully added in packdefinition  id  0871FF71D0E548E38DC021DB1DA6303D type Method
+Processing (add)   id : E583838FD19A433DA39C80F851C3C9C9    keyed_name : RecentlyVisited_DelFromUserList    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : E583838FD19A433DA39C80F851C3C9C9    keyed_name : RecentlyVisited_DelFromUserList    type : Method  
+Adding item in packdefinition  id  E583838FD19A433DA39C80F851C3C9C9 type Method
+Getting config_id  of versionable item  id  E583838FD19A433DA39C80F851C3C9C9 type Method
+Item successfully added in packdefinition  id  E583838FD19A433DA39C80F851C3C9C9 type Method
+Processing (add)   id : 946A49C8AAEB4043BB1D1A65163DE78D    keyed_name : RecentlyVisited_sAddToUsersList    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 946A49C8AAEB4043BB1D1A65163DE78D    keyed_name : RecentlyVisited_sAddToUsersList    type : Method  
+Adding item in packdefinition  id  946A49C8AAEB4043BB1D1A65163DE78D type Method
+Getting config_id  of versionable item  id  946A49C8AAEB4043BB1D1A65163DE78D type Method
+Item successfully added in packdefinition  id  946A49C8AAEB4043BB1D1A65163DE78D type Method
+Processing (add)   id : A7EE4813C2C9443EA84274B14FF86AE2    keyed_name : RecentlyVisited_sClearUsersList    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : A7EE4813C2C9443EA84274B14FF86AE2    keyed_name : RecentlyVisited_sClearUsersList    type : Method  
+Adding item in packdefinition  id  A7EE4813C2C9443EA84274B14FF86AE2 type Method
+Getting config_id  of versionable item  id  A7EE4813C2C9443EA84274B14FF86AE2 type Method
+Item successfully added in packdefinition  id  A7EE4813C2C9443EA84274B14FF86AE2 type Method
+Processing (add)   id : BABB8C264AE54072A145E5FA6DCE6736    keyed_name : Recently Visited Item    type : Form  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Form</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Body</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : BABB8C264AE54072A145E5FA6DCE6736    keyed_name : Recently Visited Item    type : Form  
+Adding item in packdefinition  id  BABB8C264AE54072A145E5FA6DCE6736 type Form
+Item successfully added in packdefinition  id  BABB8C264AE54072A145E5FA6DCE6736 type Form
+Processing (add)   id : BC3D4E6C5E094638B41A191F1DFC2B4F    keyed_name : User Recently Visited Items    type : Form  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Form</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Body</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : BC3D4E6C5E094638B41A191F1DFC2B4F    keyed_name : User Recently Visited Items    type : Form  
+Adding item in packdefinition  id  BC3D4E6C5E094638B41A191F1DFC2B4F type Form
+Item successfully added in packdefinition  id  BC3D4E6C5E094638B41A191F1DFC2B4F type Form
+Processing (add)   id : EADECBBC05E84E519F20BF969AF0EE26    keyed_name : User Recently Visited    type : Form  
+********** Start of reference checking ************
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>RecentlyVisited_ClearUsersList</name></Item></AML>
+-> was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Form</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Body</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : EADECBBC05E84E519F20BF969AF0EE26    keyed_name : User Recently Visited    type : Form  
+Adding item in packdefinition  id  EADECBBC05E84E519F20BF969AF0EE26 type Form
+Item successfully added in packdefinition  id  EADECBBC05E84E519F20BF969AF0EE26 type Form
+Processing (add)   id : CECE20928D0C4C0E8A306253E458C8BC    keyed_name : User Recently Visited    type : ItemType  
+********** Start of reference checking ************
+checking item with get action:<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+-> was obtained from server
+checking item with get action:<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+-> was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Allowed Permission</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Can Add</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>TOC Access</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>View</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for related items
+<AML><Item type='Permission' action='get' levels='0'><id>A3CA8D31D285445492F816D529D16659</id></Item></AML>
+   was obtained from server
+checking for related items
+<AML><Item type='Identity' action='get' levels='0'><id>2618D6F5A90949BAA7E920D1B04C7EE1</id></Item></AML>
+   was obtained from cache
+checking for related items
+<AML><Item type='Form' action='get' levels='0'><id>EADECBBC05E84E519F20BF969AF0EE26</id></Item></AML>
+   was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : CECE20928D0C4C0E8A306253E458C8BC    keyed_name : User Recently Visited    type : ItemType  
+Adding item in packdefinition  id  CECE20928D0C4C0E8A306253E458C8BC type ItemType
+Item successfully added in packdefinition  id  CECE20928D0C4C0E8A306253E458C8BC type ItemType
+Processing (add)   id : 993117F5B9964F0D83124A58968544E9    keyed_name : Recently Visited Item    type : ItemType  
+********** Start of reference checking ************
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>polymorphic_item_onBeforeAdd</name></Item></AML>
+-> was obtained from server
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>polymorphic_item_onBeforeCopy</name></Item></AML>
+-> was obtained from server
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>polymorphic_item_onBeforeDelete</name></Item></AML>
+-> was obtained from server
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>polymorphic_item_onBeforeLock</name></Item></AML>
+-> was obtained from server
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>polymorphic_item_onBeforeUnlock</name></Item></AML>
+-> was obtained from server
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>polymorphic_item_onBeforeUpdate</name></Item></AML>
+-> was obtained from server
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>polymorphic_item_onBeforeVersion</name></Item></AML>
+-> was obtained from server
+checking item with get action:<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+-> was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Server Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Server Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Server Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Server Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Server Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Server Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Server Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>View</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for related items
+<AML><Item type='Form' action='get' levels='0'><id>BABB8C264AE54072A145E5FA6DCE6736</id></Item></AML>
+   was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 993117F5B9964F0D83124A58968544E9    keyed_name : Recently Visited Item    type : ItemType  
+Adding item in packdefinition  id  993117F5B9964F0D83124A58968544E9 type ItemType
+Item successfully added in packdefinition  id  993117F5B9964F0D83124A58968544E9 type ItemType
+Processing (edit)   id : 993117F5B9964F0D83124A58968544E9     type : ItemType  
+********** Start of reference checking ************
+checking item with get action:<AML><Item type="List" action="get" select="id" page="1" pagesize="1"><name>Recently Visited Item</name></Item></AML>
+-> was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(edit)   id : 993117F5B9964F0D83124A58968544E9     type : ItemType  
+Processing (edit)   id : 993117F5B9964F0D83124A58968544E9     type : ItemType  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Morphae</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking for related items
+<AML><Item type='ItemType' action='get' levels='0'><id>4F1AC04A2B484F3ABA4E20DB63808A88</id></Item></AML>
+   was obtained from server
+************* End of reference checking ************
+Item successfully applied(edit)   id : 993117F5B9964F0D83124A58968544E9     type : ItemType  
+Processing (edit)   id : 993117F5B9964F0D83124A58968544E9     type : ItemType  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Morphae</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for related items
+<AML><Item type='ItemType' action='get' levels='0'><id>B88C14B99EF449828C5D926E39EE8B89</id></Item></AML>
+   was obtained from server
+************* End of reference checking ************
+Item successfully applied(edit)   id : 993117F5B9964F0D83124A58968544E9     type : ItemType  
+Processing (add)   id : E4C853548C9C4810ABAFABC7096CF4EF    keyed_name : User Recently Visited Items    type : RelationshipType  
+********** Start of reference checking ************
+checking item with get action:<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+-> was obtained from cache
+checking item with get action:<AML><Item type="Property" action="get" select="id"><name>item_id</name><source_id>88ECA609A7BB4E6D8D570419A4B0457A</source_id></Item></AML>
+checking item with get action:<AML><Item type="Property" action="get" select="id"><keyed_name>classification</keyed_name><source_id><Item type="ItemType" action="get" select="id"><name>Recently Visited Item</name></Item></source_id></Item></AML>
+-> was obtained from server
+checking item with get action:<AML><Item type="ItemType" action="get" select="id"><name>Recently Visited Item</name></Item></AML>
+-> was obtained from server
+checking item with get action:<AML><Item type="Property" action="get" select="id"><name>item_id</name><source_id>88ECA609A7BB4E6D8D570419A4B0457A</source_id></Item></AML>
+checking item with get action:<AML><Item type="Property" action="get" select="id"><keyed_name>generation</keyed_name><source_id><Item type="ItemType" action="get" select="id"><name>Recently Visited Item</name></Item></source_id></Item></AML>
+-> was obtained from server
+checking item with get action:<AML><Item type="ItemType" action="get" select="id"><name>Recently Visited Item</name></Item></AML>
+-> was obtained from cache
+checking item with get action:<AML><Item type="Property" action="get" select="id"><name>item_id</name><source_id>88ECA609A7BB4E6D8D570419A4B0457A</source_id></Item></AML>
+checking item with get action:<AML><Item type="Property" action="get" select="id"><keyed_name>major_rev</keyed_name><source_id><Item type="ItemType" action="get" select="id"><name>Recently Visited Item</name></Item></source_id></Item></AML>
+-> was obtained from server
+checking item with get action:<AML><Item type="ItemType" action="get" select="id"><name>Recently Visited Item</name></Item></AML>
+-> was obtained from cache
+checking item with get action:<AML><Item type="Property" action="get" select="id"><name>item_id</name><source_id>88ECA609A7BB4E6D8D570419A4B0457A</source_id></Item></AML>
+checking item with get action:<AML><Item type="Property" action="get" select="id"><keyed_name>itemtype</keyed_name><source_id><Item type="ItemType" action="get" select="id"><name>Recently Visited Item</name></Item></source_id></Item></AML>
+-> was obtained from server
+checking item with get action:<AML><Item type="ItemType" action="get" select="id"><name>Recently Visited Item</name></Item></AML>
+-> was obtained from cache
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>Recently Visited Link - AfterGet</name></Item></AML>
+-> was obtained from server
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>Recently Visited Link - AfterGet</name></Item></AML>
+-> was obtained from cache
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>Recently Visited Link - BefAddUp</name></Item></AML>
+-> was obtained from server
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>Recently Visited Link - BefAddUp</name></Item></AML>
+-> was obtained from cache
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>Recently Visited Link - BefGet</name></Item></AML>
+-> was obtained from server
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>Recently Visited Link - BefGet</name></Item></AML>
+-> was obtained from cache
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>Recently Visited Link - BefAddUp</name></Item></AML>
+-> was obtained from cache
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>Recently Visited Link - BefAddUp</name></Item></AML>
+-> was obtained from cache
+checking item with get action:<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+-> was obtained from cache
+checking item with get action:<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+-> was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>RelationshipType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+checking <data_source> reference to the ItemType
+<AML><Item type='ItemType' action='get' select='id'><name>Recently Visited Item</name></Item></AML>
+  was obtained from server
+checking for related items
+<AML><Item type='Permission' action='get' levels='0'><id>F76BD57D5E0949C09DC7559BB098F281</id></Item></AML>
+   was obtained from server
+checking for related items
+<AML><Item type='Form' action='get' levels='0'><id>BC3D4E6C5E094638B41A191F1DFC2B4F</id></Item></AML>
+   was obtained from server
+checking RelationshipType's source_id,related_id
+<AML><Item levels='0' action='get' type='ItemType'><id>CECE20928D0C4C0E8A306253E458C8BC</id></Item></AML>
+  was obtained from server
+WARNING: The following portion of the AML 
+<data_source><Item type="Property" action="get" select="id"><name>item_id</name><source_id>88ECA609A7BB4E6D8D570419A4B0457A</source_id></Item></data_source>
+contains unresolved reference that will be tried to resolve at the end of the package import
+WARNING: The following portion of the AML 
+<data_source><Item type="Property" action="get" select="id"><name>item_id</name><source_id>88ECA609A7BB4E6D8D570419A4B0457A</source_id></Item></data_source>
+contains unresolved reference that will be tried to resolve at the end of the package import
+WARNING: The following portion of the AML 
+<data_source><Item type="Property" action="get" select="id"><name>item_id</name><source_id>88ECA609A7BB4E6D8D570419A4B0457A</source_id></Item></data_source>
+contains unresolved reference that will be tried to resolve at the end of the package import
+WARNING: The following portion of the AML 
+<data_source><Item type="Property" action="get" select="id"><name>item_id</name><source_id>88ECA609A7BB4E6D8D570419A4B0457A</source_id></Item></data_source>
+contains unresolved reference that will be tried to resolve at the end of the package import
+************* End of reference checking ************
+Item successfully applied(add)   id : E4C853548C9C4810ABAFABC7096CF4EF    keyed_name : User Recently Visited Items    type : RelationshipType  
+Adding item in packdefinition  id  E4C853548C9C4810ABAFABC7096CF4EF type RelationshipType
+Item successfully added in packdefinition  id  E4C853548C9C4810ABAFABC7096CF4EF type RelationshipType
+Processing (edit)   id : 88ECA609A7BB4E6D8D570419A4B0457A     type : ItemType  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(edit)   id : 88ECA609A7BB4E6D8D570419A4B0457A     type : ItemType  
+Processing (edit)   id : C4B261EB22B745AFAB652978DBC82C33     type : Field  
+********** Start of reference checking ************
+checking item with get action:<AML><Item type="Property" action="get" select="id"><name>itemtype</name><source_id type="ItemType" keyed_name="Recently Visited Item">993117F5B9964F0D83124A58968544E9</source_id></Item></AML>
+-> was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(edit)   id : C4B261EB22B745AFAB652978DBC82C33     type : Field  
+Processing (add)   id : 5857A80816654569B11444792E440CAF    keyed_name : 5857A80816654569B11444792E440CAF    type : Form Event  
+********** Start of reference checking ************
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>RecentlyVisited_AddToUsersList</name></Item></AML>
+-> was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Form Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 5857A80816654569B11444792E440CAF    keyed_name : 5857A80816654569B11444792E440CAF    type : Form Event  
+Adding item in packdefinition  id  5857A80816654569B11444792E440CAF type Form Event
+Item successfully added in packdefinition  id  5857A80816654569B11444792E440CAF type Form Event
+Processing (add)   id : DF59C079259F48C2A0B69E726226078C    keyed_name : DF59C079259F48C2A0B69E726226078C    type : Form Event  
+********** Start of reference checking ************
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>RecentlyVisited_AddToUsersList</name></Item></AML>
+-> was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Form Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : DF59C079259F48C2A0B69E726226078C    keyed_name : DF59C079259F48C2A0B69E726226078C    type : Form Event  
+Adding item in packdefinition  id  DF59C079259F48C2A0B69E726226078C type Form Event
+Item successfully added in packdefinition  id  DF59C079259F48C2A0B69E726226078C type Form Event
+Processing (add)   id : 07CFB9629D09486F8088E4F03E834AE4    keyed_name : 07CFB9629D09486F8088E4F03E834AE4    type : Server Event  
+********** Start of reference checking ************
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>Recently Visited Link - BefAddUp</name></Item></AML>
+-> was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Server Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 07CFB9629D09486F8088E4F03E834AE4    keyed_name : 07CFB9629D09486F8088E4F03E834AE4    type : Server Event  
+Processing (add)   id : 1CF37E52B50A47C3BE094A97CAEF3ED3    keyed_name : 1CF37E52B50A47C3BE094A97CAEF3ED3    type : Server Event  
+********** Start of reference checking ************
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>Recently Visited Link - BefGet</name></Item></AML>
+-> was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Server Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 1CF37E52B50A47C3BE094A97CAEF3ED3    keyed_name : 1CF37E52B50A47C3BE094A97CAEF3ED3    type : Server Event  
+Processing (add)   id : 421DE10EA2814EC79B9489BF36B8C3DD    keyed_name : 421DE10EA2814EC79B9489BF36B8C3DD    type : Server Event  
+********** Start of reference checking ************
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>Recently Visited Link - AfterGet</name></Item></AML>
+-> was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Server Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 421DE10EA2814EC79B9489BF36B8C3DD    keyed_name : 421DE10EA2814EC79B9489BF36B8C3DD    type : Server Event  
+Processing (add)   id : 50190FC339C1406EB4E9D94B8DB504A6    keyed_name : 50190FC339C1406EB4E9D94B8DB504A6    type : Server Event  
+********** Start of reference checking ************
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>RecentlyVisited_DelFromUserList</name></Item></AML>
+-> was obtained from server
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Server Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 50190FC339C1406EB4E9D94B8DB504A6    keyed_name : 50190FC339C1406EB4E9D94B8DB504A6    type : Server Event  
+Processing (add)   id : 8E4C7A781F264CAAAEC7E21DFFA43BB2    keyed_name : 8E4C7A781F264CAAAEC7E21DFFA43BB2    type : Server Event  
+********** Start of reference checking ************
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>Recently Visited Link - BefAddUp</name></Item></AML>
+-> was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Server Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 8E4C7A781F264CAAAEC7E21DFFA43BB2    keyed_name : 8E4C7A781F264CAAAEC7E21DFFA43BB2    type : Server Event  
+Processing (add)   id : AF9FCAEF05444C668846D65DE90FB9A2    keyed_name : AF9FCAEF05444C668846D65DE90FB9A2    type : Server Event  
+********** Start of reference checking ************
+checking item with get action:<AML><Item type="Method" action="get" select="id"><name>RecentlyVisited_DelFromUserList</name></Item></AML>
+-> was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Server Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : AF9FCAEF05444C668846D65DE90FB9A2    keyed_name : AF9FCAEF05444C668846D65DE90FB9A2    type : Server Event  
+DELAYED RESOLUTION: applying AML <AML><Item type='ItemType' id='88ECA609A7BB4E6D8D570419A4B0457A' action='edit' doGetItem='0'><Relationships><Item type='Property' id='9CB0EF9830F94BD584C28A8AA0B2B8AB' action='edit'><data_source><Item type="Property" action="get" select="id"><name>item_id</name><source_id>88ECA609A7BB4E6D8D570419A4B0457A</source_id></Item></data_source></Item></Relationships></Item></AML>
+DELAYED RESOLUTION: applying AML <AML><Item type='ItemType' id='88ECA609A7BB4E6D8D570419A4B0457A' action='edit' doGetItem='0'><Relationships><Item type='Property' id='07569DF18E7B4335B38E6468F6264FCB' action='edit'><data_source><Item type="Property" action="get" select="id"><name>item_id</name><source_id>88ECA609A7BB4E6D8D570419A4B0457A</source_id></Item></data_source></Item></Relationships></Item></AML>
+DELAYED RESOLUTION: applying AML <AML><Item type='ItemType' id='88ECA609A7BB4E6D8D570419A4B0457A' action='edit' doGetItem='0'><Relationships><Item type='Property' id='382E39E754C5413188EB3CA579E3839E' action='edit'><data_source><Item type="Property" action="get" select="id"><name>item_id</name><source_id>88ECA609A7BB4E6D8D570419A4B0457A</source_id></Item></data_source></Item></Relationships></Item></AML>
+DELAYED RESOLUTION: applying AML <AML><Item type='ItemType' id='88ECA609A7BB4E6D8D570419A4B0457A' action='edit' doGetItem='0'><Relationships><Item type='Property' id='4C47AA2DF71D4AB29E5F2E09B967AA1D' action='edit'><data_source><Item type="Property" action="get" select="id"><name>item_id</name><source_id>88ECA609A7BB4E6D8D570419A4B0457A</source_id></Item></data_source></Item></Relationships></Item></AML>
+completed
+Set "World" value  for "Logon Allowed To" variable
+Updating My Recently Visited to success release status
+end of execution : 5/19/2009 10:20:29 AM

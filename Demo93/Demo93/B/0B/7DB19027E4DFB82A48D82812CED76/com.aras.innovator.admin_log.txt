@@ -1,0 +1,18 @@
+start of execution : 3/3/2008 9:18:39 PM
+Set "Root" value  for "Logon Allowed To" variable
+Updating com.aras.innovator.admin to inprogress release status
+       ****Import with merge option  com.aras.innovator.admin****
+Processing (add)   id : A69D7D0D3E23408AA66046495286F0F5    keyed_name : Identity Membership Report    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : A69D7D0D3E23408AA66046495286F0F5    keyed_name : Identity Membership Report    type : Method  
+Adding item in packdefinition  id  A69D7D0D3E23408AA66046495286F0F5 type Method
+Getting config_id  of versionable item  id  A69D7D0D3E23408AA66046495286F0F5 type Method
+Item already exist in packdefinition  id  A69D7D0D3E23408AA66046495286F0F5 type Method
+completed
+Set "World" value  for "Logon Allowed To" variable
+Updating com.aras.innovator.admin to success release status
+end of execution : 3/3/2008 9:18:45 PM

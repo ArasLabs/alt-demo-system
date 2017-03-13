@@ -1,0 +1,20 @@
+start of execution : 7/11/2011 1:57:16 PM
+Set "Root" value  for "Logon Allowed To" variable
+Updating com.xplm.aras.CadProperties to inprogress release status
+       ****Import with merge option  com.xplm.aras.CadProperties****
+Processing (add)   id : 784908A6BBBA430787D9459A05ED9D8E    keyed_name : cax_com    type : Property  
+********** Start of reference checking ************
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+************* End of reference checking ************
+     ****Error message****
+faultstring: The INSERT statement conflicted with the FOREIGN KEY constraint "FK__PROPERTY__SOURCE__2F2FFC0C". The conflict occurred in database "Demo93", table "innovator.ITEMTYPE", column 'ID'.
+The statement has been terminated. in SQL: INSERT INTO [PROPERTY] ( [BEHAVIOR],[CATEGORY_BY],[CLASSIFICATION],[COLUMN_ALIGNMENT],[COLUMN_WIDTH],[CONFIG_ID],[CREATED_BY_ID],[CREATED_ON],[CURRENT_STATE],[DATA_SOURCE],[DATA_TYPE],[FOREIGN_PROPERTY],[GENERATION],[ID],[IS_CURRENT],[IS_HIDDEN],[IS_HIDDEN2],[IS_INDEXED],[IS_KEYED],[IS_MULTI_VALUED],[IS_RELEASED],[IS_REQUIRED],[ITEM_BEHAVIOR],[KEYED_NAME],[KEYED_NAME_ORDER],[LOCKED_BY_ID],[MAJOR_REV],[MANAGED_BY_ID],[MAX_RANGE],[MIN_RANGE],[MODIFIED_BY_ID],[MODIFIED_ON],[NEW_VERSION],[NOT_LOCKABLE],[ORDER_BY],[OWNED_BY_ID],[PERMISSION_ID],[PREC],[RANGE_INCLUSIVE],[READONLY],[RELATED_ID],[SCALE],[SORT_ORDER],[SOURCE_ID],[STATE],[STORED_LENGTH],[TEAM_ID],[TRACK_HISTORY],[NAME],[LABEL_DE],[LABEL] ) VALUES ( @p0,@p1,@p2,@p3,@p4,@p5,@p6,@p7,@p8,@p9,@p10,@p11,@p12,@p13,@p14,@p15,@p16,@p17,@p18,@p19,@p20,@p21,@p22,@p23,@p24,@p25,@p26,@p27,@p28,@p29,@p30,@p31,@p32,@p33,@p34,@p35,@p36,@p37,@p38,@p39,@p40,@p41,@p42,@p43,@p44,@p45,@p46,@p47,@p48,@p49,@p50 )
+faultdetail: The INSERT statement conflicted with the FOREIGN KEY constraint "FK__PROPERTY__SOURCE__2F2FFC0C". The conflict occurred in database "Demo93", table "innovator.ITEMTYPE", column 'ID'.
+The statement has been terminated. in SQL: INSERT INTO [PROPERTY] ( [BEHAVIOR],[CATEGORY_BY],[CLASSIFICATION],[COLUMN_ALIGNMENT],[COLUMN_WIDTH],[CONFIG_ID],[CREATED_BY_ID],[CREATED_ON],[CURRENT_STATE],[DATA_SOURCE],[DATA_TYPE],[FOREIGN_PROPERTY],[GENERATION],[ID],[IS_CURRENT],[IS_HIDDEN],[IS_HIDDEN2],[IS_INDEXED],[IS_KEYED],[IS_MULTI_VALUED],[IS_RELEASED],[IS_REQUIRED],[ITEM_BEHAVIOR],[KEYED_NAME],[KEYED_NAME_ORDER],[LOCKED_BY_ID],[MAJOR_REV],[MANAGED_BY_ID],[MAX_RANGE],[MIN_RANGE],[MODIFIED_BY_ID],[MODIFIED_ON],[NEW_VERSION],[NOT_LOCKABLE],[ORDER_BY],[OWNED_BY_ID],[PERMISSION_ID],[PREC],[RANGE_INCLUSIVE],[READONLY],[RELATED_ID],[SCALE],[SORT_ORDER],[SOURCE_ID],[STATE],[STORED_LENGTH],[TEAM_ID],[TRACK_HISTORY],[NAME],[LABEL_DE],[LABEL] ) VALUES ( @p0,@p1,@p2,@p3,@p4,@p5,@p6,@p7,@p8,@p9,@p10,@p11,@p12,@p13,@p14,@p15,@p16,@p17,@p18,@p19,@p20,@p21,@p22,@p23,@p24,@p25,@p26,@p27,@p28,@p29,@p30,@p31,@p32,@p33,@p34,@p35,@p36,@p37,@p38,@p39,@p40,@p41,@p42,@p43,@p44,@p45,@p46,@p47,@p48,@p49,@p50 )
+faultcode:   -1
+     ********************** 
+Updating com.xplm.aras.CadProperties to failed release status
+Set "World" value  for "Logon Allowed To" variable
+end of execution : 7/11/2011 1:57:23 PM

@@ -1,0 +1,36 @@
+start of execution : 7/11/2011 1:58:15 PM
+Set "Root" value  for "Logon Allowed To" variable
+Updating com.xplm.aras.CAD_Document-actions to inprogress release status
+       ****Import with merge option  com.xplm.aras.CAD_Document-actions****
+Processing (add)   id : 297FFC27E5C84F4D9724229BCE0137DD    keyed_name : Load and lock CAD document    type : Action  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(add)   id : 297FFC27E5C84F4D9724229BCE0137DD    keyed_name : Load and lock CAD document    type : Action  
+Adding item in packdefinition  id  297FFC27E5C84F4D9724229BCE0137DD type Action
+Item successfully added in packdefinition  id  297FFC27E5C84F4D9724229BCE0137DD type Action
+Processing (add)   id : 65F8932151D3473E9619C79C0C233D0C    keyed_name : Load CAD document    type : Action  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(add)   id : 65F8932151D3473E9619C79C0C233D0C    keyed_name : Load CAD document    type : Action  
+Adding item in packdefinition  id  65F8932151D3473E9619C79C0C233D0C type Action
+Item successfully added in packdefinition  id  65F8932151D3473E9619C79C0C233D0C type Action
+Processing (add)   id : 15B5810AEC5B419984E305F3B8AF17CE    keyed_name : 15B5810AEC5B419984E305F3B8AF17CE    type : Item Action  
+********** Start of reference checking ************
+************* End of reference checking ************
+********** Start of reference checking ************
+checking item with get action:<Item type="Method" action="get" select="id"><name>xplm_load_cad_document_lock</name></Item>
+-> was obtained from server
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Item Action</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+************* End of reference checking ************
+     ****Error message****
+faultstring: The INSERT statement conflicted with the FOREIGN KEY constraint "FK__ITEM_ACTI__SOURC__7D98A078". The conflict occurred in database "Demo93", table "innovator.ITEMTYPE", column 'ID'.
+The statement has been terminated. in SQL: INSERT INTO [ITEM_ACTION] ( [BEHAVIOR],[CLASSIFICATION],[CONFIG_ID],[CREATED_BY_ID],[CREATED_ON],[CURRENT_STATE],[GENERATION],[IS_CURRENT],[IS_RELEASED],[KEYED_NAME],[LABEL],[LOCKED_BY_ID],[MAJOR_REV],[MANAGED_BY_ID],[MODIFIED_BY_ID],[MODIFIED_ON],[NEW_VERSION],[NOT_LOCKABLE],[OWNED_BY_ID],[PERMISSION_ID],[RELATED_ID],[SORT_ORDER],[SOURCE_ID],[STATE],[TEAM_ID],[ID] ) VALUES ( @p0,@p1,@p2,@p3,@p4,@p5,@p6,@p7,@p8,@p9,@p10,@p11,@p12,@p13,@p14,@p15,@p16,@p17,@p18,@p19,@p20,@p21,@p22,@p23,@p24,@p25 )
+faultdetail: The INSERT statement conflicted with the FOREIGN KEY constraint "FK__ITEM_ACTI__SOURC__7D98A078". The conflict occurred in database "Demo93", table "innovator.ITEMTYPE", column 'ID'.
+The statement has been terminated. in SQL: INSERT INTO [ITEM_ACTION] ( [BEHAVIOR],[CLASSIFICATION],[CONFIG_ID],[CREATED_BY_ID],[CREATED_ON],[CURRENT_STATE],[GENERATION],[IS_CURRENT],[IS_RELEASED],[KEYED_NAME],[LABEL],[LOCKED_BY_ID],[MAJOR_REV],[MANAGED_BY_ID],[MODIFIED_BY_ID],[MODIFIED_ON],[NEW_VERSION],[NOT_LOCKABLE],[OWNED_BY_ID],[PERMISSION_ID],[RELATED_ID],[SORT_ORDER],[SOURCE_ID],[STATE],[TEAM_ID],[ID] ) VALUES ( @p0,@p1,@p2,@p3,@p4,@p5,@p6,@p7,@p8,@p9,@p10,@p11,@p12,@p13,@p14,@p15,@p16,@p17,@p18,@p19,@p20,@p21,@p22,@p23,@p24,@p25 )
+faultcode:   -1
+     ********************** 
+Updating com.xplm.aras.CAD_Document-actions to failed release status
+Set "World" value  for "Logon Allowed To" variable
+end of execution : 7/11/2011 1:58:17 PM

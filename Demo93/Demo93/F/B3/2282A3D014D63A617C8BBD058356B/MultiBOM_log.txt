@@ -1,0 +1,44 @@
+start of execution : 1/9/2008 3:22:00 PM
+Set "Root" value  for "Logon Allowed To" variable
+Updating MultiBOM to inprogress release status
+       ****Import with merge option  MultiBOM****
+Processing (add)   id : 056163C8ECDC4B12A2FC60C13B824A94    keyed_name : GetFullBOM    type : Method  
+********** Start of reference checking ************
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 056163C8ECDC4B12A2FC60C13B824A94    keyed_name : GetFullBOM    type : Method  
+Adding item in packdefinition  id  056163C8ECDC4B12A2FC60C13B824A94 type Method
+Getting config_id  of versionable item  id  056163C8ECDC4B12A2FC60C13B824A94 type Method
+Item successfully added in packdefinition  id  056163C8ECDC4B12A2FC60C13B824A94 type Method
+Processing (add)   id : 0DDD4B59341846C3B1DB8D403C52B6F0    keyed_name : Part Multi Bom    type : RelationshipType  
+********** Start of reference checking ************
+checking item with get actions
+<AML><Item type="Identity" action="get" select="id"><name>World</name></Item></AML>
+   was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>RelationshipType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking for Bad property
+<AML><Item type='ItemType' action='get' select='id'><name>Relationship View</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item></AML>
+  was obtained from cache
+checking RelationshipType's source_id,related_id
+<AML><Item levels='0' action='get' type='ItemType' ><id>4F1AC04A2B484F3ABA4E20DB63808A88</id></Item></AML>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 0DDD4B59341846C3B1DB8D403C52B6F0    keyed_name : Part Multi Bom    type : RelationshipType  
+Adding item in packdefinition  id  0DDD4B59341846C3B1DB8D403C52B6F0 type RelationshipType
+Item successfully added in packdefinition  id  0DDD4B59341846C3B1DB8D403C52B6F0 type RelationshipType
+Processing (delete)     type : View  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : View  
+Processing (delete)     type : Form  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : Form  
+completed
+Set "World" value  for "Logon Allowed To" variable
+Updating MultiBOM to success release status
+end of execution : 1/9/2008 3:22:04 PM

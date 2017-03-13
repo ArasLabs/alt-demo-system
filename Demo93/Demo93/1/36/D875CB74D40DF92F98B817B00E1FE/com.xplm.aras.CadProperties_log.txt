@@ -1,0 +1,18 @@
+start of execution : 7/11/2011 1:56:58 PM
+Set "Root" value  for "Logon Allowed To" variable
+Updating com.xplm.aras.CadProperties to inprogress release status
+       ****Import with merge option  com.xplm.aras.CadProperties****
+Processing (add)   id : 784908A6BBBA430787D9459A05ED9D8E    keyed_name : cax_com    type : Property  
+********** Start of reference checking ************
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+************* End of reference checking ************
+     ****Error message****
+faultstring: AddItem_Implementation_AddAccessDenied
+faultdetail: AddItem_Implementation_AddAccessDeniedAccess denied to add Property, can_update is not allowed for source.
+faultcode:   -1
+     ********************** 
+Updating com.xplm.aras.CadProperties to failed release status
+Set "World" value  for "Logon Allowed To" variable
+end of execution : 7/11/2011 1:57:02 PM

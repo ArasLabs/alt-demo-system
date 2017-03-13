@@ -1,0 +1,107 @@
+start of execution : 11/12/2009 7:32:53 PM
+Set "Root" value  for "Logon Allowed To" variable
+Updating com.aras.innovator.history to inprogress release status
+       ****Import with merge option  com.aras.innovator.history****
+Processing (add)   id : 8C2E17D224ED48DCB36CD3684973ECCE    keyed_name : History Container    type : Form  
+********** Start of reference checking ************
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Form</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Body</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 8C2E17D224ED48DCB36CD3684973ECCE    keyed_name : History Container    type : Form  
+Adding item in packdefinition  id  8C2E17D224ED48DCB36CD3684973ECCE type Form
+Item already exist in packdefinition  id  8C2E17D224ED48DCB36CD3684973ECCE type Form
+Processing (add)   id : 06E0660816FE40A2BF1411B2280062B3    keyed_name : History Container    type : ItemType  
+********** Start of reference checking ************
+checking item with get action:<Item type="Identity" action="get" select="id"><name>World</name></Item>
+-> was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Allowed Permission</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Can Add</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>View</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking <data_source> reference to the ItemType
+<Item type='ItemType' action='get' select='id'><name>ItemType</name></Item>
+  was obtained from server
+checking for related items
+<Item type='Permission' action='get' levels='0'><id>81BA1766273C4244BAE46969C9951A08</id></Item>
+   was obtained from server
+checking for related items
+<Item type='Identity' action='get' levels='0'><id>0FFE0FD8B7254B47AF5DA4832B0CF58F</id></Item>
+   was obtained from server
+checking for related items
+<Item type='Form' action='get' levels='0'><id>8C2E17D224ED48DCB36CD3684973ECCE</id></Item>
+   was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 06E0660816FE40A2BF1411B2280062B3    keyed_name : History Container    type : ItemType  
+Adding item in packdefinition  id  06E0660816FE40A2BF1411B2280062B3 type ItemType
+Item already exist in packdefinition  id  06E0660816FE40A2BF1411B2280062B3 type ItemType
+Processing (edit)   id : 06E0660816FE40A2BF1411B2280062B3     type : ItemType  
+********** Start of reference checking ************
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for Bad property
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking <data_source> reference to the ItemType
+<Item type='ItemType' action='get' select='id'><name>History Container</name></Item>
+  was obtained from server
+checking <data_source> reference to the ItemType
+<Item type='ItemType' action='get' select='id'><name>Identity</name></Item>
+  was obtained from cache
+checking <data_source> reference to the ItemType
+<Item type='ItemType' action='get' select='id'><name>Identity</name></Item>
+  was obtained from cache
+checking <data_source> reference to the ItemType
+<Item type='ItemType' action='get' select='id'><name>Permission</name></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(edit)   id : 06E0660816FE40A2BF1411B2280062B3     type : ItemType  
+completed
+Set "World" value  for "Logon Allowed To" variable
+Updating com.aras.innovator.history to success release status
+end of execution : 11/12/2009 7:32:54 PM

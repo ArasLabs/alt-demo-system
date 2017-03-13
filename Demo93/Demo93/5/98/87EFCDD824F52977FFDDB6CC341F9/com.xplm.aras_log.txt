@@ -1,0 +1,43 @@
+start of execution : 7/12/2011 9:55:22 AM
+Set "Root" value  for "Logon Allowed To" variable
+Updating com.xplm.aras to inprogress release status
+       ****Import with merge option  com.xplm.aras****
+Processing (add)   id : 91985D86B1AB49D98836A68D9117218C    keyed_name : copyDocument    type : Method  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(add)   id : 91985D86B1AB49D98836A68D9117218C    keyed_name : copyDocument    type : Method  
+Adding item in packdefinition  id  91985D86B1AB49D98836A68D9117218C type Method
+Getting config_id  of versionable item  id  91985D86B1AB49D98836A68D9117218C type Method
+Item already exist in packdefinition  id  91985D86B1AB49D98836A68D9117218C type Method
+Processing (add)   id : F1A66BA68ED249B7B1F33F8A651FF79B    keyed_name : GetAccess    type : Method  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(add)   id : F1A66BA68ED249B7B1F33F8A651FF79B    keyed_name : GetAccess    type : Method  
+Adding item in packdefinition  id  F1A66BA68ED249B7B1F33F8A651FF79B type Method
+Getting config_id  of versionable item  id  F1A66BA68ED249B7B1F33F8A651FF79B type Method
+Item already exist in packdefinition  id  F1A66BA68ED249B7B1F33F8A651FF79B type Method
+Processing (add)   id : D61CC2F1302348A695FA6979A9F71CCB    keyed_name : xPLMAddReltoReleasedItem    type : Method  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(add)   id : D61CC2F1302348A695FA6979A9F71CCB    keyed_name : xPLMAddReltoReleasedItem    type : Method  
+Adding item in packdefinition  id  D61CC2F1302348A695FA6979A9F71CCB type Method
+Getting config_id  of versionable item  id  D61CC2F1302348A695FA6979A9F71CCB type Method
+Item already exist in packdefinition  id  D61CC2F1302348A695FA6979A9F71CCB type Method
+Processing (add)   id : 2906A336E174444D8D1527F17CB78686    keyed_name : xplm_load_call    type : Method  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(add)   id : 2906A336E174444D8D1527F17CB78686    keyed_name : xplm_load_call    type : Method  
+Adding item in packdefinition  id  2906A336E174444D8D1527F17CB78686 type Method
+Getting config_id  of versionable item  id  2906A336E174444D8D1527F17CB78686 type Method
+Item already exist in packdefinition  id  2906A336E174444D8D1527F17CB78686 type Method
+Processing (add)   id : 204A58FDAE194741943B7BCD158FFB97    keyed_name : xplm_remove_all    type : Method  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(add)   id : 204A58FDAE194741943B7BCD158FFB97    keyed_name : xplm_remove_all    type : Method  
+Adding item in packdefinition  id  204A58FDAE194741943B7BCD158FFB97 type Method
+Getting config_id  of versionable item  id  204A58FDAE194741943B7BCD158FFB97 type Method
+Item already exist in packdefinition  id  204A58FDAE194741943B7BCD158FFB97 type Method
+completed
+Set "World" value  for "Logon Allowed To" variable
+Updating com.xplm.aras to success release status
+end of execution : 7/12/2011 9:55:25 AM
